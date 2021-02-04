@@ -1,0 +1,34 @@
+[27-Mar-2014 01:27:42 UTC] PHP Notice:  Undefined variable: bloginfo in /home/pixfill/public_html/demo/themes/soccer/wp-content/themes/soccer-theme/page_contact_submit.php on line 7
+[27-Mar-2014 01:27:42 UTC] PHP Notice:  Undefined variable: contact_name in /home/pixfill/public_html/demo/themes/soccer/wp-content/themes/soccer-theme/page_contact_submit.php on line 12
+[27-Mar-2014 01:27:42 UTC] PHP Notice:  Undefined variable: contact_email in /home/pixfill/public_html/demo/themes/soccer/wp-content/themes/soccer-theme/page_contact_submit.php on line 16
+[27-Mar-2014 01:27:42 UTC] PHP Notice:  Undefined variable: contact_msg in /home/pixfill/public_html/demo/themes/soccer/wp-content/themes/soccer-theme/page_contact_submit.php on line 24
+[27-Mar-2014 01:27:42 UTC] PHP Notice:  Undefined variable: contact_name in /home/pixfill/public_html/demo/themes/soccer/wp-content/themes/soccer-theme/page_contact_submit.php on line 32
+[27-Mar-2014 01:27:42 UTC] PHP Notice:  Undefined variable: contact_email in /home/pixfill/public_html/demo/themes/soccer/wp-content/themes/soccer-theme/page_contact_submit.php on line 33
+[27-Mar-2014 01:27:42 UTC] PHP Notice:  Undefined variable: px_contact_email in /home/pixfill/public_html/demo/themes/soccer/wp-content/themes/soccer-theme/page_contact_submit.php on line 37
+[27-Mar-2014 01:27:42 UTC] PHP Notice:  Undefined variable: px_contact_succ_msg in /home/pixfill/public_html/demo/themes/soccer/wp-content/themes/soccer-theme/page_contact_submit.php on line 38
+[27-Mar-2014 17:58:53 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/pixfill/public_html/demo/themes/soccer/wp-content/themes/soccer-theme/index.php on line 3
+[28-Mar-2014 06:37:17 UTC] PHP Notice:  Undefined variable: bloginfo in /home/pixfill/public_html/demo/themes/soccer/wp-content/themes/soccer-theme/page_contact_submit.php on line 7
+[28-Mar-2014 06:37:17 UTC] PHP Notice:  Undefined variable: contact_name in /home/pixfill/public_html/demo/themes/soccer/wp-content/themes/soccer-theme/page_contact_submit.php on line 12
+[28-Mar-2014 06:37:17 UTC] PHP Notice:  Undefined variable: contact_email in /home/pixfill/public_html/demo/themes/soccer/wp-content/themes/soccer-theme/page_contact_submit.php on line 16
+[28-Mar-2014 06:37:17 UTC] PHP Notice:  Undefined variable: contact_msg in /home/pixfill/public_html/demo/themes/soccer/wp-content/themes/soccer-theme/page_contact_submit.php on line 24
+[28-Mar-2014 06:37:17 UTC] PHP Notice:  Undefined variable: contact_name in /home/pixfill/public_html/demo/themes/soccer/wp-content/themes/soccer-theme/page_contact_submit.php on line 32
+[28-Mar-2014 06:37:17 UTC] PHP Notice:  Undefined variable: contact_email in /home/pixfill/public_html/demo/themes/soccer/wp-content/themes/soccer-theme/page_contact_submit.php on line 33
+[28-Mar-2014 06:37:17 UTC] PHP Notice:  Undefined variable: px_contact_email in /home/pixfill/public_html/demo/themes/soccer/wp-content/themes/soccer-theme/page_contact_submit.php on line 37
+[28-Mar-2014 06:37:17 UTC] PHP Notice:  Undefined variable: px_contact_succ_msg in /home/pixfill/public_html/demo/themes/soccer/wp-content/themes/soccer-theme/page_contact_submit.php on line 38
+[03-Apr-2014 17:41:55 UTC] PHP Notice:  Undefined variable: bloginfo in /home/pixfill/public_html/demo/themes/soccer/wp-content/themes/soccer-theme/page_contact_submit.php on line 7
+[03-Apr-2014 17:41:55 UTC] PHP Notice:  Undefined variable: contact_name in /home/pixfill/public_html/demo/themes/soccer/wp-content/themes/soccer-theme/page_contact_submit.php on line 12
+[03-Apr-2014 17:41:55 UTC] PHP Notice:  Undefined variable: contact_email in /home/pixfill/public_html/demo/themes/soccer/wp-content/themes/soccer-theme/page_contact_submit.php on line 16
+[03-Apr-2014 17:41:55 UTC] PHP Notice:  Undefined variable: contact_msg in /home/pixfill/public_html/demo/themes/soccer/wp-content/themes/soccer-theme/page_contact_submit.php on line 24
+[03-Apr-2014 17:41:55 UTC] PHP Notice:  Undefined variable: contact_name in /home/pixfill/public_html/demo/themes/soccer/wp-content/themes/soccer-theme/page_contact_submit.php on line 32
+[03-Apr-2014 17:41:55 UTC] PHP Notice:  Undefined variable: contact_email in /home/pixfill/public_html/demo/themes/soccer/wp-content/themes/soccer-theme/page_contact_submit.php on line 33
+[03-Apr-2014 17:41:55 UTC] PHP Notice:  Undefined variable: px_contact_email in /home/pixfill/public_html/demo/themes/soccer/wp-content/themes/soccer-theme/page_contact_submit.php on line 37
+[03-Apr-2014 17:41:55 UTC] PHP Notice:  Undefined variable: px_contact_succ_msg in /home/pixfill/public_html/demo/themes/soccer/wp-content/themes/soccer-theme/page_contact_submit.php on line 38
+[11-Apr-2014 05:46:25 UTC] PHP Notice:  Undefined variable: bloginfo in /home/pixfill/public_html/demo/themes/soccer/wp-content/themes/soccer-theme/page_contact_submit.php on line 7
+[11-Apr-2014 05:46:25 UTC] PHP Notice:  Undefined variable: contact_name in /home/pixfill/public_html/demo/themes/soccer/wp-content/themes/soccer-theme/page_contact_submit.php on line 12
+[11-Apr-2014 05:46:25 UTC] PHP Notice:  Undefined variable: contact_email in /home/pixfill/public_html/demo/themes/soccer/wp-content/themes/soccer-theme/page_contact_submit.php on line 16
+[11-Apr-2014 05:46:25 UTC] PHP Notice:  Undefined variable: contact_msg in /home/pixfill/public_html/demo/themes/soccer/wp-content/themes/soccer-theme/page_contact_submit.php on line 24
+[11-Apr-2014 05:46:25 UTC] PHP Notice:  Undefined variable: contact_name in /home/pixfill/public_html/demo/themes/soccer/wp-content/themes/soccer-theme/page_contact_submit.php on line 32
+[11-Apr-2014 05:46:25 UTC] PHP Notice:  Undefined variable: contact_email in /home/pixfill/public_html/demo/themes/soccer/wp-content/themes/soccer-theme/page_contact_submit.php on line 33
+[11-Apr-2014 05:46:25 UTC] PHP Notice:  Undefined variable: px_contact_email in /home/pixfill/public_html/demo/themes/soccer/wp-content/themes/soccer-theme/page_contact_submit.php on line 37
+[11-Apr-2014 05:46:25 UTC] PHP Notice:  Undefined variable: px_contact_succ_msg in /home/pixfill/public_html/demo/themes/soccer/wp-content/themes/soccer-theme/page_contact_submit.php on line 38
+[12-Apr-2014 03:06:41 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/pixfill/public_html/demo/themes/soccer/wp-content/themes/soccer-theme/index.php on line 3

@@ -1,0 +1,144 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	direction:rtl;
+}
+[class*="span"]{
+	margin-left:0px;
+	margin-right:30px;
+}
+.row{
+	margin:0px -30px 0px 0px;
+}
+[class*="span"], .logo, ul, li, .modal-body label i, .navigation, nav.navigation > ul > li, .recent-work figure,.portfoliopage article .text span, .pricetable article,
+.twitter .text, .twitter i, .tweet_btn:before, #footer-widgets .widget, .text_widget ul li i, .footer_form p input[type="submit"], .form-submit input,
+.footer_form p span, .copyright p, footer .social-network a, .breadcrumb .text, .breadcrumb .text h3, .blog_text .post-thumb, .widget_categories ul li a, .widget_recent_comments ul li a,
+.widget_categories ul li a:before, .widget_archive ul li a:before, .widget_nav_menu ul li a:before, .widget_links ul li a:before, .widget_meta ul li a:before, .widget_pages ul li a:before, .widget_recent_entries ul li a:before, .widget_recent_comments ul li a:before,
+.tagcloud a, .widget_our_team figure, .listing ul li:before, .viewproject ul li, .post_change_section a.prev, #comments .thumblist figure, #comments .thumblist figure a,
+.thumblist .text > header time, .thumblist .text > header h6, .postlist.blog_smail article figure, .blog_tile article .blog_text .post-thumb p, .eventlist article figure,
+.eventadmin .post-thumb, .eventadmin .post-thumb a, .about-author figure, .blogdetail .widget_tag_cloud h6, .tagcloud, .tagcloud a, .eventdetail article figure,
+.accordion-body, .accordion-heading, .widget_archive ul li a, #wp-calendar tfoot a, .widget_nav_menu ul li a, .widget_links ul li a, .widget_meta ul li a,
+.widget_pages ul li a, .widget_recent_entries ul li a, .typo p:first-letter, .button a, .span12 .tabs .nav, .simple_text a, .shortcode .thumblist figure, .caption a,
+span.featured, .textwidget ul li i, .breadcrumb .text h1, .breadcrumb .text p, .team-shortcode article.team-v1 figure, .team-shortcode article.team-v4 figure,
+.team-shortcode article.team-v4 .social-network a, .team-shortcode article.team-v1, .our_services ul li.service-v3 i, .price-style2 article h1, .for_o_for h1,
+.navigation_right, .navigation_right h6, .button, .prayer h4, .prayer_counter, .viewproject ul li .text span, .viewproject ul li span, .rich_editor_text i,
+.list_styles ul li i, ul.tick, .rich_editor_text i.icon-1x, .shortgrid, .tabs.horizontal .nav-tabs li, .testimonial-shortcode article figure, .our_services ul li.service-v1 i,
+.our_services .service-v1 > h2, .our_services ul li.service-v1 > p, .our_services ul li.service-v1 > a, .testimonial-v2 .testimonial-author h3, .testimonial-v3 .testimonial-author h3{
+	float:right;
+}
+.login_nav, .search, .portfoliopage article .text p, .tweet_btn, .footnav, footer .social-network, .nav_bar, .breadcrumb ul, .post_change_section a.next,
+#comments .thumblist .text, .eventlist article .text, .share_btn, .shortcode .thumblist.right figure, .breadcrumb .breadcrumbs, .price-style2 article .readmore,
+.prayer-links, .pray-this, .prayer-links a > i, .pray-this i, .prayed i, .prayer_count div, .close{
+	float:left;
+}
+.modal-body p:before{
+	left:auto;
+	right:-15px;
+}
+select, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input{
+	padding:4px 30px 4px 6px;
+}
+/* Headers RTL */
+.logo, .search input[type="text"], .top-nav, nav.navigation > ul > li, .navigation
+{ float: right !important;}
+
+.search input[type="submit"], .search, .mainheaderseven .top-icons, .mainheaderseven .social-network, .mainheadersix .top-icons, .mainheadersix .login_nav,
+.mainheaderfive .top-icons, .mainheaderfive nav.navigation, .mainheaderfour .login_nav, .mainheaderthree .sidelogin, .mainheaderthree .login_nav
+{ float: left !important;}
+
+.search input[type="submit"]{margin-left: 0px !important; margin-right: 5px; padding: 5px 25px 5px 10px !important;}
+
+.mainheaderseven .search:before{right: -71px; left: auto !important;}
+
+.search-box label i{ left: auto !important; right: 13px !important; -webkit-transform: scaleX(-1); -moz-transform: scaleX(-1); -ms-transform: scaleX(-1); -o-transform: scaleX(-1); transform: scaleX(-1); }
+
+.search{ margin-left: 0px !important; }
+
+.mainheaderseven .top-nav ul li{ border-left: none !important; border-right: 1px solid #DCDCDC; }
+
+.mainheaderseven .social-network{ left: 10px; right: auto !important; }
+
+.mainheaderseven nav.navigation > ul > li > a:before{ right: auto !important; left: -2px; }
+
+.mainheadertwo .search-box, .mainheaderfour .search-box, .mainheaderfive .search-box,
+.mainheadersix .search-box{ left: -20px; right: auto !important; }
+
+.mainheadertwo .search-box:before,.mainheaderfour .search-box:before, .mainheaderfive .search-box:before,
+.mainheadersix .search-box:before{ left: 30px; right: auto !important; }
+
+.mainheaderthree .login_nav ul li:before,
+.mainheadersix .login_nav ul li:before{ right: auto !important; left: -8px; }
+
+.mainheadersix nav.navigation > ul > li:before { right: auto !important; left: -3px; }
+
+.mainheaderfive nav.navigation > ul > li > a:before{ right: auto !important; left: -5px; }
+
+.mainheadertwo .search{ right: auto !important; left: 0px;}
+
+.mainheadertwo nav.navigation > ul > li > a:before{ right: auto !important; left: -3px;}
+.mainheadertwo nav.navigation > ul > li:last-child > a:before{ background: none;}
+
+
+.showicons{left:10px;right:auto;}
+.showicons:before{left:10%;right:auto;}
+.modal-body label i{margin:2px 0px 0 9px;}.search-box{left:0;right:auto;}.search-box:before{left:22px;right:auto;}.navigation ul ul ul{left:auto;right:100%;}
+.tittle h4:before{right:0;left:auto;}.cycle-pager{right:48%;left:auto;top:64px;}.recent-work .text{padding:55px 400px 0 0px;}.testimonial .thumb{left:47%;}
+.wrappservice *,.wrappservice, #sliderwrapp *, #sliderwrappinner, #teaminfoslider *, #teaminfowrapp, #flexslider *, .flexslider{direction:ltr;}.wrappservice ul li,
+.flexslider ul, .flexslider ul li, .wrappservice ul{float:left;}.tiny-green div{text-align:left;}.tagcloud{margin:-6px -6px 0 0px;}.tagcloud a{margin:6px 6px 0 0px;}
+.portfoliopage article .text p i{margin-left:4px;}.tiny-green p{left:auto;right:7px;}.twitter i{margin:7px 0px 0 30px;}.twitter .text{padding:0px 30px 0px 0px;
+border-left:none;border-right:1px solid #5CC8FF;}.twitter .text:before{left:auto;right:0;}.twitter .text:before{border-width:5px 5px 5px 0px;}
+.tweet_btn:before{margin:-2px 0px 0 9px;}#footer-widgets .widget{padding:0 60px 0 0px;}#footer-widgets .widget:first-child, .text_widget ul li:first-child{padding-right:0px;}
+.footer_form p label, #respond form label{left:23px;right:auto;}.footer_form p input[type="text"], .footer_form p textarea{padding-right:15px;}.breadcrumb .text h3{margin:0px 0px 0px 13px;}
+.text_widget ul li{padding-right:50px;}.text_widget ul li i{margin:2px 0px 0 6px;}.footer_form p input[type="submit"], .form-submit input{margin:0px 0px 0px 30px;}
+.text_widget .information i{margin:0px 0px 0px 16px;}footer .social-network a{margin:0px 12px 0px 0px;}button.close{left:-125%;right:auto;}.post-options li{margin:0px 20px 0px 0px;}
+footer .social-network a:first-child, .post-options li:first-child, .breadcrumb ul li:first-child, .aboutus_page .team_info article .social-network a:first-child{margin-right:0px;}.breadcrumb ul li{margin:0px 5px 0px 0px;}
+.breadcrumb .text:before{left:auto;right:-4px;}.blog_text .post-text{padding:0px 99px 0px 0px;}.widget_search input[type="submit"]{right:17px;left:auto;}
+.widget_search input[type="text"]{padding-left:0px;padding-right:36px;}.widget_tittle h6:before{left:auto;right:0;}.nav-tabs > li:last-child > a{border-radius:4px 4px 0 0;-moz-border-radius:4px 4px 0 0;-webkit-border-radius:4px 4px 0 0;}
+.widget_categories ul li, .widget_archive ul li, .widget_links ul li, .widget_meta ul li, .widget_recent_entries ul li, .widget_recent_comments ul li{text-align:left;}
+.widget_categories ul li a:before, .widget_archive ul li a:before, .widget_nav_menu ul li a:before, .widget_links ul li a:before, .widget_meta ul li a:before, .widget_pages ul li a:before, .widget_recent_entries ul li a:before, .widget_recent_comments ul li a:before{
+border-width:4px 4px 4px 0;margin:6px 0px 0 9px;}.nav-tabs > li:first-child > a{border-radius:0 4px 0 0;-moz-border-radius:0 4px 0 0;-webkit-border-radius:0 4px 0 0;}
+.widget_our_team .text{padding:0px 76px 0px 0px;}.listing ul li:before{margin-left:15px;border-width:4px 4px 4px 0;}.viewproject ul li{width:100%;}
+.blogdetail .blog_text .post-text{padding:0;}.post_change_section a.next i{margin:0px 10px 0px 0px;}.post_change_section a.prev i{margin:0px 0px 0px 10px;}
+#comments .thumblist .text:before{left:auto;right:-10px;transform:rotate(180deg);-ms-transform:rotate(180deg);-moz-transform:rotate(180deg);-webkit-transform:rotate(180deg);-o-transform:rotate(180deg);}
+.level-3{padding-left:0px;padding-right:40px;}.thumblist .text > header time{margin:1px 10px 0 0px;}.replay{left:-11px;right:auto;}.postlist.blog_smail article.no-image .blog_text{padding-right:0;}
+.postlist.blog_smail article .blog_text{padding:0px 299px 0px 0px;}.postlist.blog_smail article .post-text{padding:0px;}.postlist.blog_smail article .blog_text .post-text p{padding:0px 90px 0px 0px;}
+.blog_tile article .blog_text .post-thumb{text-align:left;}.password_text form .btn{left:36px;border-radius:4px 0px 0px 4px;right:auto;-moz-border-radius:4px 0px 0px 4px;-webkit-border-radius:4px 0px 0px 4px;}
+.password_text form input[type="text"]{padding-left:0px;padding-right:15px;}.loadmore p i{margin-left:7px;}.eventlist article .text{padding:25px 0 0 20px;}.eventcont ul li{padding:0px 35px 0px 0px;}
+.eventcont ul li:first-child{padding-right:0px;}.eventcont ul li p{float:right !important;}.eventcont ul li span i{margin:0px 0px 0px 10px;}.share_btn{border-left:none;border-right:1px solid #eee;padding:20px 23px 20px 30px;}
+.eventadmin .post-thumb a{margin:-42px 0px 0 13px;}.eventadmin .post-thumb{padding:20px 20px 0 0px;}.eventadmin ul{padding:18px 25px 19px 0px;}.eventadmin ul li a{margin-right:4px;margin-left:0px;}
+.eventlist{border-left:none;border-right:5px solid #eee;padding:0px 30px 0px 0px;}.eventlist article:before{right:-53px;left:auto;}.eventlist article:hover:before{right:-56px;left:auto;}
+.eventlist article:after{right:-31px;left:auto;}.about-author .text{padding:0px 120px 0px 0px;}.blogdetail .widget_tag_cloud h6{margin:6px 0px 8px 26px;}
+.eventdetail article figure{border-left:none;border-right:10px solid #fff;}.eventdetail .eventcont{padding-left:0px;padding-right:30px;}.aboutus_page .team_info article .social-network a{margin:0px 17px 0px 0px;}
+.accordion-heading .accordion-toggle{padding:14px 50px 14px 15px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}.accordion-body, .accordion-heading{width:100%;}
+.accordion-inner:before{right:0;left:auto;}.widget_nav_menu ul li a, .widget_pages ul li a,
+.widget_recent_entries ul li a, .table th, .table td{text-align:right;}.table th, .table td{border-left:none;border-right:1px solid #c8c8c8;padding:8px 17px 8px 8px;}
+.typo p:first-letter{margin:7px 0px 0 20px;}.button a{margin:0 0px 6px 20px;}.span12 .tabs .nav{margin:0 14px 0 0px;}.simple_text a{margin:0 0px 30px 30px;}.shortcode .thumblist.right .text{padding-left:25px;padding-right:0;}
+a.pp_previous, a.pp_next, div.facebook .pp_nav .pp_play, div.facebook .pp_arrow_previous, div.facebook .pp_arrow_next, div.facebook .pp_close{font-size:0;}span.featured{margin: 5px 0px 0px 10px;}
+.widget_tittle h2:before, .postlist article:before, .blog_tile article .blog_text .post-text:before{left: auto;right: 0px;}.textwidget ul li i{margin: 2px 0 0 6px;}.textwidget .information i{margin: 0px 0px 0px 16px;}.accordion-heading .accordion-toggle:before{right: auto;left: 0px;}
+.blog_tile article .blog_text .post-thumb, .team-shortcode article.team-v1 .text, .team-shortcode article.team-v1 .text .social-network{text-align: right;}.blog_tile article .blog_text .post-thumb p a{float: none;}.breadcrumb ul li:last-child{margin-right: 5px;}
+.breadcrumb .text h1{margin-left: 13px;margin-right: 0px;}.team-shortcode article .social-network > a{margin: 0px 0px 0px 10px;}.team-shortcode article.team-v2 .social-network{right: -21px;left: auto;}
+.team-shortcode article.team-v4 .text{padding: 0px 109px 0px 0px;}.team-shortcode article.team-v4 .social-network a{margin: 0px 0px 0px 10px;}
+.team-shortcode .team-v4 .text > h6, .team-shortcode article.team-v4 .text span, .team-shortcode article.team-v4 .text p, .our_services ul li.service-v3,
+.our_services ul li.service-v1 p, .testimonial-shortcode article .testimonial-text{
+	text-align: right;
+}
+.team-shortcode{margin: 0px -30px 0px 0px;}.post_change_section a .prev i{margin: 0px 0px 0px 10px;}.post_change_section a .nexts i{margin: 0px 10px 0px 0px;}
+.our_services ul li.service-v3 i{margin: 0px 0px 0px 20px;}.price-style2 article .readmore{left: 10px;right: auto;}.for_o_for h1{padding: 0px 0px 0px 40px;}
+.accordion-heading .accordion-toggle{padding: 14px 15px 14px 50px;}.prayer h4{margin: 0 0px 0 15px;}.prayer-links a > i, .pray-this i, .prayed i{margin: 2px 5px 0;}
+.prayer-links > a, .pray-this > div, .prayed{border-left: none;border-right: 1px solid #D9D9D9;}.widget_pages ul li ul, .widget_nav_menu ul li ul{padding: 5px 20px 0 0;}
+.heading h2:before{left: auto;right: 0px;}.pull-left[class^="icon-"], .pull-left[class*=" icon-"]{margin-left: 0.3em;margin-right: 0px;}.related-posts .center{left: 0px;right: auto;}
+.list_styles ul li i{margin: 5px 0 0 10px;}.list_styles ul li i, .testimonial-v2 article .testimonial-text:before{
+	-webkit-transform: scale(-1,1);
+	   -moz-transform: scale(-1,1);
+	    -ms-transform: scale(-1,1);
+	     -o-transform: scale(-1,1);
+	        transform: scale(-1,1);
+}
+.rich_editor_text i {margin: 0 0 0 15px;}.toggle-sectn .collapsed:before, .toggle-sectn a:after{left: auto;right: 5px;}.toggle-sectn a{padding: 14px 50px 14px 15px;}
+.toggle-sectn .collapse.in:before{left: auto;right: 0px;}.toggle-sectn .collapse.in{padding: 27px 65px 27px 20px;margin: 0px 50px 0px 0px;}
+.shortgrid{padding: 0 0px 15px 15px;}.messagebox{text-align: right !important;}.tiny-green .infotxt{right: auto;left: 10px;}.nav-tabs li a i {margin: 4px 0 0 9px;}
+.tabs.vertical .nav-tabs .active a:after{left: -3px;right: auto; border-left: 3px solid #FFFFFF;border-right:none;}.nav-tabs .active a:before{right: 0;left: auto;}.testimonial-shortcode article figure{margin-left: 20px;margin-right: 0px;}
+.testimonial-shortcode article .testimonial-text{margin-right: 80px;}.testimonial-v1 article figure:after{left: 0;}.testimonial-v2 .testimonial-author h3, .testimonial-v3 .testimonial-author h3{margin-left: 10px;margin-right: 0px;}
+.testimonial-v2 article .testimonial-text:before{left: auto;right: -10px;}.testimonial-v3 article .testimonial-text:after{left: 0px;right: auto;}#comments ul.children{padding: 0px 40px 0px 0px;}
+.comment-reply-link{left: -11px;right: auto;}.related-events .center{left: 0;right: auto;}.twitter_btn i{margin-left: 8px;margin-right: 0px;}

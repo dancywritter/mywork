@@ -1,0 +1,138 @@
+@charset "utf-8";
+/* CSS Document */
+/*=======Gallry========*/
+.gallerysec{
+	width:100%;
+	float:left;
+}
+.gallerysec ul{
+	list-style:none;
+	float:left;
+	margin:0 0 0px -5px;
+}
+.gallerysec ul li{
+	float:left;
+	margin: 0 0 1px 3px;
+	width: 24.6078431372549%; /* 251 / 1020 */
+}
+.gallerysec ul li figure{
+	width:100%;
+	float:left;
+	position:relative;
+	cursor:pointer;
+}
+.gallerysec ul li figure img{
+	float:left;
+	width:100%;
+}
+.gallerysec ul li figure figcaption{
+	float:left;
+	width:100%;
+	position:absolute;
+	height:100%;
+	opacity:0;
+	transition: all 0.2s ease-out 0s;
+	-moz-transition:all 0.2s ease-out 0s;
+	-o-transition:all 0.2s ease-out 0s;
+	-webkit-transition:all 0.2s ease-out 0s;
+}
+.gallerysec ul li figure:hover figcaption{
+	opacity:1;
+}
+.gallerysec ul li figure figcaption i{
+	width:50px;
+	height:50px;
+	position:absolute;
+	top:50%;
+	left:50%;
+	border-radius:4px;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	cursor:pointer;
+	opacity: 0;
+    transform: scale(-2);
+	-ms-transform: scale(-2); /* Internet Explorer */
+	-moz-transform: scale(-2); /* Firefox */
+	-webkit-transform: scale(-2); /* Safari and Chrome */
+	-o-transform: scale(-2); /* Opera */
+	transition: all 1.1s ease-in-out -0.8s;
+	-moz-transition:all 1.1s ease-in-out -0.8s;
+	-o-transition:all 1.1s ease-in-out -0.8s;
+	-webkit-transition:all 1.1s ease-in-out -0.8s;
+	font-size:20px;
+	padding: 15px 0 0 15px;
+	margin: -20px 0px 0px -25px;
+}
+.gallerysec ul li:hover figure figcaption i{
+	opacity:1;
+	transform:scale(1,1);
+	-ms-transform: scale(1,1); /* Internet Explorer */
+	-moz-transform: scale(1,1); /* Firefox */
+	-webkit-transform: scale(1,1); /* Safari and Chrome */
+	-o-transform: scale(1,1); /* Opera */
+}
+.gallerysec a i,
+.loadmore i{
+	margin-right:5px;
+}
+/*========gallery-three-col==========*/
+.gallerysec .gallery-three-col li{
+	float: left;
+    margin: 0 0 1px 3px;
+    width: 32.64705882352941%; /* 333 / 1020 */
+}
+.gallerysec .gallery-three-col li figure figcaption i, 
+.gallerysec .gallery-tow-col li figure figcaption i{
+	float: left;
+    height: 50px;
+    left: 50%;
+    margin: -15px 0 0 -25px;
+    position: absolute;
+    top: 50%;
+    width: 50px;
+}
+/*========gallery-tow-col==========*/
+.gallerysec .gallery-tow-col li{
+	float: left;
+    margin: 0 0 1px 3px;
+    width: 49.31372549019608%; /* 503 / 1020 */
+}
+.loadmore{
+ width:100%;
+ float:left;
+ text-align:center;
+ margin: 0px 0px 40px 0px;
+}
+.loadmore a{
+ display:inline-block;
+ padding:10px 30px 10px 30px;
+ background:#ff3600;
+ border-radius:1px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,64 @@
+/*====================================
+			Blog List View
+======================================*/
+.cs-blog-list-view article {
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	width: 555px;
+    height: 185px;
+}
+.cs-blog-list-view article .cs-text .post-title a {
+    font-size: 17px;
+    font-weight: 300;
+}
+.cs-blog-list-view article .cs-text {
+    padding: 0px 15px;
+}
+.cs-blog-list-view .cs-text .post-panel {
+    display: block;
+}
+.cs-blog-list-view article .bottompanel .float-right {
+    float: none !important;
+}
+.cs-blog-list-view article .bottompanel {
+    border-top: 1px dotted #ddd;
+    float: none;
+    padding-top: 10px;
+}
+.cs-blog-list-view article .mejs-container {
+    float: left;
+    height: 100% !important;
+    width: 100% !important;
+    z-index: 999;
+}
+.mejs-overlay-button {
+	margin-top: -45px !important;
+}
+.cs-blog-list-view article .article-wrapp > figure {
+    width: 55%;
+    height: 100%;
+    float: left;
+    position: relative;
+    z-index: 999;
+    margin-right: 15px;
+}
+.cs-blog-list-view article .article-wrapp .element_size_default,
+.cs-blog-list-view article .article-wrapp .flexslider {
+    float: left;
+    width: 100% !important;
+    height: 100%;
+    position: relative;
+}
+.cs-blog-list-view .mejs-horizontal-volume-slider.mejs-mute {
+    display: none !important;
+}
+
+
+.cs-blog-list-view article .article-wrapp .mapcode {
+    height: 100% !important;
+
+}
+.cs-blog-list-view article figure img {
+    width: auto;
+    height: 100%;
+}

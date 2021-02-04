@@ -1,0 +1,8 @@
+[20-Mar-2014 06:13:23 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/pixfill/public_html/wp-themes/deejay/wp-content/themes/theme-deejay/index.php on line 3
+[21-Mar-2014 06:44:04 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/pixfill/public_html/wp-themes/deejay/wp-content/themes/theme-deejay/index.php on line 3
+[23-Mar-2014 15:51:19 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/pixfill/public_html/wp-themes/deejay/wp-content/themes/theme-deejay/index.php on line 3
+[26-Mar-2014 08:41:18 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/pixfill/public_html/wp-themes/deejay/wp-content/themes/theme-deejay/index.php on line 3
+[27-Mar-2014 17:15:01 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/pixfill/public_html/wp-themes/deejay/wp-content/themes/theme-deejay/index.php on line 3
+[31-Mar-2014 15:43:14 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/pixfill/public_html/wp-themes/deejay/wp-content/themes/theme-deejay/index.php on line 3
+[06-Apr-2014 20:27:58 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/pixfill/public_html/wp-themes/deejay/wp-content/themes/theme-deejay/index.php on line 3
+[07-Apr-2014 15:20:54 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/pixfill/public_html/wp-themes/deejay/wp-content/themes/theme-deejay/index.php on line 3

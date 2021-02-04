@@ -1,0 +1,166 @@
+/*.........		Media Ipad Start	............ */
+@media screen and (min-width: 700px) and (max-width: 1024px){
+.col-lg-9 .blog-masonry-four-col article{
+	width: 30.33%;
+}
+.gallery-3-col article figure a.btnarrow, .gallery-2-col article figure a.btnarrow, .gallery-4-col article figure a.btnarrow{
+	margin-top: -19px;
+}
+.team-shortcode article.team-v2,
+.team-shortcode article.team-v4{
+	width: 221px;
+	margin: 0px 19px 15px 0px;
+}
+.team-shortcode article.team-v5{
+	width: 346px;
+	margin-bottom: 40px;
+	margin-left: 0px;
+	margin-right: 14px;
+}
+
+}
+
+/*.........		Media Mobile Start	............ */
+@media screen and (min-width: 280px) and (max-width: 700px){
+.container{
+	padding-left: 10px;
+	padding-right: 10px;
+	width: 96%;
+}
+#footer-widgets .widget{
+	width: 100%;
+}
+iframe{
+	width: 100% !important;
+}
+.blog-masonry article,
+.events-grid article{
+	width: 97% !important;
+}
+.event-inn, .eventsection article figure,
+.events .eventsection article .text{
+	display: block;
+	float: left;
+	width: 100%;
+}
+.event-panel,
+.event-panel a.btnlocation:hover, .event-panel a.btnlocation.active,
+.eventswrapp figure{
+	width: 100%;
+	position: relative;
+}
+.eventsection article .text{
+	padding: 10px 15px !important;
+	text-align: center !important;
+}
+.bottompanel{
+	margin-bottom: 7px;
+}
+.share-now{
+	width: 248px;
+	bottom: 100%;
+}
+.mediaelements-post a{
+	width: 22%;
+}
+.mediaelements-post a img{
+	width: 100%;
+	height: 100%;
+}
+.eventswrapp .text{
+	float: left;
+	width: 100%;
+	margin: 0px;
+}
+.fc-header-title h2{
+	font-size: 19px !important;
+	margin-top: 3px !important;
+}
+.gallery-3-col article figure figcaption, .gallery-2-col article figure figcaption,
+.volume-wrap, .jp-progress, .jp-current-time, .jp-duration{
+	display: none;
+}
+.gallery-3-col article figure a.btnarrow, .gallery-2-col article figure a.btnarrow{
+	margin-top: -15px;
+}
+.gallery-4-col article figure a.btnarrow{
+	margin-top: -13px;
+	background-repeat: no-repeat;
+	background-size: 30px;
+}
+
+.left-album, .album-view-2 article,
+.our_services article, .jp-playlist-icon, .ourmusicsec article,
+.our_services article.service-v3, .team-shortcode article.team-v3,
+.price-table, .price-table.price-style2.price_featured, .testimonial-shortcode-3,
+.testimonial-shortcode-4, .testimonial-shortcode-4 figure{
+	width: 100%;
+}
+.tracklist-detail{
+	margin-left: 0px;
+	margin-top: 14px;
+	float: left;
+}
+.album-listing article figure:before{
+	width: 100%;
+	background-position: center bottom;
+}
+.album-view-2 article{
+	height: auto;
+	margin-left: 0px;
+}
+.element_size_50, .element_size_75,
+.element_size_25{
+	width: 100% !important;
+}
+.our_services {
+	margin-left: -5px;
+}
+.our_services article{
+	margin-left: 5px;
+	margin-right: 0px;
+	width: 49%;
+}
+.alubmdetail{
+	padding: 24px 0px 0px 0px;
+	float: left;
+	width: 50%;
+}
+.wrapper-payerlsit li a.jp-playlist-item, .ourmusicsec{
+	height: auto !important;
+}
+.our_services article.service-v3{
+	padding-right: 0px;
+}
+.our_services article.service-v3:nth-of-type(2n),
+.team-shortcode article.team-v3:nth-of-type(2n){
+	padding-left: 0px;
+}
+.team-shortcode article.team-v2,
+.team-shortcode article.team-v4,
+.team-shortcode article.team-v5{
+	width: 100%;
+	margin-left: 0px;
+}
+.team-shortcode article.team-v3{
+	padding-right: 0px;
+}
+.testimonial-shortcode-4{
+	margin-left: 0px;
+}
+.testimonial-shortcode-4 .text{
+	margin-left: 0px;
+	float: left;width: 100%;
+}
+.password_protected form{
+	width: 90%;
+}
+.breadcrumbs{
+	padding-top: 16px;
+	padding-bottom: 10px;
+}
+.subtitle:before{
+	height: 107%;
+}
+
+}

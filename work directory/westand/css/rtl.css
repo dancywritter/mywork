@@ -1,0 +1,585 @@
+/* CSS Document */
+body{
+	direction: rtl;
+}
+article figure,
+.element_size_67, .element_size_33, .element_size_25, .element_size_50, .element_size_75,
+#respond form p input[type="submit"], .wpcf7 form p input[type="submit"],
+#respond .comment-form p,
+.wpcf7 form p,
+.logo,
+.navigation,
+.navigation > ul > li,
+header.cs-heading-title h2,
+.services article,
+.team-shortcode article,
+.cs-blog-panel .post-options,
+.left-timeline-sec,
+.left-timeline-sec h2,
+.left-timeline-sec time,
+.calendar-date,
+.widget_text a img,
+.widget,
+.widget_text ul li i,
+.widget-recent-blog article figure,
+.widget_categories ul li a,
+.cs-blog.blog-medium figure,
+.widget_newsletter label,
+.calendardate-wrap,
+.breadcrumbs ul li,
+.widget-tab .horizontal .tab-content article figure,
+.team-shortcode article.team-shortcode-v1 figure,
+.dropcap:first-letter, .dropcap p:first-letter, .dropcaptwo:first-letter,
+.post-tags h6,
+.post-tags ul,
+.post-tags ul li,
+.share-post .btnshare,
+.about-author figure,
+.about-author .text a i,
+#comments .thumblist figure,
+#comments .text h5,
+#comments .text time,
+#respond .detail-form p input[type="submit"],
+.causes.causes-medium article figure,
+.causes.causes-medium.causes-grid article,
+.cause-left,
+.text-info p i, .text-info ul li i,
+#respond form p input[type="submit"],
+#respond form p input[type="text"],
+.services article.service-v3 figure,
+.event.eventlisting article figure,
+.event.eventlisting article .text .post-options li,
+.event.eventlisting article .text .post-options li i,
+.event.event-grid article .text ul li,
+.event.event-grid article .text ul li i,
+.detail_figure + .detail_inner figure,
+.detail_inner .text ul li,
+.col-left,
+.contant-info .text span,
+.contant-info ul li i,
+.contant-info ul li p,
+.cs-timeline.cs-timeline-v2 article figure,
+.cs-timeline.cs-timeline-v2 article .text .right-timeline-sec,
+#sliderpagination li span.cs-number,
+.modal-body ul li i,
+.modal-body ul li h4,
+.cs-donation-form .modal-header i,
+.cs-color-filter,
+.post-tags a,
+.pagination ul li,
+.left-header,
+.subtitle,
+.archive-page article figure,
+.donar-table ul li .counter,
+.breadcrumbs ul li:before{
+	float:right !important
+}
+.team-shortcode article .text{ text-decoration: rtl;}
+.fullwidth .btnviewall{ float: right !important;}
+.fullwidth .btnshare{ float: left !important;}
+.post-tags ul li{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.panel-heading a.accordion-toggle.collapsed:after,
+.panel-heading a.accordion-toggle:after,
+.sortby,
+.breadcrumbs,
+.navigation ul ul > li.parentIcon > a:before,
+.donar-table ul li p, .donar-table ul li p a{ 
+	float: left;
+}
+.event.eventlisting article .text .cs-buynow{
+	left:0;
+	right: auto;
+}
+.detail_inner{ padding: 20px 20px 20px 10px;}
+.detail_inner .text .bottom-event .cs-buynow{
+	margin: 0 0 0 3px;
+}
+.detail_inner .text .bottom-event .buy-ticket{ margin: 0 0 0 3px}
+.col-left{ padding: 0 0 0 25px;}
+.right-header,
+.right-header .btn,
+.cs-carousel-control,
+a.btnviewall,
+.cs-blog-panel a.btnshare,
+.right-timeline-sec,
+.widget_newsletter input.btn,
+.breadcrumbs ul,
+.team-shortcode article.team-shortcode-v1 .text .followus .share,
+.share-post .prevnext-post,
+.cause-right,
+.col-right,
+.modal-body ul li .btn,
+.modal-header .close{
+	float:left !important;
+}
+.navigation ul ul ul{
+	left:auto;
+	right:100%;
+	margin: 0 6px 0 0;
+}
+.widget_slider .flexslider,
+.swiper-wrapper,
+.swiper-slide,
+.swiper-container,
+.parallax-fullwidth.service-parallax,
+.scroll-to-fixed-fixed{
+	direction:ltr;
+}
+.services article .text{
+	padding:12px 16px 12px 60px
+}
+.services article .text i{
+	right:auto;
+	left:15px;
+	top:7px;
+}
+.cs-carousel-control span{
+	margin: 0 25px 0 0;
+}
+.cs-blog figure figcaption .btn,
+.left-timeline-sec time:before,
+#footer-widgets .widget header.cs-heading-title h2:before{
+	left:auto;
+	right:0;
+}
+.post-options li i{
+	margin: 0 0 0 4px;
+}
+.btn i{
+	margin: 0 0 0 10px;
+}
+.post-options li{
+	padding: 0 0 0 10px;
+}
+.cs-timeline article{
+	padding: 16px 75px 16px 25px !important;
+}
+.left-timeline-sec time{
+	margin: 0 12px 0 0;
+	padding: 0 20px 0 0;
+}
+.cs-timeline article:before{
+	left:auto;
+	right:30px;
+}
+.cs-timeline article:after{
+	left:auto;
+	right:37px;
+}
+a.btnlikes i{
+	margin: 0 0 0 6px;
+}
+.widget-latest-event .post-options li i{
+	margin: 0 0 0 5px;
+}
+.widget-latest-event article.featured figcaption .calendar-date{
+	left:auto;
+	right:15px;
+}
+.widget-latest-event .text{
+	margin: 0 70px 15px 0;
+}
+a.btnviewall i{
+	margin: 0 0 0 10px;
+}
+.widget_text ul li i{
+	margin: 4px 0 0 8px;
+}
+.widget-recent-blog article figure + .text{
+	margin: 0 70px 0 0;
+}
+#footer-widgets .widget_categories ul li:hover{
+	padding: 0 15px 0 20px;
+}
+.widget_categories ul li:before,
+#footer-widgets .widget_categories ul li:before{
+	left:auto;
+	right:0;
+}
+.widget_categories ul li:after,
+#footer-widgets .widget_categories ul li:after{
+	right:auto;
+	left:0 !important;
+}
+.widget_categories ul li:before, 
+.widget_categories ul li:after,
+.navigation ul ul > li.parentIcon > a:before{
+	-webkit-transform: scale(-1);
+    -moz-transform: scale(-1);
+     -ms-transform: scale(-1);
+      -o-transform: scale(-1);
+         transform: scale(-1);
+}
+.cs-blog.blog-medium .text{
+	margin: 0 372px 0 0;
+}
+#sliderbanner .caption{
+	left:auto;
+	right:50%;
+	margin-right:-535px;
+	margin-left:0;
+	-webkit-transform: translateX(40px);
+    -moz-transform: translateX(40px);
+     -ms-transform: translateX(40px);
+      -o-transform: translateX(40px);
+         transform: translateX(40px);
+}
+.widget-socialnetwork .followus,
+.navigation ul ul li{
+	text-align:right;
+}
+.widget_newsletter label{
+	padding: 0 38px 0 0;
+}
+.widget_newsletter label i{
+	left:auto;
+	right:12px;
+}
+.cs-blog.blog-large article .text{
+	padding: 0 80px 0 0;
+}
+.cs-blog.blog-large article .text .cs-blog-panel a i, .share-post .btnshare i{
+	margin: 0 0 0 8px;
+}
+.widget-tab .horizontal .tab-content article .text{
+	margin: 0 70px 0 0;
+}
+.team-shortcode article.team-shortcode-v1 .text{
+	margin: 0 280px 0 0;
+	text-align:right;
+}
+.team-shortcode article.team-shortcode-v1 .text .followus .share{
+	margin-top:0;
+}
+.dropcap:first-letter, .dropcap p:first-letter, .dropcaptwo:first-letter{
+	margin:5px 0 0 20px;
+	direction:ltr;
+}
+blockquote{
+	border-right:none;
+	border-left:1px solid #e5e5e5;
+	padding:0 70px 30px 30px;
+}
+blockquote:before{
+	left:auto;
+	right:0;
+	-webkit-transform: scaleY(-1);
+    -moz-transform: scaleY(-1);
+     -ms-transform: scaleY(-1);
+      -o-transform: scaleY(-1);
+         transform: scaleY(-1);
+}
+.post-tags h6 i{
+	margin:0 0 0 6px;
+}
+.about-author{
+	padding: 35px 35px 35px 110px;
+}
+.about-author .text{
+	padding: 0 80px 0 0;
+}
+.about-author .text a i{
+	margin: 3px 0 0 5px;
+	-webkit-transform: scaleX(-1);
+    -moz-transform: scaleX(-1);
+     -ms-transform: scaleX(-1);
+      -o-transform: scaleX(-1);
+         transform: scaleX(-1);
+}
+#comments .text{
+	margin: 0 75px 25px 0;
+}
+.children{
+	padding: 0 60px 0 0;
+}
+#comments .text h5{
+	margin: 0 12px 0 0;
+}
+#comments .text a i{
+	margin: 0 0 0 5px;
+	-webkit-transform: scaleX(-1);
+    -moz-transform: scaleX(-1);
+     -ms-transform: scaleX(-1);
+      -o-transform: scaleX(-1);
+         transform: scaleX(-1);
+}
+.children:after{
+	left:auto;
+	right:10px;
+	border-left:none;
+	border-right: 1px solid #e5e5e5;
+}
+#respond .icon-input i{
+	left:auto;
+	right:0;
+}
+.causes.causes-medium article .text{
+	margin: 0 370px 0 0;
+	padding: 20px 0 20px 20px;
+}
+.cause-right{
+	border-left:none;
+	border-right:1px solid #e3e3e3;
+	padding: 30px 20px 20px 165px;
+}
+.cause-right .cs-btn-donate{
+	right:auto;
+	left:18px;
+}
+.postel-text, .text-info ul li p{
+	padding: 0 25px 0 0;
+}
+#respond form p em{
+	margin: 18px 20px 0 0;
+}
+#respond form p .icon-input small{
+	margin: 5px 16px 0 0;
+}
+.services article.service-v3 .text{
+	margin: 0 45px 0 0;
+}
+.event.eventlisting article .text{
+	padding: 0 260px 0 0;
+}
+.event.eventlisting article .text .post-options li i,
+.event.event-grid article .text ul li i{
+	margin: 0 0 0 10px;
+}
+.bottom-event a span{
+	right:auto;
+	left:-8%;
+}
+.event.eventlisting article .text .post-options li, .event.eventlisting article .text .post-options li time,
+.event.event-grid article .text ul li,
+.detail_inner .text ul li{
+	padding: 0 0 10px 20px;
+}
+.detail_inner .text{
+	margin: 0 260px 0 0;
+}
+.about-author{
+	background: url(../images/bg-author.png) no-repeat scroll left bottom;
+}
+.cs-timeline.cs-timeline-v2 article .text{
+	margin: 0 285px 0 0;
+}
+.modal-body ul li h4{
+	line-height:1.3;
+}
+.cs-donation-form .modal-header i{
+	margin: 10px 0 0 18px;
+}
+.cs-color-filter ul li a:after{
+	margin: 0 7px 0 0;
+}
+.widget_categories ul li{
+	text-align: left;
+	padding: 6px 0 6px 20px;
+}
+.archive-page .blog_text{
+	margin: 0px 360px 0px 0px;
+}
+.widget_text .textwidget ul li,
+.home-info h5{
+	text-align: right;
+}
+#footer-widgets .widget_categories ul li {
+    padding: 0 0px 0 20px;
+}
+.cs-timeline:before{
+	left: auto;
+	right: 37px;
+}
+.cs-timeline.cs-timeline-v2 article figure figcaption a{
+	-webkit-transform: scaleX(-1);
+	   -moz-transform: scaleX(-1);
+	    -ms-transform: scaleX(-1);
+	     -o-transform: scaleX(-1);
+	        transform: scaleX(-1);
+}
+.parallaxbg .services article.service-v2{
+	float: left !important;
+}
+.password_protected form input[type="submit"]{
+	left: 0px;
+	right: auto;
+}
+.donar-table ul li .counter{
+	margin: 0px 0px 0px 15px;
+}
+.donar-table ul li{
+	padding: 0px 0px 0px 20px;
+}
+#respond .comment-form p{
+	margin: 0px 20px 20px 0px;
+}
+#respond .comment-form p:nth-child(2),
+#respond form p.comment-form-comment,
+#respond form p.form-submit{
+    margin-right: 0px;
+}
+.wpcf7 form p{
+	direction: ltr;
+	text-align: right;
+}
+@media (max-width: 767px){
+	.logo{
+		float:none !important;
+	}
+	.cs-blog.blog-medium .text{
+		margin:0;
+	}
+	.cs-blog.blog-large article .text{
+		padding:0;
+	}
+	.right-timeline-sec{
+		float:right !important;
+	}
+	.left-timeline-sec time{
+		margin:0;
+		padding:0;
+	}
+	.about-author{
+		padding: 20px;
+	}
+	.about-author .text{
+		padding: 10px 0 0 0;
+	}
+	.children{
+		padding: 0 24px 0 0;
+	}
+	.widget-socialnetwork .followus{
+		text-align:center;
+	}
+	.event.eventlisting article .text{
+		padding:15px 0 0 0;
+	}
+	.detail_inner .text{
+		margin:0;
+	}
+	.causes.causes-medium article .text{
+		margin:0;
+		padding: 20px;
+	}
+	.cause-right{
+		padding:64px 20px 20px 20px;
+	}
+	.cause-right .cs-btn-donate{
+		margin-left:63px;
+	}
+	.team-shortcode article.team-shortcode-v1 .text{
+		margin:0;
+	}
+	.cs-timeline.cs-timeline-v2 article .text{
+		margin:0;
+	}
+}
+@media (max-width: 480px){
+	#respond form p .icon-input small{
+		margin:0 5px 0 0;
+	}
+	#respond form p em{
+		margin:18px 0 0 0;
+	}
+	
+}
+
+/* Shop Rtl Start */
+.woocommerce-page #payment ul.payment_methods li,
+.woocommerce #payment ul.payment_methods li,
+.woocommerce ul.products li.product .text,
+#order_review .shop_table .product-name,
+.woocommerce-page table.shop_table,
+.woocommerce table.shop_table,
+.product .summary,
+th{
+	text-align: right;
+}
+.added_to_cart{
+	text-align: left;
+}
+.woocommerce ul.products li.product .add_to_cart_button,
+.woocommerce .star-rating, .woocommerce-page .star-rating{
+	float: left;
+}
+.woocommerce a.button,
+.woocommerce-page a.button,
+.woocommerce button.button,
+.woocommerce-page button.button,
+.woocommerce input.button,
+.woocommerce-page input.button,
+.woocommerce #respond input#submit,
+.woocommerce-page #respond input#submit,
+.woocommerce #content input.button,
+.woocommerce-page #content input.button,
+.woocommerce-page .add_to_cart_button,
+.woocommerce .checkout .col-2 h3,
+.woocommerce-page .checkout .col-2 h3,
+.woocommerce-validated label, .input-checkbox,
+.woocommerce-page ul.products li.product,
+.woocommerce-page .products .star-rating,
+.commentlist li .avatar.avatar-60.photo,
+.woocommerce-pagination .page-numbers,
+.woocommerce ul.products li.product,
+.woocommerce .products .star-rating,
+.cs_shop_wrap h1, .woocommerce h2,
+.woocommerce-tabs .stars span a,
+div.product p.price span.amount,
+.woocommerce-tabs ul.tabs li,
+.product .summary .cart,
+div.product p.price,
+.product .images,
+.product_meta {
+	float: right;
+}
+.onsale{
+	left: 10px;
+	right: auto;
+}
+.product .images{
+	padding: 0px 0px 0px 15px;
+}
+.product_meta{
+	margin: 16px 15px 0 0px;
+}
+.woocommerce-tabs ul.tabs li a{
+	border-right: none;
+	border-left: 1px solid #D3D3D3;
+}
+.woocommerce-page ul.products li.last,
+.woocommerce ul.products li.last{
+	margin-right: 6px;
+}
+.commentlist li .comment-text{
+	padding: 0px 30px 0px 0px;
+}
+.commentlist li .description{
+	padding: 0px 50px 0px 0px;
+}
+.woocommerce-page #payment div.payment_box:after,
+.woocommerce #payment div.payment_box:after{
+	left: auto;
+	right: 0px;
+	margin: -1em 2em 0px 0px;
+}
+.woocommerce-message:before,
+.woocommerce-error:before,
+.woocommerce-info:before{
+	right: 1em;
+	left: auto;
+}
+.woocommerce-message, .woocommerce-error, .woocommerce-info{
+	padding: 1em 3.5em 1em 1em;
+}
+.next.page-numbers{
+	-webkit-transform: scaleX(-1);
+	   -moz-transform: scaleX(-1);
+	    -ms-transform: scaleX(-1);
+	     -o-transform: scaleX(-1);
+	        transform: scaleX(-1);
+}
+/* Shop Rtl End */

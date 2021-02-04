@@ -1,0 +1,20 @@
+.colr, .colrhvr:hover, #filters li a:hover, #filters li a.selected,
+.portfolio article:hover .text h6 a, .widget_categories ul li:hover, .widget_categories ul li:hover a, .widget-related-blog ul li:hover a, .pagination ul li a.active,
+.widget_categories ul li:hover a:before, .widget_archive ul li:hover, .widget_recent_entries ul li:hover,.widget_recent_entries ul li:hover,.widget_recent_comments ul li:hover,.widget_links ul li:hover, .widget_meta ul li:hover,
+.widget_archive ul li:hover a,.widget_recent_entries ul li:hover a,.widget_recent_entries ul li:hover a,.widget_recent_comments ul li:hover a,
+.widget_links ul li:hover a, .widget_meta ul li:hover a, .widget_pages ul li a:hover, .widget_nav_menu ul li a:hover, .widget ul li:hover a:before  {
+	color: #f94d51 !important;
+}
+
+.bgcolr, .bgcolrhvr:hover, .flex-control-paging li a.flex-active,  .gallery article:hover .hovicon.effect-1.sub-b,
+.mas-cont-sec .gallery-box figure:hover figcaption:before, .flex-direction-nav a:hover,
+.load-more a:hover{
+	background-color: #f94d51 !important;
+}
+
+.bdrcolr, #filters li a:hover, #filters li a.selected, .pagination ul li a.active:before, .pagination ul li a:hover:before{
+	border-color: #f94d51 !important;
+}
+
+
+/*<a href="#headermain" class="fa fa-bars btntoggle"></a>*/

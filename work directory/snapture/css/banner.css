@@ -1,0 +1,204 @@
+.banner,#bannerwrapper,#bannermainslider {
+float: left;
+width: 100%;
+height: 100%;
+position: relative;
+overflow: hidden;
+}
+#bannermainslider .swiper-container {
+width: 100%;
+height: 100%;
+}
+#bannerwrapper.cs_fullwidth_banner .banner-slides img {
+display: none;
+}
+#bannerwrapper.cs_fullwidth_banner .banner-slides .swiper-slide {
+background-size: cover !important;
+position: relative;
+overflow: hidden;
+}
+#bannerwrapper.cs_fullwidth_banner .banner-slides .swiper-slide iframe {
+float: left;
+width: 100%;
+height: 100%;
+
+}
+.cs-gal-video {
+position: absolute;
+left: 0;
+top: 0;
+width: 100%;
+height: 100%;
+display: none;
+}
+.caption-area-slider {
+display: block;
+float: left;
+position: absolute;
+right: 25px;
+bottom: 25px;
+z-index: 99;
+}
+.caption-area-slider span {
+float: left;
+width: 50px;
+height: 50px;
+line-height: 50px;
+font-size: 50px;
+color: #fff;
+cursor: pointer;
+opacity: 0.4;
+-webkit-transition: all .25s linear;
+-moz-transition: all .25s linear;
+-ms-transition: all .25s linear;
+-o-transition: all .25s linear;
+transition: all .25s linear;
+}
+.caption-area-slider span:hover {	
+opacity: 1;
+-webkit-transform: scale(1.5);
+-moz-transform: scale(1.5);
+-ms-transform: scale(1.5);
+-o-transform: scale(1.5);
+transform: scale(1.5);
+
+} 
+
+.slide-caption {
+position: absolute;
+float: left;
+max-width: 590px;
+left: 85px;
+bottom: 64px;
+opacity: 0;
+-webkit-transition: all 0.400s linear;
+   -moz-transition: all 0.400s linear;
+    -ms-transition: all 0.400s linear;
+     -o-transition: all 0.400s linear;
+        transition: all 0.400s linear;
+-webkit-transform: translateX(-30%);
+   -moz-transform: translateX(-30%);
+    -ms-transform: translateX(-30%);
+     -o-transform: translateX(-30%);
+        transform: translateX(-30%);
+}
+.swiper-slide-active .slide-caption  {
+-webkit-transform: translateX(0);
+   -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+     -o-transform: translateX(0);
+        transform: translateX(0);
+        opacity: 1;
+-webkit-transition: all 0.400s linear 0.600s;
+   -moz-transition: all 0.400s linear 0.600s;
+    -ms-transition: all 0.400s linear 0.600s;
+     -o-transition: all 0.400s linear 0.600s;
+        transition: all 0.400s linear 0.600s;
+}
+.slide-caption h2 {
+display: inline;
+position: relative;
+padding: 12px 0 10px;
+vertical-align: top;
+line-height: 44px;
+font-size: 18px;
+font-weight: 900;
+color: #fff;
+text-transform: uppercase;
+background: rgba(0,0,0,0.60);
+overflow: hidden;
+box-shadow: 18px 0 0 rgba(0,0,0,0.60),-18px 0 0 rgba(0,0,0,0.60);
+
+}
+.gallery_stack_element {
+display: block;
+float: left;
+width: 44px;
+height: 44px;
+line-height: 44px;
+background: rgba(0,0,0,0.6);
+position: absolute;
+right: -62px;
+top: -1px;
+z-index: 999;
+font-size: 20px;
+color: #fff;
+cursor: pointer;
+
+}
+
+.gallery_stack_element .fa-times-circle-o {
+display: none;
+}
+
+#thumbarea {
+float: left;
+width: 100%;
+position: absolute;
+left: 0;
+bottom: 0;
+height: 80px;	
+z-index: 99;
+padding: 10px 0;
+border-top: 1px solid rgba(255,255,255,0.50);
+box-shadow: 0px -5px 5px rgba(0,0,0,0.15);
+background: url(../images/bg-gradient-thumb.png) repeat-x left top;
+text-align: center;
+
+}
+#thumbarea #carousearea {
+height: 60px;
+width: 984px;
+margin: 0 auto;
+float: none;
+
+}
+#bannermainslider #carousearea .swiper-slide {
+width: 60px;
+height: 60px;
+padding: 0 1px;
+background-clip: content-box;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+#bannermainslider #carousearea .swiper-slide img{
+  width: 100%;
+}
+.cs_thumbview_banner .slide-caption {
+bottom: 102px;
+}
+.cs_thumbview_banner .caption-area-slider{
+  display: none;
+}
+#gallery.postlist.postlist-mas-listing  .box {
+  width: 300px;
+  overflow: visible;
+  padding: 15px 10px 0 10px;
+}
+#gallery.postlist.postlist-mas-listing  .box figure {
+  margin-bottom: 0;
+}
+#gallery.postlist.postlist-mas-listing  .box article {
+  margin: 0px 0;
+  width: 100%;
+}
+#gallery.postlist.postlist-mas-listing  .box article .blog-text {
+  padding-top: 0;
+}
+#gallery {
+  margin-bottom: 40px;
+}
+.postlist.postlist-mas-listing.archive-page .box {
+  float: none;
+  vertical-align: top;
+  display: inline-block;
+  vertical-align: top;
+}
+.postlist.postlist-mas-listing.archive-page .box article {
+  width: 302px;
+}
+#gallery.postlist.postlist-mas-listing  .box article figure.cs-slideshowify {
+  height: 320px;
+  margin-bottom: 20px;
+}

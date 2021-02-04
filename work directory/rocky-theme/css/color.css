@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* Colors Css File */
+.colr,.colrhover:hover,nav.navigation > ul > li:hover > a,.pagination ul li a:hover ,.pagination ul li a.active,.ratingbox .fa-star,.panel-title>a ,.our_services article.service-v2:hover figure,.our_services article.service-v4:hover figure span.icon-stack,.our_services article.service-v4:hover figure .heading  a{
+	color:#ef5d00 !important;
+}
+.bgcolr,.bgcolrhover:hover,nav.navigation  ul  ul > li:hover > a,.ourmusicsec article figure:after,.jp-play-bar:before,.wrapper-payerlsit li a.jp-playlist-item.jp-playlist-current ,.flex-control-paging li a:hover,.flex-control-paging li a.flex-active,.subtitle:before,#main .flex-direction-nav li a:hover,.nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus,.nav-tabs>li>a:hover,.nav-tabs>li.active>a:before,.events-grid article:hover a.btnbuytickets,.dropcap:first-letter, .dropcap p:first-letter,.dropcaptwo:first-letter,#header.header-3 .navigation > ul > li:after,#header.header-4 .navigation > ul > li:after,#header.header-6 .navigation > ul > li:after ,.team-shortcode article.team-v4:after,.our_services article.service-v3:hover figure,.price-table.price-style2.price_featured .plan-header .price,.price-table.price-style3.price_featured .period a, .widget_tag_cloud .tagcloud a:hover, .widget_search input[type="submit"], .wpcf7-submit{
+	background:#ef5d00 !important;
+}
+.bdrcolr  ,#containergallery figure figcaption,blockquote,.featured_categories > ul > li > a,.qoute-author ,.event-panel a.btnlocation:hover{
+	border-color:#ef5d00 !important;
+}
+.nav-tabs>li.active>a:after{
+	border-color:#ef5d00 transparent !important;
+}
+.btntopmenu:before  {
+	border-color:transparent #ef5d00 !important;
+}
+.trans {
+	-webkit-transition:all 0.3s linear;
+	-moz-transition:all 0.3s linear;
+	-o-transition:all 0.3s linear;
+	transition:all 0.3s linear;
+}
+.border-box {
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
+
+.cs-heading-color{
+	color:#ef5d00 !important;
+}

@@ -1,0 +1,11 @@
+[20-Apr-2014 09:28:52 Europe/Stockholm] PHP Notice:  Undefined variable: bloginfo in /home/group/public_html/wp-demo/westand/wp-content/themes/westand/page_contact_submit.php on line 7
+[20-Apr-2014 09:28:52 Europe/Stockholm] PHP Notice:  Undefined variable: contact_name in /home/group/public_html/wp-demo/westand/wp-content/themes/westand/page_contact_submit.php on line 12
+[20-Apr-2014 09:28:52 Europe/Stockholm] PHP Notice:  Undefined variable: contact_email in /home/group/public_html/wp-demo/westand/wp-content/themes/westand/page_contact_submit.php on line 16
+[20-Apr-2014 09:28:52 Europe/Stockholm] PHP Notice:  Undefined variable: contact_msg in /home/group/public_html/wp-demo/westand/wp-content/themes/westand/page_contact_submit.php on line 24
+[20-Apr-2014 09:28:52 Europe/Stockholm] PHP Notice:  Undefined variable: contact_name in /home/group/public_html/wp-demo/westand/wp-content/themes/westand/page_contact_submit.php on line 32
+[20-Apr-2014 09:28:52 Europe/Stockholm] PHP Notice:  Undefined variable: contact_email in /home/group/public_html/wp-demo/westand/wp-content/themes/westand/page_contact_submit.php on line 33
+[20-Apr-2014 09:28:52 Europe/Stockholm] PHP Notice:  Undefined variable: cs_contact_email in /home/group/public_html/wp-demo/westand/wp-content/themes/westand/page_contact_submit.php on line 37
+[20-Apr-2014 09:28:52 Europe/Stockholm] PHP Notice:  Undefined variable: cs_contact_succ_msg in /home/group/public_html/wp-demo/westand/wp-content/themes/westand/page_contact_submit.php on line 38
+[24-Apr-2014 10:43:38 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/group/public_html/wp-demo/westand/wp-content/themes/westand/index.php on line 3
+[28-Apr-2014 10:16:12 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/group/public_html/wp-demo/westand/wp-content/themes/westand/index.php on line 3
+[28-Apr-2014 14:30:57 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/group/public_html/wp-demo/westand/wp-content/themes/westand/index.php on line 3

@@ -1,0 +1,84 @@
+@charset "utf-8";
+/* Rtl Css File */
+body{
+	direction: rtl;
+}
+.col-md-1,.col-md-2,.col-md-3,
+.col-md-4,.col-md-5,.col-md-6,
+.col-md-7,.col-md-8,.col-md-9,
+.col-md-10,.col-md-11,.col-lg-1,
+.col-lg-2,.col-lg-3,.col-lg-4,
+.col-lg-5,.col-lg-6,.col-lg-7,
+.col-lg-8,.col-lg-9,.col-lg-10,
+.col-lg-11,
+.cate-icon, .tags-area em, #comments .text header h5,
+#comments .text header time, #comments .thumblist figure,
+.featured_categories > ul > li > a, .widget_nav_menu ul li a, .widget_pages ul li a, .widget_links ul li a, .widget_meta ul li a, .widget_archive ul li a, .widget_categories > ul > li > a, .widget_recent_comments ul li a:first-child, .widget_recent_entries ul li a, .widget_categories_list ul li a,
+.featured_blog img.float-left, #footer-widgets .widget_nav_menu ul li:before, .widget_tag_cloud a, .widget_recent_comments ul li a, .sharing-section, a.btnsharenow,
+.share_post .tags-area, .float-left, .widget-twitter i, .widget-twitter .twitter-follow, .widget_text li em, .heading-2, .track-info .post-options li, .messagebox .round,
+.lightbox p, .album-view-3 article figure, .left-pan-album, .wrapper-panel, .left-album, .left-album .left-pan-album a, .album-list .tracklist li, .audio-control,
+.player-theme-sec .jp-controls, .wrapper-payerlsit li a em.fa-play, .wrapper-payerlsit li a em.fa-pause, .button, ul.tick, .list_styles ul li em, .dropcap:first-letter, .dropcap p:first-letter, .dropcaptwo:first-letter,
+.our_services article.service-v3 figure, .our_services article.service-v4 figure span.icon-stack, .our_services article figure a, .nav-tabs > li, .team-shortcode article .text .social-share ul li,
+.team-shortcode article.team-v3 .text .social-share h6, .testimonial-shortcode-2 figure, .testimonial-shortcode-3 figure, .testimonial-shortcode-4 figure{
+	float: right !important;
+}
+.comment-edit-link, .prevnext-post, .breadcrumbs, .float-right, .panel-button a.btn, .team-shortcode article.team-v3 .text .social-share ul{
+	float: left !important;
+}
+a.btnarrow, #footer-widgets .widget_nav_menu ul li:before, .eventsection article figure figcaption a.btnarrow{
+	-webkit-transform: scale(-1) !important;
+	   -moz-transform: scale(-1) !important;
+	    -ms-transform: scale(-1) !important;
+	     -o-transform: scale(-1) !important;
+	        transform: scale(-1) !important;
+}
+.widget-twitter i, .widget_text li em{
+	-webkit-transform: scale(-1,1);
+	   -moz-transform: scale(-1,1);
+	    -ms-transform: scale(-1,1);
+	     -o-transform: scale(-1,1);
+	        transform: scale(-1,1);
+}
+.widget_recent_comments ul li a, .widget_categories > ul > li{
+	text-align: left;
+}
+.events .eventsection article .text, .heading-2, .fc-header-title h2, .album-view-3 article .text,
+.our_services article.service-v3 .text, .price-table.price-style3 header h3{
+	text-align: right !important;
+}
+a.btnarrow{right: 40%;left: auto;margin: -20px -24px 0 0px;}
+.postlist article:hover figure figcaption a.btnarrow{left: auto;right: 50%;}
+.head-group{padding-right: 60px;padding-left: 0px;}.blog_text .text{padding-left: 0px;margin-left: 0px;padding-right: 30px;margin-right: 30px;}.blog_text .text:before{left: auto;right: -2px;}
+.tags-area{padding-left: 0px;padding-right: 20px;}.tags-area em {margin-left: 20px;margin-right: 0px;}#main .flex-direction-nav li a:before{left: -4px;}
+
+#comments .text a.comment-reply-link:before{border-width: 0 48px 48px 0;}#comments .text a.comment-reply-link{left: 0px;right: auto;}
+#comments .text header time{padding-left: 0px;padding-right: 10px;}#comments .text{margin-left: 0px;margin-right: 78px;}#comments ul li.depth-2, #comments ul li.depth-3{padding-left: 0px;padding-right: 40px;}
+.featured_categories > ul > li > a, .widget_nav_menu ul li a, .widget_pages ul li a, .widget_links ul li a, .widget_meta ul li a, .widget_archive ul li a, .widget_categories > ul > li > a, .widget_recent_comments ul li a:first-child, .widget_recent_entries ul li a, .widget_categories_list ul li a{
+	border-left: none !important;border-right: 3px solid #666666 !important;
+}
+.featured_blog .text{padding-left: 0px;padding-right: 80px;}.no-image .text{padding-right: 0px;}#footer-widgets .widget_nav_menu ul li a{border-right: none !important;}
+.widget_search input[type="submit"]{left: 0px;right: auto;}.panel-title > a:before{right: auto;left: 10px;}.panel-body:before, .post-options li:before{left: auto;right: 0px;}.panel-body{padding-left: 0px;padding-right: 20px;}.widget_recent_comments ul li a:first-child {padding-right: 9px !important;padding-left: 0px;}
+.styleicon blockquote:before{right: -32px;left: auto;}.styleicon blockquote{margin-left: 0px;margin-right: 50px;}blockquote{border-right: 10px solid #EEEEEE;border-left: none;}
+.about-author .text{margin-left: 0px;margin-right: 85px;}.about-author .text:before{
+	left: auto;right: -8px;
+	-webkit-transform: rotate(135deg);
+	   -moz-transform: rotate(135deg);
+	    -ms-transform: rotate(135deg);
+	     -o-transform: rotate(135deg);
+	        transform: rotate(135deg);
+}.widget-twitter i{margin: 4px 0px 0 7px;}.widget_text li em{margin: 6px 0px 0px 7px;}.subtitle h1:before, .blog-masonry article .postpanel:before, .eventsection article figure figcaption{left: auto;right: 0px;}.subtitle h1{padding-left: 0px;padding-right: 30px;}
+.eventsection article figure figcaption a.btnarrow{top: -15px;}.eventsection article .text{padding-right: 19px;}.event-panel{right: auto;left: 0px;}.event-panel a.btnlocation em{display: inline-block;margin: 0px;}
+.heading-2 .section-title:before, .wrapper-panel:before, .heading-2 .section-title:after, .wrapper-panel:after{left: auto;right: 100%;margin-right: 15px;margin-left: 0px;}.alubmdetail{padding-left: 0px;padding-right: 220px;}
+.fc-state-default.fc-corner-left{left: 40px;right: auto;}.fc-state-default{left: 0px;right: auto;}.eventswrapp .text{margin-right: 300px;margin-left: 0px;}.track-info .postpanel{padding-right: 15px;padding-left: 0px;}
+.track-info .post-options li{padding: 0 8px 0 5px;}.gallery-3-col article figure a.btnarrow, .gallery-2-col article figure a.btnarrow, .gallery-4-col article figure a.btnarrow{right: 50%;left: auto;margin-left: 0px;margin-right: -20px;}
+.btnviewall{left: 15px;right: auto;}.album-view-3 article .text{margin-left: 0px;margin-right: 208px;}.tracklist-detail{margin-left: 0px;margin-right: 298px;}.share-now:before{left: auto;right: 20px;}.track-info .postpanel .post-options:after{left: auto;right: 0px;}
+.main-progress{margin-left: 0px;margin-right: 150px;}.latest_blog article .text{padding-left: 0px;padding-right: 85px;}.no-image .text, .latest_blog article.no-image .text{padding-right: 0px;}
+.player-theme-sec .jp-controls{margin: 0 0 0 10px;}.player-theme-sec .main-progress-sec{margin:0 104px 0 30px;}.jp-playlist.playheader-sec .wrapper-payerlsit li em{margin-left: 10px;margin-right: 0px;}
+.pagenone span{left: 7%;right: auto;}.pagenone span:after{left: auto;right: 24px;}.password_protected form input[type="submit"]{left: 0px;right: auto;}.messagebox .close{left: 5px;right: auto;}
+.button a.medium-btn em, .button a.small-btn em{margin: 0 0 0 7px;}.list_styles ul li em{margin: 5px 0 0 10px;}.dropcap:first-letter, .dropcap p:first-letter, .dropcaptwo:first-letter{margin: 7px 0px 0 20px;}
+.messagebox .round{margin-left: 23px;margin-right: 0px;}.our_services article.service-v3 .text{padding-left: 0px;padding-right: 108px;}.tiny-green p{right: 7px;left: auto;}.tiny-green .infotxt{left: 0px;right: auto;}
+.skills-display .tiny-green .infotxt{left: 5px;right: auto;}.nav-tabs{margin-left: 0px;margin-right: 2%;}.shortgrid{padding: 0 0px 15px 15px;}figure.image-shortcode{margin-left: 10px;margin-right: 0px;}
+.team-shortcode article .text header h4{padding-left: 8px;padding-right: 0px;}.team-shortcode article .text .social-share a{margin-right: 0px;margin-left: 8px;}.price-table.price-style3 header h3{padding-right: 10px;}
+.price-table.price-style3 .icon-pricetable{left: 0px;right: auto;}.plan-header span.fa-stack{right: 50%;left: auto;margin-right: -72px;margin-left: 0px;}.testimonial-shortcode-2 .text, .testimonial-shortcode-3 .text{padding-right: 100px;padding-left: 0px;}
+.testimonial-shortcode-2 .testimonial-author:before, .testimonial-shortcode-3 figure:before, .testimonial-shortcode-4 .testimonial-author:before{left: auto;right: 0px;}.testimonial-shortcode-2 .testimonial-author{padding-left: 0px;padding-right: 26px;}.testimonial-shortcode-3 figure:before{margin-left: 0px;margin-right: 22px;}
+.testimonial-shortcode-4 .text{margin-left: 0px;margin-right: 175px;}.testimonial-shortcode-4 .testimonial-author:before{left: 0px !important;right: auto;}

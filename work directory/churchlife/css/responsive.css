@@ -1,0 +1,170 @@
+/*============		Media 768Px Start	============ */
+@media (min-width: 768px) and (max-width: 991px) {
+	.sermons.sermondetail .sermon-desc-area figure,
+	.sermon-desc-area .text,
+	.team-section article figure,
+	.team-section article .text,
+	.element_size_50,.element_size_25,
+	.element_size_75{
+		width: 100%;
+	}
+	.team-section article figure{
+		height: auto;
+		margin: 0px 0px 15px 0px;
+	}
+	.team-section article .text{
+		margin-left: 0px;
+		float: left;
+	}
+	.sermons.sermondetail .sermon-desc-area figure{
+		padding-bottom: 20px;
+	}
+	#slider h2, .pix-heading-area h1{
+		font-size: 40px;
+	}
+	.event-listing article .text{
+		margin-left: 0px;
+	}
+	.gallerysec ul li figure figcaption i {
+		margin: -25px 0 0 -25px !important;
+	}
+	.pix-option-panel{
+		float: left;
+	}
+	.pix-option-panel > ul > li{
+		padding: 0px 15px 0px 0px;
+	}
+	#footer .followus{
+		margin-right: 15px;
+	}
+	.col-md-12{float: left;width: 100%;}
+	#right-content.pix-active,
+	#right-content.pix-active .blog.blog-large{
+		width: 100%;
+	}
+	.blog-sidebar{
+		width: 100%;
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		background-color: #fff;
+	}
+	.widget_search form label{
+		right: 0%;
+	}
+	.sermons #filters{
+		margin:-30px 0 18px 9px;
+	}
+}
+
+/*============		Media 420Px Start	============ */
+@media (max-width: 767px) {
+	.sermons.sermondetail .sermon-desc-area figure,
+	.sermon-desc-area .text,
+	.single-password form,
+	.element_size_50,.element_size_25,
+	.element_size_75,
+	.sermons #filters
+	{
+		width: 100%;
+	}
+	.sermons.sermondetail .sermon-desc-area figure{
+		padding-bottom: 20px;
+	}
+	#slider h2, .pix-heading-area h1{
+		font-size: 30px;
+		padding-right: 10%;
+	}
+	.event-listing article .text{
+		margin-left: 0px;
+	}
+	.gallerysec ul li figure figcaption i {
+		margin: -25px 0 0 -25px !important;
+	}
+	.pix-option-panel{
+		float: left;
+	}
+	.pix-option-panel > ul > li{
+		padding: 0px 15px 0px 0px;
+	}
+	#footer .followus{
+		margin-right: 15px;
+	}
+	.sermons.sermons-large article,
+	.sermons.sermons-large,
+	.sermons #filters{
+		margin-left: 0px;
+	}
+	.sermons.sermons-large article{
+		width: 100%;
+	}
+	.col-md-12{float: left;width: 100%;}
+	#right-content.pix-active,
+	#right-content.pix-active .blog.blog-large{
+		width: 100%;
+	}
+	.blog-sidebar{
+		width: 100%;
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		background-color: #fff;
+	}
+	.widget_search form label{
+		right: 0%;
+	}
+	iframe{width: 100% !important;}
+}
+
+/*============		Media 300Px Start	============ */
+@media (max-width: 480px) {
+	.jp-playlist li a .title-song{
+		padding-left: 13px;
+	}
+	.event-listing article .text{
+		padding-right: 0px;padding-bottom: 40px;
+	}
+	.event-listing article .text .btn{
+		position: absolute;
+		bottom: 0px;
+		top: auto;
+		left: 15px;
+		width: 50%;
+	}
+	.team-section article figure,
+	.team-section article .text{
+		width: 100%;
+		height: auto;
+	}
+	.team-section article .text{
+		margin: 15px 0px 0px 0px;
+		float: left;
+	}
+	.gallerysec ul li figure figcaption i {
+		margin: -25px 0 0 -25px !important;
+	}
+	.sermons #filters{
+		width:100%;
+	}
+	iframe{width: 100% !important;}
+}
+
+/*============	   Media 940Px Start	============ */
+@media screen and (min-width: 992px) and (max-width: 1199px){
+	.sermons.sermondetail .sermon-desc-area figure,
+	.sermon-desc-area .text{
+		width: 100%;
+	}
+	.sermons.sermondetail .sermon-desc-area figure{
+		padding-bottom: 20px;
+	}
+	#slider h2, .pix-heading-area h1{
+		font-size: 40px;
+	}
+	.gallerysec ul li figure figcaption i {
+		margin: -25px 0 0 -25px !important;
+	}
+	.sermons #filters{
+		margin:-30px 0 18px 13px;
+	}
+}

@@ -1,0 +1,4 @@
+[09-Jan-2014 07:39:44 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/group/public_html/wp-demo/spikes/wp-content/themes/spikes-black/index.php on line 3
+[09-Jan-2014 13:43:02 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/group/public_html/wp-demo/spikes/wp-content/themes/spikes-black/index.php on line 3
+[14-Jan-2014 22:43:03 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/group/public_html/wp-demo/spikes/wp-content/themes/spikes-black/index.php on line 3
+[27-Jan-2014 13:24:27 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/group/public_html/wp-demo/spikes/wp-content/themes/spikes-black/index.php on line 3

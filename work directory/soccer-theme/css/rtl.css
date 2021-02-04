@@ -1,0 +1,345 @@
+body{
+	direction: rtl;
+}
+.col-md-1,
+.col-md-2,
+.col-md-3,
+.col-md-4,
+.col-md-5,
+.col-md-6,
+.col-md-7,
+.col-md-8,
+.col-md-9,
+.col-md-10,
+.col-md-11, 
+.logo,
+.logo img,
+nav.navigation,
+.pix-option-panel,
+.searcharea,
+.pix-option-panel li,
+nav.navigation li,
+#banner .flexslider figcaption,
+header.pix-heading-title,
+.news-section article figcaption a,
+.element_size_33,
+header.pix-heading-title h2,
+.points-table li span,
+.element_size_75,
+.element_size_25,
+.post-options li,
+span.match-category,
+.twitter_sign figure,
+.flexslider .tweet-panel li,
+.our-sponcers header,
+.top-event h2,
+#footer p,
+.about-us article figure,
+.btn-viewimgs,
+.subtitle,
+.widget-recent-blog article figure,
+.widget .pix-section-title,
+.widget .tagcloud a,
+.searchform button,
+.widget-gallery ul li,
+.blog-bottom .post-options,
+.blog-medium article figure,
+.address-info figure,
+#respond form p input[type="text"],
+#respond form span,
+.share-post .share-now,
+.share-post .social-network,
+#comments .thumblist ul li figure,
+#comments .thumblist ul li .text header,
+#comments .thumblist ul li .text header h5,
+.featured-event .pix-sc-team ul li,
+.event.event-listing article .calendar-date,
+.element_size_50,
+.teamdetail .detail_text img,
+.teamdetail article .player-info,
+.teamdetail article .player-info ul li span,
+.teamdetail .tweet-panel,
+.gallery ul li, .widget_recent_comments ul li a, .widget_recent_entries ul li a, .widget_recent_entries ul li a, .widget_layered_nav ul li a, .widget_categories ul li a, .product-categories li a, .widget_archive ul li a, .widget_links ul li a, .widget_meta ul li a, .fluid-tab-horizontal .nav-tabs li, #respond form input[type="submit"]{
+	float:right !important
+}
+#rightheader,
+.price-table article span.pix-price-box,
+.carousel-default-button,
+#footer .followus,
+.breadcrumbs,
+.blog-bottom .btn,
+.share-post .prev-nex-btn, .woocommerce .cart-collaterals .cart_totals, .woocommerce-page .cart-collaterals .cart_totals{
+	float:left !important;
+}
+.logo h4{
+	padding:15px 15px 0px 0px;
+}
+.cart-sec span{
+	right:auto;
+	left:-8px;
+}
+#banner .flexslider figcaption{
+	left:auto;
+	right:50%;
+	margin:0 -568px 0 0;
+}
+#carouselarea header{
+	padding:0 0 0 60px;
+}
+.news-carousel .center,
+.featured-event .btn-booked,
+.event.event-listing article .text .btn,
+.event.event-listing article .text .match-result{
+	right:auto;
+	left:0;
+}
+.news-section{
+	margin:0 160px 0 0;
+}
+.news-section article figcaption a{
+	margin:5px 8px 0 0;
+}
+.points-table li span.box2{
+	padding:0  15px 0 0;
+}
+#defaultCountdown span:before{
+	left:auto;
+	right:-14px;
+}
+.post-options li i{
+	margin:0 0 0 6px;
+}
+.post-options li:first-child{
+	padding:0 0 0 15px;
+	margin-right:0;
+}
+.btn i{
+	padding:0 0 0 10px;
+	margin:0;
+}
+.event.event-listing.event-listing-v2 article .post-options{
+	margin:0 37px 0 0;
+}
+.twitter_sign figure i{
+	-webkit-transform:scaleX(-1);
+	-moz-transform:scaleX(-1);
+	-o-transform:scaleX(-1);
+	transform:scaleX(-1);
+}
+.twitter_sign .flexslider{
+	margin:0 155px 0 0;
+}
+.flexslider{
+	direction:ltr;
+	text-align:right;
+}
+.our-sponcers header{
+	border-right:none;
+	border-left:1px solid #1e1e1e;
+}
+.our-sponcers header:before{
+	right:auto;
+	left:-5px;
+	-webkit-transform:rotate(225deg);
+	-moz-transform:rotate(225deg);
+	-o-transform:rotate(225deg);
+	transform:rotate(225deg);
+}
+.our-sponcers .flexslider{
+	margin:0 145px 0 0;
+}
+.flexslider .tweet-panel li:first-child{
+	margin-left:20px;
+}
+#footer .btn{
+	right:auto;
+	left:-10px;
+}
+#footer .followus{
+	margin:0 0 0 65px;
+}
+#footer p{
+	margin: 0 35px 0 0;
+}
+.about-us article .text,
+.address-info .text{
+	margin:0 300px 0 0;
+	padding:25px 30px 0 0;
+}
+.widget-recent-blog article .text{
+	margin:0 73px 0 0;
+}
+.searchform button{
+	border-right:none;
+	border-left:3px dotted #444;
+	margin:2px 0 0 14px;
+}
+.blog-gridview article .text .post-options:before{
+	left:auto;
+	right:10px;
+}
+.cycle-pager{
+	right:auto;
+	left:20px;
+}
+.blog-bottom:before,
+.widget-slider .post-options:before{
+	left:auto;
+	right:15px;
+}
+.blog-medium article .text{
+	margin:0 270px 0 0;
+}
+.address-info .text img{
+	right:auto;
+	left:40px;
+}
+#respond form span{
+	margin:8px 20px 0 0;
+}
+#respond form p input[type="text"]{
+	padding:0 15px 0 45px;
+}
+#respond form .form-icons{
+	right:auto;
+	left:22%;
+}
+blockquote{
+	margin:0 35px 0 0;
+	padding:0 25px 0 0;
+	border-left:none;
+	text-align:right;
+	border-right:7px solid #333;
+}
+.share-post .social-network{
+	margin:5px 15px 0 0;
+}
+#comments .thumblist ul li .text{
+	margin:0 80px 30px 0;
+}
+#comments .thumblist ul li .text .bottom-comment{
+	padding:0 20px 0 0;
+	margin:0 135px 0 0;
+	border-left:none;
+	border-right:1px solid rgba(33, 33, 33, 0.5);
+}
+.children{
+	padding:0 30px 0 0;
+}
+#comments .thumblist ul li .text .bottom-comment:before{
+	left:auto;
+	right:-4px;
+	-webkit-transform:rotate(-225deg);
+	-moz-transform:rotate(-225deg);
+	-o-transform:rotate(-225deg);
+	transform:rotate(-225deg);
+}
+#comments .thumblist ul li .text .bottom-comment a i{
+	margin:0 0 0 5px;
+	-webkit-transform:scaleX(-1);
+	-moz-transform:scaleX(-1);
+	-o-transform:scaleX(-1);
+	transform:scaleX(-1);
+}
+.bottom-event-panel{
+	padding:12px 19px 12px 150px;
+}
+.bottom-event-panel .post-options li:first-child,
+.event.event-listing article .text .post-options li:last-child{
+	padding-right:15px;
+}
+.event.event-listing article .calendar-date{
+	margin:0 0 0 19px;
+}
+.event.event-listing article .text{
+	margin:0 90px 0 0;
+	padding:0 0 0 190px;
+}
+.match-detail .bottom-event-panel .btn{
+	right:auto;
+	left:10px;
+}
+.pix-player-no{
+	right:auto;
+	left:8px;
+}
+.teamdetail .detail_text img{
+	margin:0 0 20px 20px;
+}
+.teamdetail article .player-info .pix-player-no{
+	right:auto;
+	left:20px;
+}
+.pix-custom-select:before{
+	right:auto;
+	left:2px;
+}
+.pix-custom-select:after{
+	right:auto;
+	left:8px;
+	-webkit-transform:rotate(270deg);
+	-moz-transform:rotate(270deg);
+	-o-transform:rotate(270deg);
+	transform:rotate(270deg);
+}
+.navigation ul ul{
+	left:auto;
+	right:0;
+}
+.navigation ul ul ul{
+	left:auto;
+	right:108%;
+}
+.widget_search form label{
+	left:36px;
+	right:auto;
+}
+.widget_search form label:before{
+	right: 11px;
+	left:auto;
+}
+span.match-category{
+	margin:2px 0 0 5px;
+}
+.woocommerce .cart-collaterals .shipping_calculator, .woocommerce-page .cart-collaterals .shipping_calculator{
+	clear:left;
+	float:left;
+}
+.our-team-sec article figure figcaption h6{
+	padding:0 0 0 22%;
+}
+.news-carousel .center .cycle-prev i, .news-carousel .center .cycle-next i{
+	margin-left: -10px;
+}
+.event.event-listing.event-listing-v2 .post-options li{
+	padding:0 0 0 15px !important;
+	margin:0 0 0 10px;
+}
+.event-listing article .text .pix-post-title{
+	margin: 0 0 0 15px;
+}
+.pix-blog.blog-grid .blog-bottom .post-options li{
+	margin:0 0 0 10px;
+} 
+@media (max-width: 767px) {
+	.twitter_sign .flexslider{
+		margin-right:88px;
+	}
+	.about-us article .text,
+	.address-info .text{
+		margin-right:0;
+		padding-right:0;
+	}
+	.event.event-listing article .text{
+		padding-left:0;
+		margin-right:0;
+	}
+	#comments .thumblist ul li .text .bottom-comment,
+	.blog-medium article .text{
+		margin-right:0;
+	}
+	.searcharea a{
+		right:auto !important;
+		left:0;
+	}
+}

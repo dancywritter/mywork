@@ -1,0 +1,304 @@
+ body{
+	direction: rtl;
+}
+.col-md-1,
+.col-md-2,
+.col-md-3,
+.col-md-4,
+.col-md-5,
+.col-md-6,
+.col-md-7,
+.col-md-8,
+.col-md-9,
+.col-md-10,
+.col-md-11, 
+.mp-menu ul li a, 
+.widget_categories ul li:before, 
+.widget_categories ul li a, 
+.widget_archive ul li a, 
+.widget_recent_entries ul li a, 
+.widget_recent_entries ul li a, 
+.widget_recent_comments ul li a, 
+.widget_links ul li a, 
+.widget_meta ul li a, 
+.pull-left, 
+.widget_latest_news .panel,  
+.woocommerce form .form-row-first, 
+.woocommerce form .form-row-last, 
+.woocommerce-page form .form-row-first, 
+.woocommerce-page form .form-row-last, 
+.mas-cont-sec .facebook-style figcaption .text time, 
+.woocommerce-pagination ul li, .pagination ul li, 
+.nav-tabs > li, 
+.tabs.vertical .nav.nav-tabs, 
+.client-v1 .text:before, 
+.btmclient figure, .btmclient figure img, 
+.icons-cont li i, 
+.icons-cont li span, 
+.widget_latest_news ul li, 
+#respond.contact-form .form-submit span, 
+.element_size_50, 
+#comments .thumblist figure, #comments .thumblist figure a, 
+.thumblist .text > header h6, 
+.thumblist .text time, 
+#comments .thumblist figure, #comments .thumblist figure a img, 
+.share_post .tagcloud, 
+.thumb-img, 
+.progress-widget ul li a.share-btn, 
+.portfolio-sec, .detail-section, .bg-color, 
+.images a, 
+.price-table, 
+.category-sec p, 
+.product .summary .price, 
+.product .summary .cart, 
+.product .summary .quantity.buttons_added, 
+.woocommerce-tabs ul.tabs li, 
+.woocommerce ul.products li.product, .woocommerce-page ul.products li.product,
+.number-of-post, 
+.blog, 
+#respond{
+	float: right !important;
+}
+.mp-menu ul li a, nav.navigation ul li, 
+.postlist.postlist-mas-listing article .blog-text {
+	text-align:right !important;
+}
+#comments ul.children {
+    float: right;
+    padding: 24px 61px 0 0;
+}
+#comments ul li.depth-2 .children {
+    float: right;
+    padding: 24px 58px 0 0;
+}
+.arrow-right, 
+.widget.woocommerce del, 
+.widget.woocommerce ins, 
+.widget.woocommerce .amount,
+.woocommerce .lost_password, .client-v1 .text:after, 
+form.woocommerce-ordering, 
+#respond.contact-form form p input[type="submit"], 
+.comment-reply-link, 
+.share_post .social-network, 
+.post-sec, 
+.skills .progress-widget ul li .tiny-green div span.text-loader{
+	float:left !important;
+}
+.category-sec .star-rating {
+    float: right;
+    margin: 0 0 0 20px;
+}
+.mas-cont-sec figcaption .text time i {
+    margin:0 0 0 4px;
+}
+.mas-cont-sec .no-image .text a i.fa-play, 
+.navigation ul li.parentIcon a:before{
+	transform: scale(-1);
+	-moz-transform: scale(-1);
+	-o-transform: scale(-1);
+	-webkit-transform: scale(-1);
+}
+.client-v1 .text:before, .client-v1 .text:after{
+	transform: scalex(-1);
+	-moz-transform: scalex(-1);
+	-o-transform: scalex(-1);
+	-webkit-transform: scalex(-1);
+	margin:0 0 0 5px;
+	line-height: 26px;
+}
+.widget_categories ul li:before{
+	margin:0 0 0 10px;
+}
+.widget_latest_news ul li .text{
+	padding:0 56px 0 0;
+}
+ .post-options li i{
+	 margin:0px 0px 0px 9px;
+}
+.onsale{
+	left:0;
+	right:auto;
+}
+.portfolio-sec .inner-sec {
+    padding-right: 0;
+}
+.inner-sec {
+    padding: 0 70px 0 0;
+}
+#respond form p span{
+	margin:0 1px 0 0;
+	display:inline-block;
+}
+.detail-figure .flex-direction-nav{
+	right:auto !important;
+	left: 28px !important;
+}
+.widget.woocommerce ul li a img {
+    margin: 0 0 0 11px;
+}
+.widget.woocommerce del, .widget.woocommerce ins, .widget.woocommerce .amount {
+    margin:0 0 0 5px;
+}
+.woocommerce .products .star-rating, .woocommerce-page .products .star-rating {
+    display: inline-block !important;
+    float: none !important;
+    margin: 0 0.5em 0 0;
+}
+blockquote{
+	border-left:none;
+	border-right:8px solid #ECECEC;
+	padding:0 25px 0 0;
+	text-align:right !important;
+}
+.woocommerce a.button, 
+.woocommerce button.button, 
+.woocommerce input.button, 
+.woocommerce #respond input#submit, 
+.woocommerce #content input.button, 
+.woocommerce-page a.button, 
+.woocommerce-page button.button, 
+.woocommerce-page input.button, 
+.woocommerce-page #respond input#submit, 
+.woocommerce-page #content input.button,
+ a.button, 
+ input.button{
+	display:inline-block !important;
+	float:none !important;
+}
+.comment-reply-link:before{
+	transform: scaleX(-1);
+	-moz-transform: scaleX(-1);
+	-o-transform: scaleX(-1);
+	-webkit-transform: scaleX(-1);
+}
+.navigation ul li.parentIcon a:before{
+	left:20px;
+	right:auto;
+	
+}
+.message-box-v1 .messagebox em{
+	margin:3px 0 0 12px;
+}
+.nav-tabs > li > a > em {
+    margin:0 0 0 7px;
+}
+.tabs.vertical > .nav.nav-tabs > li.active > a:after{
+	left:-4px;
+	right:auto;
+}
+.nav > li > a, .tabs.vertical > .nav.nav-tabs > li > a{
+	border-right:none;
+	border-left:1px solid #E0E0E0;
+}
+.tabs.vertical .tab-content{
+	margin:0 160px 0 0;
+}
+.btmclient figure {
+    margin:0 0 0 10px;
+}
+#comments .thumblist .text{
+	padding:0 68px 0 0;
+	
+}
+.plan-inside li span {
+    display: inline-block;
+}
+.skills .progress-widget ul li .tiny-green span{
+	left:auto;
+	right:0;
+}
+.password_protected form label:before{
+	left:auto;
+	right:12px;
+}
+.password_protected form label.search-icon{
+	right:auto;
+	left:1px;
+}
+.icons-cont li span{
+	padding:0 30px 0 0;
+}
+#respond.contact-form .form-submit span i {
+    margin: 0 0 0 5px;
+}
+.contact-info p:before{
+	left:auto;
+	right:0;
+}
+.widget_gallery ul li {
+    margin: 0 9px 9px 0;
+	float:right;
+}
+.widget_gallery ul {
+    margin: 0 -9px -9px 0;
+}
+.post-options li{
+	margin:0 0 0 21px;
+}
+.contact-form form p label{
+	right:14px;
+	left:auto;
+}
+.price-table{
+	margin:0 0 0 4px;
+}
+.product .summary .quantity.buttons_added {
+	 margin: 3px 0 0 14px;
+}
+.product .summary .price{
+	margin:3px 0 0 20px;
+	border-right:none;
+	border-left:1px dotted #E2E2E2;
+}
+div.product p.price, div.product p.price span.amount{
+	margin:0 0 0 6px;
+	
+}
+#respond.contact-form form p input {
+    padding:0 40px 0 0;
+}
+#respond.contact-form form p textarea{
+	padding:8px 40px 0 0;
+}
+#header{
+	float:right;
+	right:0;
+	left:auto;
+}
+#headermain{
+	right:auto;
+	left:0;
+}
+.header-bottom{
+	left:auto;
+	right:0;
+}
+
+#main {
+	padding-left: 0;
+	padding-right: 50px;
+}
+.mp-wrapper-main #main,.wrapper-menu-loaded #main {
+	padding-right: 255px;
+}
+.nav-sec {
+	margin-left: 0;
+	margin-right: -205px;
+}
+.mp-wrapper-main .nav-sec,.wrapper-menu-loaded .nav-sec{
+	margin-left: 0;
+	margin-right: 0;
+}
+#header {
+	padding-right: 0px;
+	padding-left: 50px;
+}
+@media screen and (min-width: 290px) and (max-width: 480px){
+.blog-text {
+    text-align: left;
+}
+.blog-text h2 {
+    text-align: right;
+}
+}
+ 

@@ -1,0 +1,503 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif !important;
+    font-size: 15px !important;
+}
+ul, li {
+    font-family: 'Roboto', sans-serif !important;
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+}
+a {
+    text-decoration: none !important;
+}
+input:focus, a:focus {
+    outline: none !important;
+}
+input, label, span, textarea {
+    font-family: 'Roboto', sans-serif !important;
+}
+.welcome-area {
+    background-image: url('../images/bg.png');
+    background-repeat: no-repeat;
+    background-color: #2A3958;
+    height: 100%;
+    padding: 60px 60px;
+}
+.welcome-area h1 {
+    color: #00C962;
+    font-weight: 300;
+    font-size: 55px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+.welcome-area h1 span {
+    font-size: 25px;
+    display: block;
+    color: #fff;
+    text-transform: none;
+    letter-spacing: 0.8px;
+}
+.welcome-area p {
+    color: #F0FFF7;
+    font-size: 15px;
+    line-height: normal;
+    font-family: "Roboto";
+    text-align: center;
+    margin-top: 15px;
+}
+.video-img {
+    position: relative;
+    background-image: url('../images/screen.png');
+    background-size: 100%;
+    padding: 0px 0px 167px 0px;
+    background-repeat: no-repeat;
+}
+.video-img .video {
+    margin: 10px;
+    width: calc(100% - 20px);
+    height: 282px;
+    overflow: hidden;
+    display: inline-block;
+}
+.entry .entry-content .privacy-policy,
+.entry .entry-content .registration-form {
+    max-width: 100%;
+}
+.registration-form ul {
+    padding: 0px;
+}
+.registration-form ul li {
+    width: 100%;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+.registration-form ul li label {
+    font-family: "Roboto";
+    display: block;
+    font-size: 15px;
+    margin-bottom: 3px;
+}
+.registration-form ul li input[type="text"], .registration-form ul li input[type="email"], .registration-form ul li input[type="tel"], .registration-form ul li input[type="password"], .registration-form ul li input[type="number"], textarea {
+    width: 100%;
+    border: 1px solid #EBEBEB;
+    border-radius: 5px;
+    height: 50px;
+    font-size: 15px;
+}
+.registration-form h2 {
+    margin-top: 0px;
+    color: #2B2B2B;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 45px;
+}
+.registration-form h2::before, .welcome-area h1::before, .welcome-area h1:not(.site-title):before, h2:before {
+    display: none;
+}
+.form-registration {
+    padding: 50px;
+}
+.registration-form input.primary-btn, input.primary-btn, a.primary-btn {
+    background-color: #00C962;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    padding: 0px;
+    margin-top: 40px;
+    font-size: 15px;
+    font-weight: 700;
+}
+.registration-form input.primary-btn:hover, input.primary-btn:hover, a.primary-btn:hover {
+    background-color: #2A3958;
+}
+.submit-area input.primary-btn {
+    width: 168px;
+}
+.entry .entry-content .registration-form.billing {
+    background-image: url('../images/billing-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    width: 100%;
+    padding: 80px 120px;
+    text-align: center;
+}
+.inner-billing-form {
+    background-color: #fff;
+    margin-top: 70px;
+    padding: 50px;
+    text-align: left;
+}
+.form-registration.left-panel {
+    padding: 0px 40px 0px 0px;
+    height: 100%;
+    border-right: 1px solid #E5E5E5;
+}
+.form-registration.right-panel {
+    padding: 0px 0px 0px 10px;
+}
+.form-registration.right-panel h3 {
+    margin-top: 0px;
+    font-size: 20px;
+}
+.form-registration a.secondary-btn {
+    background-color: #8055AC;
+    height: 50px;
+    display: inline-block;
+    font-size: 15px;
+    width: 148px;
+    font-weight: 700;
+    line-height: 50px;
+    border-radius: 5px;
+    color: #fff;
+    margin-left: 10px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+.form-registration a.secondary-btn:hover {
+    background-color: #653d8e;
+}
+.form-registration ul li .radio span {
+    font-size: 15px;
+    line-height: 25px;
+    display: inline-block;
+    vertical-align: top;
+}
+.form-registration ul li .radio {
+    position: relative;
+    margin-bottom: 15px;
+}
+.radio input[type="checkbox"],
+.radio input[type="radio"] {
+    opacity: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 99;
+    cursor: pointer;
+}
+.radio label {
+    padding-left: 30px;
+    position: relative;
+}
+.radio label::before {
+    content: "";
+    height: 20px;
+    border: 2px solid #ccc;
+    width: 20px;
+    position: absolute;
+    top: 2px;
+    left: 0px;
+    border-radius: 100%;
+}
+.radio input[type="radio"]:checked + label::before,
+.radio input[type="checkbox"]:checked + label::before {
+    background-color: #00C962;
+    box-shadow: 0px 0px 0px 2px #fff inset;
+}
+.form-registration.right-panel h3.credit-card-title {
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+.registration-form .left-panel ul li {
+    padding-bottom: 20px;
+}
+.registration-form .right-panel input.primary-btn {
+    margin-top: 20px;
+}
+.submit-area input.primary-btn {
+    background-color: #00C962;
+    width: 168px;
+    margin: 0;
+    float: right;
+}
+.submit-area .row {
+    align-items: center;
+}
+.submit-area {
+    padding: 10px 0px 0px;
+}
+.privacy-policy h2 {
+    font-size: 30px;
+    font-weight: 600;
+}
+.entry-content.fullwidth {
+    max-width: 100% !important;
+    margin: 0px !important;
+    padding: 0px !important;
+}
+.top-strip {
+    background-color: #F6F6FA;
+    padding: 14px 25px;
+}
+.privacy-policy.fullwidth {
+    margin: 0px;
+}
+.page-title-area {
+    border-bottom: 1px solid #D7D7D7;
+    padding: 40px 0px;
+}
+.page-title-area h2 {
+    margin: 0px;
+}
+.page-title-area h2:before {
+    display: none;
+}
+.terms-condition {
+    background-color: #FAFAFA;
+    background-image: url(../images/billing-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.terms-condition > .inner-container {
+    background-color: #fff;
+    padding: 30px;
+}
+.inner-container {
+    background-color: #fff;
+    padding: 30px;
+    box-shadow: 0px 0px 9px #EEEEEE;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.terms-condition h3 {
+    font-size: 20px;
+    margin-top: 0px;
+}
+.entry .entry-content .registration-form.billing.landing-page {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.inner-landing-page {
+    padding: 100px;
+    justify-content: center;
+}
+.landing-page .form-registration.left-panel {
+    border: none;
+    padding: 0;
+}
+.landing-page .form-registration.left-panel::before {
+    content: "";
+    background-color: #485982;
+    height: 100%;
+    width: 1px;
+    right: 0px;
+    position: absolute;
+    top: 0px;
+}
+.landing-page .form-registration.right-panel {
+    padding: 0px;
+}
+.landing-page .form-registration input.primary-btn {
+    margin-top: 20px;
+    width: 220px;
+}
+.landing-page .form-registration input.primary-btn:hover {
+    background-color: #364569;
+}
+.error {
+    border-color: #ff0000 !important;
+}
+.error-msg {
+    color: #ff0000;
+    line-height: 36px;
+    display: inline-block;
+    font-size: 14px;
+}
+.visible-mobile {
+    display: none;
+}
+p.msg {
+    color: #fff;
+}
+body .entry .entry-content > *, body .entry .entry-summary > * {
+    max-width: 100%;
+}
+.entry .entry-content .privacy-policy, .entry .entry-content .registration-form, .entry .entry-content .registration-form.billing, .entry .entry-content .hide-panel {
+    display: none;
+}
+p.msg {
+    color: #fff;
+    margin: 0px 0px 10px;
+    background-color: #009200;
+    padding: 5px 10px;
+}
+
+
+/* ============================
+    Responsive Styles
+===============================*/
+@media (max-width: 1199px) {
+    .video-img {
+        padding: 0px 0px 130px 0px;
+    }
+    .welcome-area .video-img .video {
+        height: 222px;
+    }
+    .form-registration {
+        padding: 30px 20px;
+    }
+}
+@media (max-width: 1080px) {
+    .inner-landing-page {
+        padding: 100px 0px;
+    }
+}
+@media (max-width: 991px) {
+    .welcome-area .video-img .video {
+        height: 140px;
+    }
+    .video-img {
+        padding: 0px 0px 82px 0px;
+    }
+    .welcome-area h1 {
+        font-size: 40px;
+        margin-top: 30px;
+    }
+    .welcome-area h1 span {
+        font-size: 18px;
+    }
+    .form-registration {
+        padding: 0px 0px 10px;
+    }
+    .registration-form ul li input[type="text"], .registration-form ul li input[type="email"], .registration-form ul li input[type="tel"], .registration-form ul li input[type="password"], .registration-form ul li input[type="number"], textarea {
+        height: 35px;
+    }
+    .registration-form ul li label {
+        font-size: 12px;
+    }
+    .registration-form h2 {
+        font-size: 23px;
+        margin-bottom: 10px;
+    }
+    .form-registration.right-panel h3 {
+        font-size: 16px;
+    }
+    .inner-billing-form {
+        padding: 50px 30px;
+    }
+    .form-registration.left-panel {
+        padding-right: 30px;
+    }
+    .form-registration.right-panel {
+        padding: 0px;
+    }
+}
+@media (max-width: 850px) {
+    .entry .entry-content .registration-form.billing {
+        padding: 60px 50px;
+    }
+    .inner-billing-form {
+        margin-top: 40px;
+    }
+    .registration-form .right-panel input.primary-btn {
+        margin-top: 10px;
+    }
+}
+@media (max-width: 800px) {
+    .entry .entry-content .registration-form.billing.landing-page {
+        padding: 80px 10px;
+    }
+}
+@media (max-width: 767px) {
+    .welcome-area {
+        padding: 60px 20px;
+    }
+    .welcome-area .video-img .video {
+        height: 125px;
+    }
+    .video-img {
+        padding: 0px 0px 74px 0px;
+    }
+    .welcome-area h1 {
+        font-size: 28px;
+        margin-top: 20px;
+    }
+    .welcome-area h1 span {
+        font-size: 12px;
+    }
+    .registration-form ul li input[type="text"], .registration-form ul li input[type="email"], .registration-form ul li input[type="tel"], .registration-form ul li input[type="password"], .registration-form ul li input[type="number"], textarea {
+        height: 30px;
+        padding: 0px 5px;
+        border-radius: 3px;
+        font-size: 12px;
+    }
+    .registration-form ul li {
+        padding-bottom: 5px;
+    }
+    .registration-form ul li label {
+        margin-bottom: 0px;
+    }
+    .registration-form input.primary-btn, input.primary-btn {
+        margin-top: 10px;
+        height: 30px;
+        padding: 0px;
+        line-height: 30px;
+        font-size: 12px;
+    }
+    .welcome-area p {
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .submit-area input.primary-btn {
+        float: left;
+    }
+    .entry .entry-content .registration-form.billing .container {
+        max-width: 100%;
+    }
+    .form-registration a.secondary-btn {
+        height: 30px;
+        padding: 0px;
+        line-height: 30px;
+        border-radius: 3px;
+        font-size: 13px;
+    }
+}
+@media (max-width: 575px) {
+    .landing-page .form-registration.left-panel::before {
+        display: none;
+    }
+    .welcome-area .video-img .video {
+        height: calc(100% - 40%);
+        position: absolute;
+        top: 0px;
+    }
+    .video-img {
+        background-image: none !important;
+        padding: 0px 0px 0px 0px;
+    }
+    .form-registration {
+        padding: 20px 0px;
+    }
+    .visible-mobile {
+        display: block;
+    }
+    .submit-area input.primary-btn {
+        line-height: 30px;
+        padding: 0px;
+        width: 110px;
+    }
+    .form-registration.left-panel {
+        padding: 0px;
+        border: none;
+    }
+    .entry .entry-content .registration-form.billing {
+        padding: 60px 10px;
+    }
+}
+@media (max-width: 420px) {
+    .inner-landing-page {
+        padding: 40px 0px 0px;
+    }
+    .welcome-area .video-img .video {
+        height: calc(100% - 44%);
+    }
+}

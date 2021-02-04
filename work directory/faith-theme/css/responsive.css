@@ -1,0 +1,639 @@
+/*============		Media 768Px Start	============ */
+@media (min-width: 768px) and (max-width: 991px) {
+	.wrapper_boxed{
+		width:750px;
+		overflow:hidden;
+	}
+	.container{
+			width:750px;
+	}
+	#logo,
+	.element_size_75{
+		margin-bottom:20px;
+	}
+	#rightheader{
+		width:auto;
+	}
+	.gallery.gallery-list .cycle-slideshow article{
+		width:214px;
+	}
+	nav.navigation > ul > li > a{
+		padding:0 6px;
+	}
+	.widget_newsletter form{
+		width:55%;
+	}
+	#footer-widgets .widget_newsletter label{
+		width:69.2%;
+	}
+	#footer-widgets .widget_newsletter form input.btn{
+		width:115px;
+	}
+	.col-md-9 ul.products li.product, .col-md-9 ul.products li.product{
+		width:49.1%;
+	}
+	.col-sm-3,
+	.services article a h5,
+	.element_size_75,
+	.element_size_25,
+	.services article a{
+		width:100%;
+	}
+	.bottom-event li{
+	padding-left:0;
+	float:left;
+	width:100%;
+	}
+	.gallery.gallery-list .cs-galleryablum-grid article{
+		width:30.3%;
+	}
+	figure.image-shortcode{
+		width:245px !important;
+	}
+	.element_size_ iframe{
+		width:100% !important;
+	}
+	.services,
+	.services article a h5{
+		padding-left:0;
+	}
+	.services article a i{
+		float:none;
+	}
+	.services article{
+		text-align:center;
+	}
+	.services article a{
+		float:left;
+		padding-top:22px;
+	}
+	.our_staff ul li{
+		width: 22%;
+	}
+}
+
+/*============		Media 420Px Start	============ */
+@media (max-width: 767px) {
+	.wrapper_boxed{
+		width:450px;
+		overflow:hidden;
+	}
+	.container{
+		width:420px;
+	}
+	.navigation  .selectnav{
+		height:27px;
+		border-radius:3px;
+	}
+	#menuwrapper.scroll-to-fixed-fixed{
+		display:none;
+	}
+	#logo{
+		margin-bottom:15px;
+	}
+	#logo, #logo img{
+		float:none;
+		text-align:center;
+	}
+	.element_size_25,
+	.element_size_75,
+	.element_size_50,
+	.selectnav,
+	#banner img,
+	.service-dropdown,
+	.service-dropdown .widget,
+	.ticker-wrapp,
+	.blog.blog-grid article,
+	.widget_newsletter form,
+	#comments .text header,
+	.bottom-comment,
+	.event-map-address .map-section,
+	.event-address-section,
+	#rightheader,
+	#banner,
+	img.aligncenter, img.alignright,
+	.pagenone .password_protected form,
+	.col-md-9 ul.products li.product, .col-md-9 ul.products li.product,
+	.col-sm-3,
+	.product .images,
+	.product .summary,
+	.woocommerce ul.products li.product, .woocommerce-page ul.products li.product,
+	.gallerysec .gallery-two-col li,
+	.tabs.vertical .nav-tabs li, .tabs.horizontal .nav-tabs li,
+	.twitter_sign .flexslider,
+	.twitter_sign figure,
+	.cart-collaterals ul.products,
+	.woocommerce .cart-collaterals .cart_totals,
+	.woocommerce .cart-collaterals .shipping_calculator,
+	.woocommerce .col2-set .col-1, .woocommerce-page .col2-set .col-1,
+	.woocommerce-page .col2-set .col-2{
+		width:100%;
+	}
+	.bottom-comment{
+		float:left;
+	}
+	#logo h4{
+		padding-left:0;
+	}
+	nav.navigation{
+		padding:10px;
+	}
+	.service-dropdown .widget{
+		padding:0 15px 0 15px;
+	}
+	.ticker-wrapp{
+		margin-top:52px;
+		margin-left:0;
+	}
+	.ticker-controls{
+		top:-47px;
+	}
+	.twitter_sign .flexslider,
+	.blog.blog-grid article,
+	.bottom-comment{
+		margin-left:0;
+	}
+	#footer-widgets .widget .followus a{
+		width:32%;
+		margin-bottom:15px;
+	}
+	#footer-widgets .widget_newsletter form input[type="text"]{
+		width:100%;
+		margin-bottom:10px;
+	}
+	.gallery.gallery-list .cycle-slideshow article{
+		width:188px;
+	}
+	.twitter_sign .flexslider{
+		overflow:hidden;
+	}
+	#searchbox{
+		width:391px;
+		z-index:9999;
+	}
+	#searchbox input{
+		width:329px;
+	}
+	.blog.blog-large-view article .text form input[type="password"]{
+		width:100%;
+		margin-bottom:10px;
+	}
+	.pagination > ul > li.next a{
+		margin-left:0;
+	}
+	.pagination > ul > li{
+		margin-bottom:5px;
+		float:left;
+	}
+	#respond form span{
+		margin:8px 0 0 0;
+	}
+	#respond form span{
+		margin:8px 0 0 9px;
+	}
+	#comments ul li{
+		margin-bottom:10px;
+	}
+	.event-map-address{
+		height:auto;
+	}
+	.event-address-section{
+		padding: 0 15px 0 15px;
+	}
+	.event-listing article figure,
+	figure.image-shortcode,
+	.shortgrid,
+	.element_size_ iframe{
+		width:100% !important;
+		margin-left:0 !important;
+	}
+	.bottom-event li address{
+		float:left;
+	}
+	.cs-options-panel a{
+		margin-bottom:5px;
+	}
+	.top-header-panel{
+		margin-bottom:20px;
+	}
+	#mainheader{
+		height:auto;
+	}
+	.top-header-panel{
+		text-align:center;
+	}
+	.top-header-panel ul{
+		display:inline-block;
+		margin:0;
+	}
+	#footer-widgets .widget_newsletter label{
+		width:65%;
+	}
+	#footer-widgets .widget_newsletter form input.btn{
+		width:135px;
+	}
+	#footer-widgets .followus a{
+		width:94px;
+		margin:0 0 10px 0;
+	}
+	.caption{
+		display:none;
+	}
+	#logo > a {
+    float: left;
+    width: 100%;
+	}
+	#logo h4{
+		position:relative;
+		left:25%;
+	}
+	.bottom-header-panel {
+    float: none;
+    position: relative;
+    left: -22%;
+	}
+	.subtitle {
+		text-align: center;
+	}
+	.bottom-event li{
+		padding-left:0;
+		float:left;
+		width:100%;
+	}
+	#comments .thumblist figure{
+		margin:0 18px 0 0;
+	}
+	.event-detail-top .bottom-event{
+		float:left;
+	}
+	.about-author figure{
+		margin:0 0 10px;
+	}
+	.gallery.gallery-list .cs-galleryablum-grid article{
+		width:47%;
+	}
+	.services article{
+		width:101%;
+		margin:0px 0 2px -2px;
+	}
+	#banner{
+		margin-bottom:2px;
+	}
+	.twitter_sign figure{
+		margin-bottom:20px;
+	}
+	.bottom-event li .btn{
+		margin:0 0 15px 0;
+	}
+	.sermons.sermons-detail .cs-options-panel a{
+		float:left !important;
+	}
+	.woocommerce table.shop_table th{
+		padding:9px 4px;
+	}
+	.cart .quantity input[type="number"]{
+		margin-left:0;
+	}
+	.our_staff ul li{
+		width: 45%;
+	}
+	.tabs.vertical .nav-tabs,
+	.tabs.vertical .tab-content{
+		width: 100%;
+		position: inherit;
+	}
+	.tabs.vertical .tab-content{
+		border: 1px solid #DEDEDE;
+	}
+}
+
+/*============		Media 300Px Start	============ */
+@media (max-width: 480px) {
+	.wrapper_boxed{
+		width:310px;
+	}
+	.container{
+		width:300px;
+	}
+	#logo{
+		margin-bottom:15px;
+	}
+	#logo, #logo img{
+		float:none;
+		text-align:center;
+	}
+	.element_size_25,
+	.element_size_75,
+	.element_size_50,
+	.selectnav,
+	#banner img,
+	.service-dropdown,
+	.service-dropdown .widget,
+	.ticker-wrapp,
+	.blog.blog-grid article,
+	.widget_newsletter form,
+	.about-author figure,
+	#comments .text header,
+	.bottom-comment,
+	.event-detail .detail-text img,
+	.event-map-address .map-section,
+	.event-address-section,
+	#rightheader,
+	#banner,
+	img.aligncenter,
+	img.alignright,
+	.pagenone .password_protected form,
+	.product .images,
+	.product .summary,
+	.woocommerce ul.products li.product, .woocommerce-page ul.products li.product,
+	.cs-prayer a.cs-encourage, .pray-this, span.prayed,
+	.gallery.gallery-list .cs-galleryablum-grid article,
+	.twitter_sign .flexslider,
+	.twitter_sign figure,
+	.cs-donation-form .modal-footer .donate-btn{
+		width:100%;
+	}
+	.bottom-comment{
+		float:left;
+	}
+	#logo h4{
+		padding-left:0;
+	}
+	.service-dropdown .widget{
+		padding:0 15px 0 15px;
+	}
+	.ticker-wrapp{
+		margin-top:52px;
+		margin-left:0;
+	}
+	.ticker-controls{
+		top:-47px;
+	}
+	.twitter_sign .flexslider,
+	.blog.blog-grid article,
+	.about-author .text,
+	.bottom-comment{
+		margin-left:0;
+	}
+	#footer-widgets .widget .followus a{
+		width:32%;
+		margin-bottom:15px;
+	}
+	#footer-widgets .widget_newsletter form input[type="text"]{
+		width:100%;
+		margin-bottom:10px;
+	}
+	#banner li .caption,
+	.top-header-panel li:before{
+		display:none;
+	}
+	.gallery.gallery-list article{
+		width:246px;
+	}
+	.twitter_sign .flexslider{
+		overflow:hidden;
+	}
+	#searchbox,
+	.blog.blog-large-view article .text form input[type="password"]{
+		width:271px;
+	}
+	#searchbox input{
+		width:209px;
+	}
+	.blog.blog-large-view article .text form input[type="password"]{
+		margin-bottom:10px;
+	}
+	.pagination > ul > li.next a{
+		margin-left:0;
+	}
+	.pagination > ul > li{
+		margin-bottom:5px;
+		float:left;
+	}
+	.cs-post-top-section:before{
+		top:44%;
+	}
+	.share-post a,
+	#comments ul li{
+		margin-bottom:10px;
+	}
+	#respond form span{
+		margin:8px 0 0 9px;
+	}
+	.event-map-address{
+		height:auto;
+	}
+	.event-address-section{
+		padding: 0 15px 0 15px;
+	}
+	.event-listing article figure,
+	.shortgrid,
+	figure.image-shortcode{
+		width:100% !important;
+		margin-left:0 !important;
+	}
+	.bottom-event li address{
+		float:left;
+	}
+	.cs-options-panel a{
+		margin-bottom:5px;
+	}
+	.top-header-panel{
+		margin-bottom:20px;
+	}
+	#mainheader{
+		height:auto;
+	}
+	.caption{
+		display:none;
+	}
+	#logo > a {
+    float:left;
+    width:100%;
+	}
+	.bottom-header-panel {
+		float: none;
+		left:-8px;
+		position: relative;
+	}
+	#logo h4 {
+		position: relative;
+	}
+	#footer-widgets .widget_newsletter label {
+		width: 60%;
+	}
+	#footer-widgets .widget_newsletter form input.btn {
+		width: 108px;
+	}
+	#process_newsletter_1{
+		display:none;
+	}
+	.subtitle {
+		text-align: center;
+	}
+	#respond form p input[type="text"]{
+		width:74.2%;
+	}
+	.bottom-event li .btn{
+		margin:0 0 15px 0;
+	}
+	.cs-filter{
+		margin-left:-3px;
+	}
+	.cs-filter li{
+		margin-left:3px;
+	}
+	.cs-filter li:first-child{
+		margin-left:5px;
+	}
+	.cs-filter li a{
+		padding:0 10px;
+	}
+	.cs-prayer .linking{
+		width:68%;
+	}
+	.pray-this, span.prayed{
+		margin-bottom:5px;
+		padding:5px 11px;
+	}
+	.cs-prayer a.cs-encourage{
+		padding: 5px 11px;
+	}
+	.post-prev, .post-next{
+		width:48%;
+	}
+	.post-next{
+		margin-left:10px;
+		padding:0 0 0 15px;
+	}
+	.post-prev .text a span, .post-next .text a span{
+		padding:4px 12px;
+	}
+	.parallaxbg.cs-next-event h5{
+		margin:0;
+		padding:5px 0 0 0;
+	}
+	.parallaxbg.cs-next-event h2{
+		font-size:27px;
+	}
+	header.cs-heading-title{
+		text-align:center;
+	}
+	header.cs-heading-title h2{
+		float:none;
+		margin-bottom:10px;
+	}
+	.cs-heading-title .float-left{
+		float:none !important;
+	}
+	.cs-btnviewall{
+		left:-32%;
+		padding-bottom: 5px;
+		position: relative;
+	} 
+	#comments .thumblist figure{
+		margin:0 18px 0 0;
+	}
+	.event-detail-top .bottom-event{
+		float:left;
+	}
+	.about-author figure{
+		margin:0 0 10px;
+	}
+	.gallery.gallery-list .cycle-slideshow article{
+		width:240px;
+	}
+	.center a{
+		margin-top:0;
+	}
+	.shortgrid{
+	}
+	.gallerysec ul li figure figcaption i{
+		width:40px;
+		height:40px;
+		line-height:15px;
+		margin:-19px 0 0 -20px
+	}
+	.gallerysec .gallery-three-col li i{
+		margin:-24px 0 0 -25px !important;
+	}
+	.twitter_sign figure{
+		margin-bottom:20px;
+	}
+	.services article{
+		width:101%;
+		margin:0px 0 2px -2px;
+	}
+	#banner{
+		margin-bottom:2px;
+	}
+	.top-header-panel li{
+		float:none;
+	}
+	.woocommerce table.shop_table th{
+		padding:9px 4px;
+	}
+	.cart .quantity input[type="number"]{
+		margin-left:0;
+	}
+	.cs-donation-form .modal-dialog{
+		width:287px;
+		margin-top:50px;
+	}
+	.cs-donation-form .modal-footer label{
+		margin-bottom:10px;
+	} 
+	.blog article > figure > figcaption i,
+	.blog article > figure:hover > figcaption i{
+		margin:-21px 0px 0px -15px;
+	}
+	.widget_gallery ul li, .widget_gallery ul li a, .widget_gallery ul li a img{
+		width: 61px;
+		height: 61px;
+	}
+	.blog article.cls-post-audio figure, .blog article.cls-post-video figure{
+		height: 93px;
+	}
+	.col-md-12 .blog.blog-grid article.cls-post-audio figure, .col-md-12 .blog.blog-grid article.cls-post-video figure{
+		height: auto;
+	}
+	.our_staff ul li{
+		width: 100%;
+		margin: 0px;
+		padding: 0px 0px 0px 20px;
+	}
+}
+
+/*============	   Media 940Px Start	============ */
+@media screen and (min-width: 992px) and (max-width: 1199px){
+	.widget_newsletter form{
+		width:55%;
+	}
+	#footer-widgets .widget_newsletter label{
+		width:69.2%;
+	}
+	#footer-widgets .widget_newsletter form input.btn{
+		width:115px;
+	}
+	nav.navigation > ul > li > a{
+		padding:0 17px;
+	}
+	.gallery.gallery-list .cycle-slideshow article{
+		width:214px;
+	}
+	.element_size_75{
+		margin-bottom:20px;
+	}
+	.element_size_75,
+	.element_size_25,
+	.services article a{
+		width:100%;
+	}
+	.services{
+		padding-left:0;
+	}
+	.services article a{
+		float:left;
+		padding-top:22px;
+	}
+}

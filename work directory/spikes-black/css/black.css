@@ -1,0 +1,1569 @@
+@charset "utf-8";
+/*-------- Black Color Css --------*/
+body{
+	background-color: #000;
+	color: #666666;
+}
+.wrapper{
+  background-color: rgba(0,0,0,0.90);
+}
+a,
+.latest-video article figure figcaption h2 a,
+.woocommerce-page .products .price .amount,
+.wrapper-payerlsit li a.jp-playlist-item,
+.price-style3 .pricing-box .price h1,
+.testimonial-v3 p.author-name strong,
+.testimonial-v4 p.author-name strong,
+.team-shortcode article .text span,
+.price-style3 .pricing-box h1 span,
+.new-releases article .text h2 a,
+.latest-video article .text time,
+.commentlist li .meta strong,
+.thumblist .text header h6 a,
+.team-shortcode article h4,
+.about-author .text h2 a,
+.detail_text strong,
+.team-v2 .text h4,
+.language-sec p,
+.pagenone h1,
+blockquote{
+  color: #cccccc;
+}
+ul, li,
+h1,h2,h3,h4,h5,h6,
+.navigation > ul > li.current-menu-ancestor > ul > li.current_page_item > a,
+.navigation > ul > li.current-menu-ancestor > ul > li.current-menu-item > a,
+.wrapper-payerlsit li a.jp-playlist-item.jp-playlist-current .jp-artist,
+.pagenone .password_protected form label input[type="submit"],
+#lang_sel_list.lang_sel_list_vertical ul li a.lang_sel_sel,
+.pagenone .password_protected form .search-icon:after,
+.latest-video article:hover figure figcaption h2 a,
+.releases-four-coll article figure figcaption a,
+.navigation > ul > li.current-menu-ancestor > a,
+.team-shortcode article.team-v4:hover .text h4,
+.team-shortcode article.team-v4:hover .text h5,
+.album_share_post.share_post .social-network a,
+.password_protected form .before-icon:before,
+.navigation > ul > li.current_page_item > a,
+.widget-newslatter form input[type="submit"],
+/*-------- Woocommerce Css --------*/
+.woocommerce ul.products li.product .add_to_cart_button,
+.product .summary .cart .single_add_to_cart_button,
+.woocommerce ul.products li.product figcaption p,
+.woocommerce-page ul.products li.product h3,
+.woocommerce-page #payment div.payment_box p,
+.woocommerce ul.products li.product h3,
+.cart .quantity input[type="button"],
+.cart .quantity input[type="number"],
+.woocommerce a.button.alt,
+.woocommerce-page a.button.alt,
+.woocommerce button.button.alt,
+.woocommerce-page button.button.alt,
+.woocommerce input.button.alt,
+.woocommerce-page input.button.alt,
+.woocommerce #respond input#submit.alt,
+.woocommerce-page #respond input#submit.alt,
+.woocommerce #content input.button.alt,
+.woocommerce-page #content input.button.alt,
+.woocommerce-message:before,
+.woocommerce-error:before,
+.woocommerce-info:before,
+.woocommerce a.button,
+.woocommerce-page a.button,
+.woocommerce button.button,
+.woocommerce-page button.button,
+.woocommerce input.button,
+.woocommerce-page input.button,
+.woocommerce #respond input#submit,
+.woocommerce-page #respond input#submit,
+.woocommerce #content input.button,
+.woocommerce-page #content input.button,
+.woocommerce-page .add_to_cart_button,
+.panel.entry-content h2,
+.woocommerce a.button,
+.product .summary h1,
+.upsells.products h2,
+.related.products h2,
+.cart_totals h2,
+.shipping_calculator h2 a,
+.woocommerce-message,
+.woocommerce-error,
+.woocommerce-info,
+.cross-sells h2,
+.col-1 h3, .col-2 h3,
+#order_review_heading,
+.onsale,
+/*-------- Woocommerce Css --------*/
+.widget_product_search input[type="text"],
+.widget_categories ul li:hover a:before,
+.widget_recent_entries ul li:hover,
+.widget_recent_entries ul li:hover,
+.widget_recent_comments ul li:hover,
+.widget_recent_entries ul li:hover a,
+.widget_recent_entries ul li:hover a,
+.widget_recent_comments ul li:hover a,
+.widget_price_filter .price_label,
+.widget_categories ul li:hover a,
+.widget_categories ul li:hover,
+.widget_archive ul li:hover a,
+.widget_links ul li:hover a,
+.widget_archive ul li:hover,
+.widget_links ul li:hover,
+.widget_meta ul li:hover,
+.widget_meta ul li:hover a,
+.widget_pages ul li a:hover,
+.widget_nav_menu ul li a:hover,
+.widget ul li:hover a:before,
+.product-categories li:hover,
+.product-categories li:hover a,
+.widget_layered_nav ul li:hover,
+.widget_layered_nav ul li:hover a,
+.widget_price_filter .price_slider_amount > input,
+.widget_product_search input[type="submit"],
+.team-shortcode article.team-v4:hover .text p,
+.price-style3 .pricing-box h6.heading-color,
+.price-style1 .pricing-box h6.heading-color,
+#footer-widgets .widget_text .postel-text p,
+.team-shortcode article .social-network > a,
+.woocommerce-pagination ul li:hover span,
+.woocommerce-pagination ul li:hover span,
+.widget_search form input[type="submit"],
+.albums-list article figure figcaption i,
+.map-caption ul li i, .calendar-link i,
+.password_protected .protected-icon a i,
+.header-6 .navigation ul  li:hover > a,
+.minus-column .post-211 a.no-img:after,
+#respond form p input[type="submit"],
+.detail-cover-style figure figcaption,
+.main-detail p input[type="submit"],
+.price-style1 .pricing-box h1 span,
+.latest-video article:hover .text a,
+header #lang_sel_list a.lang_sel_sel,
+.sociol-icons ul li .icon-detail span,
+.sociol-icons ul li .icon-detail big,
+.widget-event article:hover .text time,
+.widget-event article:hover .text i,
+.price-style2 .plan-header .price h1,
+.event.event-view-2 article figure,
+.gig-images div figure figcaption a,
+.woocommerce-pagination ul li span,
+header #lang_sel_list ul a:hover,
+.share_post .social-network span,
+.massegebox .info-text header h5,
+.navigation > ul > li:hover > a,
+.latest-news article .text h2 a,
+.widget-event article .text h2 a,
+.widget_product_tag_cloud a:hover,
+.text-widget .cs-section-title,
+.copyright .social-network a i,
+.share_post .social-network a,
+.panel-primary>.panel-heading,
+.event article .text ul li i,
+.detail-cover-style .text h2,
+.pricing-box h6.heading-color,
+.plan-header .price h1 small,
+.flex-direction-nav a:before,
+.widget_tag_cloud a:hover,
+#wp-calendar tfoot a:hover,
+.detail-cover-style .text a,
+.fc-event-title.cs-fullbook,
+#wp-calendar tfoot a:hover,
+.pagination ul li a.active,
+.pagination ul li:hover a,
+.event article .text h2 a,
+.fc-event-title.cs-buynow,
+.fc-event-title.cs-cancel,
+.dropcaptwo:first-letter,
+.fc-content thead tr th,
+.dropcap p:first-letter,
+.fc-event-title.cs-free,
+#respond form p #submit,
+.map-marker, .play-icon,
+.no-img figure a:before,
+.page-links span:hover,
+h3.comment-reply-title,
+.welcome-area .text h1,
+.table thead > tr > th,
+.plan-header .price h1,
+#wp-calendar tbody td a,
+.dropcap:first-letter,
+.price-style2 .price,
+.navigation ul li a,
+.comment-edit-link,
+.cs-heading-title h2,
+.booking-checkbox h2,
+.left-area header h2,
+.pagenone h5:before,
+.comment-reply-link,
+.fc-header-title h2,
+.map-caption ul li,
+.lightbox header h2,
+.artist-sec ul li a,
+.artist-caption span,
+.pricing-box h1 span,
+#wp-calendar caption,
+#wp-calendar caption,
+.message_box .close,
+h2.section-title > a,
+.cart-secc a.amount,
+.blogimg-hover a i,
+.blog-text .text i,
+.social-network h5,
+.jp-playlist-icon,
+.sortby ul li a,
+.calendar-link a,
+.cs_shop_wrap h1,
+.page-links span,
+.audio-control a,
+.jp-current-time,
+.blog-date time,
+.woocommerce h2,
+.button_large,
+.jp-duration,
+.text-info p,
+.post-btn a i,
+.subtitle h1,
+.medium-time,
+.cart-secc i,
+.loadmore a,
+.caption h1,
+.bay-album,
+.caption a,
+.button a,
+.sharenow,
+.gotop i,
+#midarea,
+.price,
+#tv
+{
+  color: #ffffff;
+}
+p,
+.postlist.blog.blog-medium-view .post-options li:before,
+.chzn-container-single .chzn-single div b:before,
+.sociol-icons ul li .icon-detail .text-icon p,
+#footer-widgets .widget_text .text-info ul li p,
+#lang_sel_list.lang_sel_list_vertical ul a,
+.toggle-sectn.panel-default>.panel-heading,
+.team-shortcode article.team-v2 .text span,
+header #lang_sel_list_list ul a:visited,
+.widget-latestnews article .text a,
+.woocommerce form .form-row select,
+.woocommerce-page .star-rating span,
+.main-detail p input[type="text"],
+header #lang_sel_list ul a,
+#lang_sel_list_list ul a:visited,
+.panel-default>.panel-heading,
+.widget_categories ul li a,
+.widget_archive ul li a,
+.widget_recent_entries ul li a,
+.widget_recent_entries ul li a,
+.widget_recent_comments ul li a,
+.widget_links ul li a,
+.widget_meta ul li a,
+.product-categories li a,
+.widget_layered_nav ul li a,
+.woocommerce-pagination ul li a,
+.latest-video article .text a,
+.comment-reply-title small a,
+.album-detail .jp-playpause em,
+.woocommerce .star-rating span,
+.pricing-box .plan-inside ul li,
+.widget-latestnews article .text,
+.widget_categories ul li,
+.widget_archive ul li,
+.widget_recent_entries ul li,
+.widget_recent_entries ul li,
+.widget_recent_comments ul li,
+.widget_links ul li,
+.widget_meta ul li,
+.product-categories li,
+.widget_layered_nav ul li,
+.album-detail .title-song,
+.rich_editor_text h5,
+.main-detail p span,
+.main-detail p textarea,
+.widget_tag_cloud a,
+.widget_product_tag_cloud a,
+.artist-sec ul li,
+#respond form label,
+.text-info ul li span,
+.password_protected h3,
+.blog-text .text h2 a,
+.list_styles ul li i,
+.pagination ul li a,
+.fc-state-default,
+.welcome-quote p,
+.logged-in-as a,
+.decimal > li,
+.icons > li,
+.jp-artist,
+.tick > li,
+.fc-event
+{
+	color: #999999;
+}
+#footer-widgets .widget_text .text-info ul li span,
+.pagenone .password_protected form label:before,
+.pagenone .password_protected form label input[type="text"],
+.password_protected form label input[type="text"],
+.sociol-icons ul li .icon-detail .text-icon a,
+.detail-cont-right .countdownit .countdown_section,
+.widget-tab .horizontal .nav-tabs .active a,
+.testimonial-v1 .testimonial-box blockquote,
+.testimonial-v2 .testimonial-box blockquote,
+.testimonial-v3 .testimonial-box blockquote,
+.testimonial-v4 .testimonial-box blockquote,
+.testimonial-v5 .testimonial-box blockquote,
+.testimonial-v6 .testimonial-box blockquote,
+.widget-newslatter form input[type="text"],
+.team-shortcode article.team-v2 h3 a,
+.rich_editor_text .code-element pre,
+.tabs.horizontal .nav-tabs > li > a,
+.widget-tab .nav-tabs > li > a,
+.event article .text ul li a,
+.album-detail .jp-current-time,
+.horizontal .tab-content strong,
+.twitter_sign p.twitter-follow a,
+.vertical .tab-content strong,
+.tabs.vertical .nav-tabs a,
+.team-shortcode article h5,
+.album-detail .jp-jptime,
+.text-info .postel-text p,
+.tables-code tr:hover td,
+.booking-checkbox label,
+.main-detail select
+.pagenone h5,
+.text-widget p,
+.text-info p i,
+.text-info ul li i,
+.text-info ul li p,
+.text-info ul li p,
+.text-info ul li:before,
+.read-loc ul li,
+.read-loc ul li a,
+.table tbody tr td,
+.detail-sec ul li,
+.detail-sec ul li a,
+.detail-listing p,
+.detail-listing p a,
+.blog-date span,
+blockquote p a,
+.follow-tweet,
+.subtitle p,
+#midarea p
+{
+	color: #666666;
+}
+
+.audio-plyer{
+  background-color: #26292b;
+}
+.audio-plyer .jp-playlist-icon,
+.audio-plyer .audio-control {
+  border-color: #2e3133;
+}
+.wrapper-payerlsit:after{
+  border-color: transparent transparent #282b2e transparent;
+}
+.jp-volume-bar{
+	background: #c2c2c2;
+}
+.jp-playlist .wrapper-payerlsit li a{
+  border-color: #414345;
+}
+.volume-wrap {
+  background: #efefef;
+}
+.password_protected form label input[type="text"],
+.widget-newslatter form input[type="submit"],
+.main-detail p input[type="text"],
+.album-detail .jp-type-playlist .audio-control,
+.detail-cover-style .text a,
+.panel-group .panel-default,
+.main-detail p textarea,
+.event article figure,
+.album-detail .jp-type-playlist .jp-gui,
+.toggle-sectn.panel,
+.main-detail select,
+#main .bay-album,
+#main .post-btn a,
+.jp-seek-bar,
+.pricing-box,
+.button_large,
+.sharenow,
+.view-all,
+#calendar{
+	border-color: #0b0b0b;
+}
+.woocommerce-page ul.products li.product,
+.woocommerce ul.products li.product,
+.woocommerce-pagination ul li span,
+.woocommerce-pagination ul li a,
+.new-releases article .text h2,
+.new-releases article .text,
+.price-style3 .pricing-box,
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus,
+.pagination ul li a,
+.blog-text,
+.blog-date{
+  background-color: #0b0b0b;
+}
+.center a{
+  box-shadow: 0px 0px 1px 1px #0b0b0b inset;
+}
+.widget-newslatter form input[type="text"]{
+	border-color: #333333;
+}
+.widget-newslatter form input[type="submit"],
+.detail-cover-style .text a,
+.page-links span{
+  background-color: #333333;
+}
+#respond form p.comment-form-author label:before,
+#respond form p.comment-form-email label:before,
+#respond form p.comment-form-website label:before,
+#respond form p.comment-form-subject label:before,
+#respond form p.comment-form-phone label:before,
+.tabs.horizontal .nav-tabs .active a,
+.tabs.vertical .nav-tabs .active a,
+.widget_categories ul li a:before,
+.product-categories li a:before,
+#respond form p span a,
+#respond form p span,
+.tagcloud a{
+  color:#333333;
+}
+.detail-cover-style .text a{
+  box-shadow: 0px 1px 0px 0px #13100f;
+}
+.main-detail p input[type="text"],
+.main-detail p textarea{
+  box-shadow: 0px 2px 1px 0px #050505 inset, 0px 1px 0px 0px #1f1e1c;
+}
+.woocommerce form .form-row input.input-text,
+.woocommerce form .form-row textarea,
+.woocommerce-page form .form-row input.input-text,
+.woocommerce-page form .form-row textarea,
+.woocommerce table.cart td.actions .coupon .input-text,
+.woocommerce-page table.cart td.actions .coupon .input-text,
+.woocommerce #content table.cart td.actions .coupon .input-text,
+.woocommerce-page #content table.cart td.actions .coupon .input-text,
+.woocommerce form .form-row input[type="text"],
+.woocommerce form .form-row input[type="password"],
+.woocommerce form .form-row input[type="email"],
+textarea,
+.woocommerce form .form-row select,
+.main-detail p input[type="text"],
+#respond form input[type="text"],
+.main-detail p textarea,
+.main-detail select{
+  background-color: #101010;
+}
+.view-all{
+  box-shadow: 0px 1px 0px #101010;
+}
+.price-style2 .pricing-box h6.heading-color:before,
+.password_protected form label input[type="text"],
+.latest-video article figure figcaption,
+.team-shortcode article.team-v2:hover,
+.search-sec form input.search-btn,
+.share_post .social-network,
+.booking-checkbox{
+  background-color: #000;
+}
+.pagenone .password_protected form label input[type="text"]{
+	background: #000;
+}
+.password_protected .password-content{
+  box-shadow:0 0 3px 1px #000;
+}
+.password_protected .password-content,
+.widget-event article .text,
+.sociol-icons ul li,
+.album_share_post,
+.product .summary,
+.about-author{
+	background-color:#0e0e0e;
+}
+#main .woocommerce-main-image img,
+#main .woocommerce-main-image img,
+#main .images .thumbnails a {
+    border-color: #0e0e0e;
+}
+.woocommerce-page #payment,
+.testimonial-v5 figure,
+.testimonial-v6 figure,
+.testimonial-v5 span,
+.testimonial-v6 span,
+.woocommerce #payment {
+    background: #0e0e0e;
+}
+.price-style3 .price_featured .price,
+#main .password_protected .protected-icon,
+.fc-content thead tr th{
+	border-color: #000000;
+}
+.password_protected .protected-icon{
+    box-shadow: 0 10px 10px rgba(255, 255, 255, 0.2);
+}
+.password_protected .protected-icon{
+	background: #FF3400;
+}
+.main-detail select{
+  box-shadow: 0px 2px 1px 0px #050505 inset, 0px 1px 0px 0px #1f1e1c;
+}
+.main-detail .cs-heading-title h2,
+.main-detail .text{
+	border-color: #191919;
+}
+.sociol-icons ul li .icon-detail span{
+  background-color:#005992;
+}
+.sociol-icons ul li .icon-detail big{
+	background-color:#009BFF;
+}
+.woocommerce-page #payment ul.payment_methods,
+.woocommerce #payment ul.payment_methods,
+.text-widget{
+	border-color: #272727;
+}
+#midarea h1{
+  color: #272727;
+}
+#midarea .countdownit span.countdown_section,
+.blogimg-hover a,
+.frame4 img{
+	border-color: #ffffff;
+}
+.team-shortcode article.team-v4 .social-network a,
+.team-shortcode article.team-v4:hover .text h5:before,
+.circular-progressbar canvas,
+#wp-calendar thead,
+.map-shortcode,
+.readmore,
+.panel {
+	background-color:#ffffff;
+}
+.panel {
+	-webkit-box-shadow:0 1px 1px rgba(0, 0, 0, 0.05);
+	box-shadow:0 1px 1px rgba(0, 0, 0, 0.05);
+}
+#midarea .countdownit span.countdown_section {
+  box-shadow:0 0 1px #818181;
+}
+.latest-video article:hover .text,
+.no-img figure{
+  background-color: #2e2e2e;
+}
+.minus-column .post-211 a.no-img{
+  background:#2e2e2e;	  
+}
+.wrapper-payerlsit li:hover{
+  background-color: #1b1d1f;
+}
+.frm_error {
+    background: #380101 !important;
+}
+.detail-listing,
+.artist-sec ul{
+  background-color: rgba(28,28,28,0.8);
+}
+.woocommerce ul.products li.product .add_to_cart_button,
+.team-shortcode article.team-v4 .text h5:before,
+.team-shortcode article.team-v3 .text h5:before,
+.event.event-view-2 article figure,
+.team-v2 .text header p:before,
+.woocommerce a.button,
+.event-inn:after,
+.event:before,
+.event:after,
+.medium-time,
+a.cs-buynow,
+.map-marker,
+.play-icon,
+.bay-btn,
+.frame1{
+  background-color: #1d1d1d;
+}
+.welcome-quote i{
+  color: #1d1d1d;
+}
+.blog-text .text h2:before,
+.event-inn:before{
+  border-color: #1d1d1d;
+}
+.event-inn{
+  background-color: #121110;
+}
+.event article .text h2:before{
+  background-color: #323232;
+}
+.new-releases article .text h2:before,
+.widget_archive ul li,
+.widget_recent_entries ul li,
+.widget_recent_entries ul li,
+.widget_recent_comments ul li,
+.widget_nav_menu ul li a,
+.widget_pages ul li a,
+.widget_links ul li,
+#main .widget_meta ul li,
+#footer-widgets .widget_meta ul li,
+#wp-calendar tfoot a,
+.widget_tag_cloud a,
+#main .widget_product_tag_cloud a,
+#main #wp-calendar tbody td,
+#main #wp-calendar thead{
+  border-color: #323232;
+}
+.postlist.blog.blog-medium-view .post-options li,
+.latest-news article .text .category a,
+.widget-latestnews article .text p a,
+.widget-event article .text time,
+.new-releases article .text time,
+.latest-news article .text time,
+.event article .text ul li,
+.blog .post-options li,
+.post-options li span,
+.post-options li time,
+.post-options li a,
+.post-options li,
+.copyright p a,
+.copyright p{
+  color: #555555;
+}
+.center a{
+  background-color: #272525;
+}
+.woocommerce input.button, .woocommerce #respond input#submit,
+.woocommerce #content input.button, .woocommerce-page a.button,
+.woocommerce-page button.button, .woocommerce-page input.button,
+.woocommerce-page #content input.button, a.button, input.button,
+#midarea .countdownit span.countdown_section .countdown_amount,
+.woocommerce a.button, .woocommerce button.button,
+.woocommerce-page #respond input#submit,
+figure.image-shortcode figcaption h6,
+.price_featured .price h1 small,
+.price_featured .price h1,
+.price h1 small,
+.center a,
+a.cs-free,
+a.cs-cancel,
+a.cs-fullbook,
+a.cs-buynow,
+.bay-btn{
+	color: #ffffff !important;
+}
+.view-all{
+  color: #787878;
+}
+.navigation > ul > li.current-menu-ancestor > ul > li.current_page_item > a,
+.navigation > ul > li.current-menu-ancestor > ul > li.current-menu-item > a,
+.header-6 .navigation ul  li:hover > a,
+.albums-list article figure figcaption,
+.gallerysec ul li figure figcaption,
+.latest-video article figure:before,
+.latest-news article figure:before,
+.header-6 .main-menu{
+  background-color: rgba(0,0,0,0.5);
+}
+.latest-video article .text{
+  background-color: #0c0c0c;
+}
+.latest-video article .text a,
+.sortby ul li a{
+  background-color: #0d0d0d;
+}
+.sortby ul li a{
+  box-shadow: 0px 2px 2px 0px #040404 inset, 0px 1px 1px 0px #1f1715;
+}
+.latest-video article .text a{
+  box-shadow: 0px 2px 2px #040404 inset, 0px 2px 0px #1a1a1a;
+}
+.latest-news article .text,
+.detail-cont-right,
+.main-detail{
+  background-color: rgba(14,14,14,0.8);
+}
+.latest-news article .text p:before{
+  border-color: #343434;
+}
+.partners .center:before{
+  border-color: #1a1a1a;
+}
+.pagenone h5:before,
+.pagenone h5:after{
+  background-color:#6c6c6c;
+}
+.password_protected form label input[type="text"]{
+  border-bottom-color:#24221b;
+}
+.post-btn a{
+  box-shadow: 0px 0px 1px 2px #030303 inset, 0px 1px 0px #171717;
+}
+.comment-edit-link,
+.comment-reply-link {
+	background-color: #080808;
+}
+.comment-edit-link,
+.comment-reply-link {
+	box-shadow: 0px 2px 0px 1px #030303 inset, 0px 2px 0px #141414;
+}
+#comments .thumblist .text:before{
+  background-color: #0c0c0b;
+}
+.postlist.blog.blog-medium-view .blog-medium-text,
+#comments .thumblist .text header,
+.commentlist li .meta,
+.post-options{
+  background-color: #090909;
+}
+.share_post .tagcloud:before,
+.post-options li i{
+	color: #090909;
+}
+.pricing-box .plan-inside ul li span,
+.thumblist .text header time,
+.commentlist li .meta time,
+.commentlist li .meta{
+  color:#444444;
+}
+#comments ul li ul.children li.depth-2:before,
+#comments ul li ul.children li.depth-3:before,
+#comments ul li ul.children:before{
+  background-color: #151413;
+}
+.woocommerce table.cart td.actions .coupon .input-text,
+.woocommerce-page table.cart td.actions .coupon .input-text,
+.woocommerce #content table.cart td.actions .coupon .input-text,
+.woocommerce-page #content table.cart td.actions .coupon .input-text,
+.woocommerce-page .cart-collaterals .cart_totals tr td,
+.woocommerce-page .cart-collaterals .cart_totals tr th,
+.woocommerce .cart-collaterals .cart_totals tr td,
+.woocommerce .cart-collaterals .cart_totals tr th,
+.woocommerce form .form-row input[type="text"],
+.woocommerce form .form-row input[type="password"],
+.woocommerce form .form-row input[type="email"], textarea,
+.woocommerce form .form-row input.input-text,
+.woocommerce form .form-row textarea,
+.woocommerce-page form .form-row input.input-text,
+.woocommerce-page form .form-row textarea,
+#respond form p textarea,
+#respond form p input,
+.coupon > label{
+  color:#c1c1c1;
+}
+#respond form input[type="text"]:focus,
+#respond form textarea:focus{
+  background-color: #050505;
+}
+#respond form input[type="text"],
+#respond form textarea{
+  box-shadow: 0px 2px 0px 1px #050505 inset, 0px 1px 0px 0px #161110;
+}
+#respond form textarea{
+  color:#8e8e8e;
+}
+#respond form p.form-submit span,
+.form-submit span{
+  color: #9f9e9e;
+}
+.event article:after{
+  background-color: #9d9d9d;
+}
+.fc-event-title.cs-free,
+.woocommerce-message,
+.woocommerce-error,
+#main .woocommerce-info,
+.tables-code thead,
+a.cs-cancel,
+a.cs-free,
+a.cs-cancel,
+a.cs-fullbook,
+a.cs-fullbook{
+  background-color: #666666;
+}
+a.cs-cancel,
+a.cs-fullbook{
+  color: #e71e1e;
+}
+a.cs-fullbook{
+  color: #2c5d83;
+}
+.postlist article figure a:after,
+.event .map-caption,
+.map-caption{
+  background-color: rgba(0,0,0,0.7);
+}
+#main .album-detail-sec .post-options{
+  border-color: #262320;
+}
+.album-detail .jp-gui{
+  background-color: #2f2f2f;
+}
+.album-detail .wrapper-payerlsit li:after,
+.album-detail .jp-playpause{
+  background-color: rgba(255,255,255,0.1);
+}
+.album-detail .wrapper-payerlsit li a{
+  color: #646464;
+}
+.bay-album{
+  background-color: rgba(16,16,16,0.8);
+  box-shadow: 0px 2px 1px 0px #030202 inset, 0px 1px 1px 0px #29221c;
+}
+#main .detail-cover-style .text{
+  border-color: #28211d;
+}
+.sociol-icons ul li .icon-detail i{
+  color:#2a99e1;
+}
+.cart .quantity input[type="button"],
+.detail-sec ul li{
+  background-color: #252525;
+}
+.gig-images div figure figcaption,
+.artist-caption,
+.header{
+  background-color: rgba(0,0,0,0.6);
+}
+.share_post .tagcloud:before,
+.search-sec form .search,
+.post-options li i,
+.post-btn a i{
+  background-color: #383838;
+}
+.footer-nav{
+  background-color: rgba(20, 20, 20, 0.4);
+}
+.copyright{
+  background-color: #131212;
+  -webkit-box-shadow: 0px 1px 1px #040302;
+  -moz-box-shadow: 0px 1px 1px #040302;
+  box-shadow: 0px 1px 1px #040302;
+}
+#footer-widgets{
+  background-color: rgba(0,0,0,0.9);
+}
+.main-menu.scroll-to-fixed-fixed {
+	background: rgba(0,0,0,0.9);
+}
+.bannerarea {
+  background-color: #aaa;
+}
+.welcome-parent{
+  background-color: rgba(75,68,67,0.7);
+}
+.new-releases article:hover figure:before{
+  background-color: rgba(0,0,0,0.2);
+}
+.pagenone span{
+  color: #ff3500;
+}
+.blog-date{
+	border-color: #232323;
+}
+.blog-text .text:before{
+	border-color: #171717;
+}
+.sharenow{
+	box-shadow: 0px 2px 1px #030303 inset, 0px 1px 0px #171717;
+}
+.about-author figure{
+	box-shadow: 0px 0px 39px 9px #292727;
+	border-color: #212121;
+}
+#main .testimonial-v3 figure img,
+#main .testimonial-v4 figure img,
+#main .testimonial-v5 figure img,
+#main .testimonial-v6 figure img,
+#main .testimonial-v2 figure img{
+	border-color: #212121;
+}
+.testimonial-v3 figure img,
+.testimonial-v4 figure img,
+.testimonial-v5 figure img,
+.testimonial-v6 figure img,
+.testimonial-v2 figure img{
+	box-shadow:0 0 10px #000 inset, 0 0 15px #000;
+}
+.pagination ul li.previs:before,
+.pagination ul li.next:before{
+	background-color: #353535;
+}
+#main blockquote:before,
+#main blockquote,
+#main .share_post{
+	border-color: #171616;
+}
+.follow-tweet i{
+	color: #247db6;
+}
+.flex-direction-nav a {
+	background-color: #393938;
+}
+.caption p{
+	background-color: #272828;
+}
+.fc-header-center{
+	background-color: #141414;
+	box-shadow: 0px 1px 0px #2c2c2c inset;
+}
+.fc-header-title {	
+    color:#e2e2e2;
+}
+.fc-content {
+	background-color:#ededed;
+}
+.fc-widget-header{
+	background-color:#303030;	 
+}
+.fc-widget-content {
+	background: #131313;	 
+}
+.fc-cell-overlay {
+	background: #bce8f1;
+}
+.fc-state-default:hover {
+	background: #ff3f00;
+	color: #fefefe;
+}
+.fc-event:hover{
+	color:#ff4400;
+}
+.fc-event-time {
+	color: #b9b9b9;
+}
+header #lang_sel_list.lang_sel_list_vertical ul a,
+header #lang_sel_list ul a{
+	border-color: #333a35 !important;
+}
+header #lang_sel_list_list ul a:visited,
+header #lang_sel_list_list ul a:visited{
+  border-color: #666666 !important;
+}
+#lang_sel_list.lang_sel_list_vertical ul li a.lang_sel_sel
+header #lang_sel_list a.lang_sel_sel,
+header #lang_sel_list ul a:hover,{
+	border-color: #636663;
+	background-color: #2d332d;
+}
+header .cart-secc{
+	border-color: #2d3830;
+}
+.cs-network-sec .social-network a{
+	color: #ffffff;
+}
+.search-sec form input.search-btn{
+	color: #a5a5a5;
+}
+.search-sec form .search{
+	box-shadow: 0px 0px 7px 1px #000;
+}
+.search-sec form input[type="text"]{
+	background-color: rgba(0,0,0,0.3);
+	color: #484848;
+}
+.navigation > ul > li.current-menu-ancestor > a:before{
+	border-color: #ff3f00;
+}
+.navigation ul li a{
+	text-shadow: 0 0 3px #000;
+}
+#stickyarea {
+	box-shadow:0 0 5px rgba(0, 0, 0, 0.1);
+}
+.search-sec form label:before{
+	color: #bcbcbc;
+}
+.woocommerce-page .woocommerce-ordering select,
+.woocommerce table.shop_table .product-name a,
+.woocommerce-page ul.products li.product h3,
+.woocommerce .woocommerce-ordering select,
+.woocommerce ul.products li.product h3,
+.woocommerce-validated label,
+.posted_in a,
+.posted_in{
+    color: #545454;
+}
+.woocommerce ul.products li a.loading{
+	background-color: rgba(255,255,255,0.1) !important;
+}
+.woocommerce-page .cart-collaterals .cart_totals tr td,
+.woocommerce-page .cart-collaterals .cart_totals tr th,
+.woocommerce .cart-collaterals .cart_totals tr td,
+.woocommerce .cart-collaterals .cart_totals tr th,
+.woocommerce ul.products li.product,
+.woocommerce-page ul.products li.product,
+#main ul.products li.product{
+    border-color: #0f0e0d;
+}
+.woocommerce ul.products li.product figcaption{
+    background-color: rgba(0,0,0,0.8);
+}
+.woocommerce-page .star-rating:before,
+.woocommerce .star-rating:before {
+    color: #dfdbdf;
+}
+.woocommerce-page .star-rating span:before,
+.woocommerce .star-rating span:before {
+    color: #ffcd4b;
+}
+.cart .quantity input[type="number"]{
+    background-color: #181818;
+}
+.product .summary .cart .single_add_to_cart_button{
+    background-color: #ee3963;
+}
+.woocommerce-tabs ul.tabs li a{
+    background-color: #191919;
+    color: #5e5e5e;
+}
+.woocommerce-tabs ul.tabs li.active a,
+.panel.entry-content{
+    background-color: rgba(14, 14, 14, 0.8);
+}
+.woocommerce table.shop_table th,
+.woocommerce-page table.shop_table td,
+.woocommerce-page table.shop_table th,
+.woocommerce table.shop_table td {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    border-left: 1px solid rgba(255, 255, 255, 0.1);
+}
+.woocommerce table.shop_table, .woocommerce-page table.shop_table {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.product-subtotal, .product-total, .cart-subtotal td, .shipping td {
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
+}
+.actions, .total td {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
+}
+.total th{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.woocommerce-page form .form-row .required,
+.woocommerce-page table.cart a.remove,
+.woocommerce-page table.cart a.remove,
+.woocommerce form .form-row .required,
+.woocommerce table.cart a.remove,
+.woocommerce table.cart a.remove
+{
+    color: #ff0000;
+}
+.woocommerce table.cart td.actions .coupon .input-text,
+.woocommerce-page table.cart td.actions .coupon .input-text,
+.woocommerce #content table.cart td.actions .coupon .input-text,
+.woocommerce-page #content table.cart td.actions .coupon .input-text,
+.woocommerce form .form-row input.input-text,
+.woocommerce form .form-row textarea,
+.woocommerce-page form .form-row input.input-text,
+.woocommerce-page form .form-row textarea {
+    box-shadow: 0 2px 0 1px #050505 inset, 0 1px 0 0 #161110;
+}
+.woocommerce a.button.alt,
+.woocommerce-page a.button.alt,
+.woocommerce button.button.alt,
+.woocommerce-page button.button.alt,
+.woocommerce input.button.alt,
+.woocommerce-page input.button.alt,
+.woocommerce #respond input#submit.alt,
+.woocommerce-page #respond input#submit.alt,
+.woocommerce #content input.button.alt,
+.woocommerce-page #content input.button.alt {
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.6);
+}
+.woocommerce form .form-row input[type="text"],
+.woocommerce form .form-row input[type="password"],
+.woocommerce form .form-row input[type="email"], textarea,
+.woocommerce form .form-row select {
+    box-shadow: 0 2px 0 1px #050505 inset, 0 1px 0 0 #161110;
+}
+.woocommerce-message:before,
+.woocommerce-error:before,
+.woocommerce-info:before {
+    box-shadow: 0 -1px 0 0 rgba(0, 0, 0, 0.1) inset;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
+}
+#main .woocommerce-info {
+    border-color: #1e85be;
+}
+.chzn-container-single .chzn-single,
+.chzn-container .chzn-drop{
+    background-color: #101010 !important;
+    box-shadow: 0 2px 0 1px #050505 inset, 0 1px 0 0 #161110 !important;
+    color: #c1c1c1 !important;
+    background-image: none !important;
+    border: none !important;
+}
+.form-row label {
+	color: #777777;
+}
+.woocommerce-page #payment div.payment_box:after,
+.woocommerce #payment div.payment_box:after {
+    border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #666;
+}
+.woocommerce-info:before {
+    background-color: #1e85be;
+}
+#wp-calendar tbody td,
+img.alignright,
+img.aligncenter,
+img.alignleft {
+	border-color: #e4e4e4;
+}
+.panel-body:before {
+	background: #d8d8d8;
+}
+#main .panel>.panel-body+.table,
+#main .panel-group .panel-footer+.panel-collapse .panel-body,
+#main .pricing-box .tittle h4:before,
+#main .table thead > tr > th,
+#main .panel-default,
+#main .panel-footer {
+	border-color: #000000;
+}
+.team-shortcode article.team-v4 .social-network a:nth-child(1),
+.team-shortcode article.team-v4 .social-network a:nth-child(2),
+.team-shortcode article.team-v4 .social-network a:nth-child(3),
+.team-shortcode article.team-v4 .social-network a:nth-child(4){
+    background-color: #ffffff;
+}
+.panel-heading .panel-title > a.collapsed:before,
+.panel-group .panel-default > .panel-heading {
+	color: #999999 !important;
+}
+.panel-footer {
+	background-color:#f5f5f5;
+}
+.toggle-sectn .togglebox,
+.panel-group .panel-body {
+	color: #bbbbbb;
+}
+.toggle-sectn.panel, .panel-group .panel-default {
+	background: #353535;
+}
+.panel-default>.panel-footer+.panel-collapse .panel-body {
+	border-bottom-color:#dddddd;
+}
+.panel-primary>.panel-heading,
+.panel-primary {
+	border-color:#428bca;
+}
+.panel-primary>.panel-heading {
+	background-color:#428bca;
+}
+.panel-primary>.panel-footer+.panel-collapse .panel-body {
+	border-bottom-color:#428bca;
+}
+.panel-primary>.panel-heading+.panel-collapse .panel-body {
+	border-top-color:#428bca;
+}
+.panel-success>.panel-heading,
+.panel-success {
+	border-color:#d6e9c6;
+}
+.panel-success>.panel-heading {
+	color:#468847;
+	background-color:#dff0d8;
+}
+.panel-success>.panel-heading+.panel-collapse .panel-body {
+	border-top-color:#d6e9c6;
+}
+.panel-success>.panel-footer+.panel-collapse .panel-body {
+	border-bottom-color:#d6e9c6;
+}
+.panel-warning {
+	border-color:#fbeed5;
+}
+.panel-warning>.panel-heading {
+	color:#c09853;
+	background-color:#fcf8e3;
+	border-color:#fbeed5;
+}
+.panel-warning>.panel-heading+.panel-collapse .panel-body {
+	border-top-color:#fbeed5;
+}
+.panel-warning>.panel-footer+.panel-collapse .panel-body {
+	border-bottom-color:#fbeed5;
+}
+.panel-danger {
+	border-color:#eed3d7;
+}
+.panel-danger>.panel-heading {
+	color:#b94a48;
+	background-color:#f2dede;
+	border-color:#eed3d7;
+}
+.panel-danger>.panel-heading+.panel-collapse .panel-body {
+	border-top-color:#eed3d7;
+}
+.panel-danger>.panel-footer+.panel-collapse .panel-body {
+	border-bottom-color:#eed3d7;
+}
+.panel-info {
+	border-color:#bce8f1;
+}
+.panel-info>.panel-heading {
+	color:#3a87ad;
+	background-color:#d9edf7;
+	border-color:#bce8f1;
+}
+.panel-info>.panel-heading+.panel-collapse .panel-body {
+	border-top-color:#bce8f1;
+}
+.panel-info>.panel-footer+.panel-collapse .panel-body {
+	border-bottom-color:#bce8f1;
+}
+.toggle-sectn {
+	border-color: #d3d3d3;
+}
+.toggle-sectn .collapsed {
+	color:#505050 !important;
+}
+.rich_editor_text .code-element pre {
+	background-color: rgba(12, 12, 12, 0.80);
+	border: 2px solid #292929;
+	-webkit-box-shadow: 0 2px 2px #000000 inset;
+	box-shadow: 0 2px 2px #000000 inset;
+}
+.info-text {
+	background-color: rgba(15, 15, 15, 0.8);
+	-webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+.info-text:before {
+	background-color: rgba(0,0,0,0.2);
+	-webkit-box-shadow: 0 -3px 5px rgba(0, 0, 0, 0.9) inset;
+	box-shadow: 0 -3px 5px rgba(0, 0, 0, 0.9) inset;
+}
+.tick > li i {
+	color:#b1b1b1;
+}
+.icons > li i {
+	color:#8a8a8a;
+}
+#wp-calendar tfoot a:hover,
+.button a {
+	background-color: #88ae95;
+}
+.divider1:before,
+.divider4:after,
+.divider4:before {
+	background-color: #222222;
+}
+#main .team-shortcode article.team-v2 figure,
+#main .price-style2 .pricing-box,
+.team-shortcode article,
+#main .divider3:before,
+#main .divider3:after,
+#main .divider4,
+#main .divider5,
+#main .divider1,
+#main .divider2{
+	border-color: #222222;
+}
+figure.image-shortcode figcaption {
+	background-color: rgba(0, 0, 0, 0.3);
+}
+.frame1 {
+	border-color: #b0b0b0;
+}
+.frame1 a,
+.frame3 {
+	border-color: #cfcfcf;
+}
+.frame2 {
+	-webkit-box-shadow: 0 0 0 4px #fff inset, 0px 0px 5px rgba(0,0,0,0.3);
+	-moz-box-shadow: 0 0 0 4px #fff inset, 0px 0px 5px rgba(0,0,0,0.3);
+	-o-box-shadow: 0 0 0 4px #fff inset, 0px 0px 5px rgba(0,0,0,0.3);
+	box-shadow: 0 0 0 4px #fff inset, 0px 0px 5px rgba(0,0,0,0.3);
+}
+.frame3 {
+	-webkit-box-shadow: 0 0 0 2px #FFFFFF inset;
+	-moz-box-shadow: 0 0 0 2px #FFFFFF inset;
+	-o-box-shadow: 0 0 0 2px #FFFFFF inset;
+	box-shadow: 0 0 0 2px #FFFFFF inset;
+}
+.frame4 {
+	-webkit-box-shadow: 0 0 0 4px #FFFFFF inset;
+	-moz-box-shadow: 0 0 0 4px #FFFFFF inset;
+	-o-box-shadow: 0 0 0 4px #FFFFFF inset;
+	box-shadow: 0 0 0 4px #FFFFFF inset;
+}
+.frame4:before, .frame4:after {
+	-webkit-box-shadow: 0 15px 10px rgba(0, 0, 0, 0.7);
+	-moz-box-shadow: 0 15px 10px rgba(0, 0, 0, 0.7);
+	-o-box-shadow: 0 15px 10px rgba(0, 0, 0, 0.7);
+	box-shadow: 0 15px 10px rgba(0, 0, 0, 0.7);
+}
+.frame5 {
+	-webkit-box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.2);
+	-o-box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.2);
+	box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.2);
+}
+.frame6 {
+	-webkit-box-shadow: 0 0 0 4px #fff inset, 0px 0px 5px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0 0 0 4px #fff inset, 0px 0px 5px rgba(0,0,0,0.2);
+	-o-box-shadow: 0 0 0 4px #fff inset, 0px 0px 5px rgba(0,0,0,0.2);
+	box-shadow: 0 0 0 4px #fff inset, 0px 0px 5px rgba(0,0,0,0.2);
+}
+.message_box {
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+.message_box .close:hover,
+.message_box .close {
+	background: #adadad;
+}
+.team-shortcode .team-v2:hover figure {
+    box-shadow: 0 0 110px rgba(255,255,255,0.6);
+}
+.team-shortcode article .social-network a:nth-child(1){
+    background-color: #06446f;
+}
+.team-shortcode article .social-network a:nth-child(2){
+    background-color: #2c86c5;
+}
+.team-shortcode article .social-network a:nth-child(3){
+    background-color: #6c553c;
+}
+.team-shortcode article .social-network a:nth-child(4){
+    background-color: #2c86c5;
+}
+.team-shortcode article.team-v2 figure:before {
+	-webkit-box-shadow: 3px 2px 5px #000 inset;
+	box-shadow: 3px 2px 5px #000 inset;
+}
+.team-shortcode article.team-v3,
+.price-style2 .price_featured {
+	background-color: #151515;
+}
+.team-shortcode article.team-v3 .text span,
+.team-shortcode article.team-v4 .text span {
+	color:#c0c0c0;
+}
+.team-shortcode article.team-v3 .social-network a {
+	color:#d4d4d4;
+}
+.team-shortcode article.team-v4:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+}
+.team-shortcode article.team-v4 .text,
+.horizontal .tab-content,
+.vertical .tab-content {
+	background-color: rgba(14,14,14,0.8);
+}
+.team-shortcode article .text h3:before,
+.team-shortcode article.team-v3 .text span:before{
+	border-color: #e5e5e5;
+}
+.tabs.horizontal .nav-tabs > li > a,
+.tabs.vertical .nav-tabs a,
+.tabs .nav > li > a:hover,
+.tabs .nav > li > a:focus {
+	background-color: #191919;
+}
+.tabs.horizontal .nav-tabs .active a,
+.tabs.vertical .nav-tabs .active a,
+.tabs.vertical .tab-content {
+	background-color: rgba(14, 14, 14, 0.8);
+}
+.tiny-green {
+	background-color: #e9e9e9;
+}
+.tiny-green p {
+	color:#0c3139;
+}
+.tiny-green div {
+	color:#ff8398;
+}
+.tiny-green .infotxt {
+	color:#585858;
+	background-color: #f8faff;
+	box-shadow: 0px 0px 3px 2px #f0f0f0;
+}
+.quote:before,
+.quote:after {
+	color:#e3e3e3;
+}
+.testimonial-v1,
+.testimonial-v2,
+.testimonial-v3,
+.testimonial-v4,
+.testimonial-v5,
+.testimonial-v6 {
+	background-color: rgba(14,14,14,0.95);
+}
+.testimonial-v1 .text .testimonial-box:after {
+	background:rgba(41,41,41,0.50);
+}
+.testimonial-v3 figure figcaption span,
+.testimonial-v4 figure figcaption span,
+.testimonial-v1 figure span,
+.testimonial-v2 figure span,
+.testimonial-v5 span,
+.testimonial-v6 span {
+	color:#212121;
+}
+.circular-progressbar canvas {
+	box-shadow:0px 0px 5px 3px #efefef;
+}
+.widget-twitter .twitter_sign i.fa-twitter{
+	color: #2384c3;
+}
+.map-shortcode {
+	border: 1px solid #e2e2e2;
+	box-shadow: 0px 0px 3px 2px #f0f0f0;
+}
+.table tbody {
+	border-color: #dadada;
+}
+.table tbody tr td {
+	background-color: rgba(30,30,30,0.8);
+}
+.pieBackground {
+	background: #fff;
+	box-shadow:0 0 10px rgba(0,0,0,0.5) inset;
+}
+.pieValue {
+	color: rgba(0,0,0,0.6);
+	text-shadow:0 1px 0 rgba(255,255,255,1);
+}
+.pie {
+	background-color: #82b893;
+}
+.button a {
+	background-color: #ff3100;
+}
+.map-heading {
+	color:#999999 !important;
+}
+.pricetable {
+	border-color: #e8e8e8;
+}
+.pricing-box {
+	background:rgba(0,0,0,0.50);
+}
+.pricing-box .plan-inside li:first-child {
+	border-color: #e2e2e2;
+}
+.readmore {
+	color:#868686;
+	box-shadow:0px 0px 5px 2px #e6e6e6;
+}
+.button_large {
+	background:#444444;
+	box-shadow: 0px 1px 0px rgba(255,255,255,0.10)
+}
+.price-style1 .price {
+	background-color: #444444;
+	background:rgba(255,255,255,0.20);
+}
+.price-style1 .button_large {
+	background-color: #444444;
+}
+.price-style1 .price_featured .button_large,
+.price-style1 .price_featured .price {
+	background-color: #96c1a3;
+}
+.price-style2 .price_featured {
+	-webkit-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.75);
+	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.75);
+}
+.price-style2 .plan-header .price h1 span:after {
+	background-color: #212121;
+}
+.widget-tab .horizontal .nav-tabs .active a:hover,
+.price-style3,
+.widget-tab {
+	background:#0b0b0b;
+}
+.price-style3 .price_featured:after {
+	background-color: #686868;
+}
+.price-style3 .price_featured .price {
+	box-shadow: 0px 0px 4px 2px #161616;
+}
+.price-style3 .plan-inside li {
+	border-color: #242424;
+}
+.widget-event article .text i{
+	color: #3e3e3e;
+}
+.widget-add{
+	border-color: #1e2731;
+}
+.widget_categories ul li,
+.widget_archive ul li,
+.widget_recent_entries ul li,
+.widget_recent_entries ul li,
+.widget_recent_comments ul li,
+.widget_links ul li,
+.widget_meta ul li,
+.product-categories li,
+.widget_layered_nav ul li,
+.widget_nav_menu ul li a,
+.widget_pages ul li a,
+.widget_tag_cloud a,
+.widget_product_tag_cloud a {
+	background-color:#0f0e0d;
+}
+.widget_categories ul li:after,
+.product-categories li:after{
+	background-color: #ff794d;
+}
+.widget_recent_entries ul li a,
+.widget_recent_entries ul li a,
+.widget_archive ul li a,
+.widget_archive ul li a,
+.widget_nav_menu ul li a,
+.widget_pages ul li a,
+.widget_links ul li a,
+.widget_meta ul li a,
+.widget_nav_menu ul li a,
+.widget_pages ul li a,
+.widget_links ul li a,
+.widget_meta ul li a{
+	color:#474747;
+}
+.widget_nav_menu ul li a,
+.widget_pages ul li a{
+	border-color: #e9e9e9;
+}
+#main #wp-calendar tfoot a{
+	border-color: #323232;
+}
+#wp-calendar tfoot a,
+#wp-calendar thead{
+	color:#8f8f8f;
+}
+#main .widget-latestnews article{
+	border-color: #282b28;
+}
+.widget-tab .nav-tabs > li > a,
+#wp-calendar thead,
+#main #wp-calendar tfoot a{
+ background:#191919;
+}
+.widget-tab .nav-tabs > li > a:hover{
+	color: #ff3f00;
+}
+.widget_search form input[type="text"]{
+	color: #bfbfbf;
+}
+.widget_product_search input[type="text"]{
+	background-color: rgba(255, 255, 255, 0.2);
+}
+.widget_price_filter .price_slider_amount > input {
+    background-color: rgba(255,255,255,0.2);
+}
+#main #wp-calendar tbody td{
+	background: #0f0e0d;
+}
+footer .gotop{
+  border-color: #1b1b1b;
+}

@@ -1,0 +1,22 @@
+@charset "utf-8";
+/* Theme Color */
+.colr, .colrhover:hover, .wrapper-payerlsit li:hover a, .new-releases article:hover .text h2 a, .latest-news article:hover .text h2 a, .logged-in-as a:hover,
+.post-options li a:hover, .nav-tabs > li.active > a, .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus,
+.comment-reply-title small a:hover, .info-text:after, .panel-heading .panel-title > a:before, .panel-heading .panel-title > a, .panel-heading .panel-title > a:after, article.team-v2:hover .text h4,.team-shortcode article.team-v3:hover .text h4, .team-shortcode article.team-v4 .social-network a, .countdown_section .countdown_amount, .countdown_amount, .countdownit .countdown_section:before,.navigation > ul > li:hover > a, .navigation > ul > li.current_page_item > a, .navigation > ul > li.current-menu-ancestor > a, .woocommerce-tabs ul.tabs li.active a,
+ul.products li h3:hover, .new-releases .bay-btn:hover{
+	color: #ff3f00 !important;
+}
+/* Theme Background Color */
+.backcolr, .backcolrhover:hover, .search-sec form:before, .search-sec .active, .search-sec:hover .active, .widget-event article:hover .text, .add_to_cart_button:hover,
+.center a:hover, .latest-video article:hover figure figcaption, .latest-video article:hover .text a, .blogimg-hover a:hover, .post-btn a:hover i, .single_add_to_cart_button,.post-options li:hover i, .flex-direction-nav a:hover, .pagination ul li:hover a, .pagination ul li a.active, .widget_categories ul li:hover, .page-links span:hover,.gallerysec ul li figure figcaption i, .comment-reply-link:hover, .releases-four-coll article figure figcaption, .sortby ul li a:hover, .event article .text ul li a.cs-buynow:hover,.sortby ul li.active a, .event article:hover .map-marker, .map-marker.active, .event article:hover:after, .albums-list article:hover .play-icon, .onsale,.albums-list article:hover .text h2:before, .albums-list article figure figcaption i, .dropcap:first-letter, .dropcap p:first-letter, .dropcaptwo:first-letter, .team-shortcode article.team-v4:hover .text,.countdown_section:before, .countdown_section:after, .buy-tickets, .widget_archive ul li:hover, #wp-calendar caption, #wp-calendar tfoot a:hover, .fc-event-title.cs-buynow:hover,.widget_nav_menu ul li a:hover, .widget_pages ul li a:hover, .widget_links ul li:hover, .widget_meta ul li:hover, .widget_recent_entries ul li:hover, .woocommerce .button,.widget_recent_comments ul li:hover, .widget_tag_cloud a:hover, #midarea .countdownit span.countdown_section, .comment-edit-link:hover, .cart-secc span.amount,.woocommerce-message:before, .woocommerce-error:before, .woocommerce-info:before, .woocommerce-pagination ul li span, .woocommerce-pagination ul li a:hover,.cart-secc span.amount:before, .cart-secc span.amount:after, .product-categories li:hover, .widget_product_search input[type="submit"],.widget_layered_nav ul li:hover, .widget_product_tag_cloud a:hover, .cs-buynow, .albums-list .bay-btn:hover,.navigation > ul > li:hover > a,.navigation > ul > li.current_page_item > a,.navigation > ul > li.current-menu-ancestor > a,.navigation ul ul {
+	background-color: #ff3f00 !important;
+}
+.sharenow, #respond form p input[type="submit"]:hover, .widget_search form input[type="submit"]:hover{
+	background: #ff3f00 !important;
+}
+/* Theme Border Color */
+.bordercolr, .bordercolrhover:hover, .wrapper-payerlsit li:before, .new-releases article:hover .text h2:before,
+.postlist article:hover .blog-date, blockquote, .team-shortcode article.team-v2:hover,
+.navigation ul ul li:after, .woocommerce-message, .woocommerce-error, .woocommerce-info{
+	border-color: #ff3f00 !important;
+}

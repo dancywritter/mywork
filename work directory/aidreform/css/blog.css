@@ -1,0 +1,350 @@
+/*.........     Blog Postlist Start ............ */
+.postlist, .blog, .postlist article,
+.postlist article figure,
+.postlist article figure a,
+.postlist article figure a img, .blog_text{
+    float: left;
+    width: 100%;
+}
+.postlist article{
+    margin: 0px 0px 60px 0px;
+}
+.postlist article figure{
+    overflow: hidden;
+    margin: 0px 0px 10px 0px;
+}
+.postlist article figure figcaption{
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+.postlist article figure figcaption .blogimg-hover{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -15px 0px 0px -35px;
+}
+.postlist article figure figcaption .blogimg-hover a{
+    float: left;
+    border: 1px solid #fff;
+    border-radius:150px;
+    -moz-border-radius:150px;
+    -webkit-border-radius:150px;
+    width: 51px;
+    height: 51px;
+    margin: 0px 10px 0px 0px;
+    padding: 8px;
+    color: #fff;
+    text-align: center;
+}
+.postlist article figure figcaption .blogimg-hover a i{
+    margin: 5px 0px 0px 0px;
+    display: inline-block;
+}
+.postlist article figure .flexslider .caption{
+    display: inline !important;
+    width: 100%;
+}
+.postlist article figure .flexslider .caption a{
+    width: auto;
+    float: none;
+}
+.element_size_100 .flexslider {
+    margin-bottom: 20px;
+}
+.right-img {
+    background:url(images/featured.png) no-repeat left;
+}
+.left-img {
+    background:url(images/featured.png) no-repeat right;
+}
+.right-img {
+    padding: 5px 9px;
+}
+.left-img {
+    padding: 5px 5px;
+}
+.blog_text{
+    position: relative;
+}
+.blog_text h2{
+    float: left;
+    margin-right:7px;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+.blog_text h2 span{
+    margin-right: 7px;
+}
+.blog_text h2 a{
+    color: #000;
+}
+.blog_text p{
+    float: left;
+}
+.blog_text p a:before{
+    content: "\f061";
+    margin: 0px 6px 0px 0px;
+}
+.blog_text .text{
+    margin: 0px 0px 0px 0px;
+    float: left;
+}
+.box .blog_text .text{
+    width: auto;
+}
+.post-options{
+    float: right;
+    margin: 0px 0px 17px 0px;
+    position: relative;
+}
+.postlist article .blog_text .post-options{
+    margin: 6px 0px 0px 0px;
+}
+.archive-page article .blog_text .post-options{
+    float: left;
+    width: 100%;
+    margin: 0px 0px 8px 0px;
+}
+.post-options li{
+    margin: 0px 0px 0px 18px;
+    color: #b5b5b5;
+    float: left;
+}
+.post-options li a{
+    color: #949391;
+}
+.post-options li:first-child{
+    margin: 0px;
+}
+.post-options li i{
+    margin: 0px 7px 0px 0px;
+    color: #c4c4c4;
+}
+.post-categories{
+    float: left;
+    width: 100%;
+    margin-bottom: 14px;
+}
+.post-categories li{
+    float: left;
+    color: #ad9fb9;
+    margin: 0px 4px 0px 0px;
+}
+.post-categories li a,
+.post-categories li span{
+    color: #000;
+}
+.blog-medium .cs-readmore{
+    padding: 13px 0px 0px 0px;
+}
+.cs-readmore {
+    color: #000000;
+    float: left;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 6px 0px 0px 0px;
+    text-transform: uppercase;
+}
+.cs-readmore i{
+    margin-right: 5px;
+}
+.postlist.blog-medium article{
+    margin-bottom: 30px;
+}
+.postlist.blog-medium article .blog_text .post-options {
+    float: left;
+    margin: 12px 0px 0px 0px;
+}
+.postlist.blog-medium article .blog_text .cs-readmore{
+    float: right;
+}
+/*.........     Blog Postlist End   ............ */
+/*.........     Pagination Start    ............ */
+.pagination, .woocommerce-pagination{
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #e4e4e4;
+    margin: 0px 0px 50px 0px;
+    position: relative;
+    float: left;
+    width: 100%;
+}
+.pagination ul,
+.woocommerce-pagination ul,
+.woocommerce-pagination ul li,
+.pagination ul li {
+    display: inline-block;
+    float: none;
+    margin: 0px;
+}
+.pagination ul li,
+.woocommerce-pagination ul li {
+    border-right: 1px solid #e4e4e4;
+    margin: 0px 0px 0px -3px;
+}
+.pagination ul li:first-child,
+.woocommerce-pagination ul li:first-child{
+    border-left: 1px solid #e4e4e4;
+}
+.pagination ul li a,
+.woocommerce-pagination ul li a,
+.woocommerce-pagination ul li span{
+    font-size: 14px;
+    color: #717171;
+    font-weight: bold;
+    padding: 16px 22px;
+    display: inline-block;
+}
+.pagination ul li:hover,
+.woocommerce-pagination ul li:hover{
+    background-color: #f6f6f6;
+}
+.pagination ul li.prev{
+    position: absolute;
+    left: 3px;
+    top: 0;
+    border: none;
+    border-right: 1px solid #e4e4e4;
+}
+.pagination ul li.next{
+    position: absolute;
+    right: 0;
+    top: 0;
+    border: none;
+    border-left: 1px solid #e4e4e4;
+    height: 100%;
+}
+.pagination ul li.next a:before{
+    content: "\f054";
+    position: relative;
+    top: 3px;
+}
+.pagination ul li.prev a:before{
+    content: "\f053";
+}
+.pagination ul li a.active,
+.woocommerce-pagination ul li .current{
+    border: 1px solid;
+    border-top: none;
+    border-bottom: none;
+    position: relative;
+}
+.pagination ul li a.active:before,
+.woocommerce-pagination ul li .current:before{
+    content: '';
+    height: 5px;
+    width: 103%;
+    position: absolute;
+    top: -3px;
+    left: -1px;
+    border-radius: 4px 4px 0px 0px;
+    -moz-border-radius: 4px 4px 0px 0px;
+    -webkit-border-radius: 4px 4px 0px 0px;
+}
+.woocommerce-pagination ul li .current:before{
+    border-top: 6px solid;
+}
+.pagination ul li a.active:after,
+.woocommerce-pagination ul li .current:after{
+    content: '';
+    background-color: #fff;
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+}
+/*.........     Pagination End  ............ */
+/*.........     Blog Small View Start   ............ */
+.postlist article{
+    margin: 0px 0px 30px 0px;
+    padding: 0px 0px 30px 0px;
+    border-bottom: 1px solid #E9E9E9;
+    position: relative;
+}
+.postlist article:last-child{
+    padding: 0px 0px 0px 0px;
+    border: none;
+}
+.postlist article:last-child:before{
+    background: none;
+    display: none;
+}
+.blog-medium article figure{
+    width: 50%;
+    margin: 0px 0px 0px 0px;
+    float: left;
+}
+.blog-medium article figure .flexslider figure{
+    width: 100%;
+}
+.blog-medium article.no-image .blog_text{
+    padding-left:0px;
+    width: 100%;
+}
+.blog-medium article .no-image.blog_text .post-options{
+    float:left;
+    width:100%;
+}
+.blog-medium .blog_text{
+    float: left;
+    width: 50%;
+    padding: 0px 0px 0px 20px;
+}
+.blog-medium .post-options li:before{
+    margin: 7px 10px 0 0;
+}
+.blog-medium .post-options li:first-child{
+    margin: 0px;
+}
+.blog-medium .post-options li{
+    margin: 0 0 0 17px;
+}
+.blog-medium article figure figcaption .blogimg-hover{
+    left: 0;
+    margin: -18px 0px 0px 0px;
+    text-align: center;
+    width: 100%;
+}
+.blog-medium article figure figcaption .blogimg-hover a{
+    float: none;
+    display: inline-block;
+    margin: 0px 4px 0px 0px;
+}
+.blog-medium .blog_text p a,
+.blog .box .blog_text p a{
+    float: left;
+    clear: both;
+    width: 100%;
+    margin: 10px 0px 0px 0px;
+}
+.blog-medium .no-image .blog_text{
+    padding: 0px;
+}
+.link-post{
+    float: left;
+    color: #fff;
+    padding: 2px 4px;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    margin: 1px 10px 0px 0px;
+}
+.big-icon-postlist{
+    float: left;
+    margin: 0px 20px 0px 0px;
+}
+.big-icon-postlist i{
+    margin: 0;
+    width: 80px;
+    height: 80px;
+    padding: 31px 0px 0px 0px;
+    text-align: center;
+}
+.icon-left{
+    float: left;
+    width: 70%;
+}
+/*.........     Blog Small View End ............ */

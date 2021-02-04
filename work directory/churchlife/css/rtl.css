@@ -1,0 +1,223 @@
+body{
+	direction: rtl;
+}
+
+.event-listing article .calender-date,
+.team-section article figure,
+.gallerysec ul li,
+.post-options li,
+#header > .logo,
+.gallerysec ul,
+.followus,
+#left-content,
+.about-author figure, 
+.bottom-event .calender-date,
+.pix-media-attachment a,
+#comments .thumblist figure,
+#comments .text time,
+.sermons-options li,
+.sermons-options li a i,
+.sermons.sermondetail .sermon-desc-area figure,
+.jp-playlist li span.counter,
+.jp-playlist li a .title-song,
+.jp-artist,
+.sermon-desc-area header.pix-heading-title h2,
+.single-password form label,
+#left-content,
+.comment-edit-link,
+.woocommerce-pagination ul li, .pagination ul li,
+#right-content.pix-active .blog.blog-large,
+.widget_meta ul li a,
+header.pix-heading-title h2,
+.post-tags,
+.sermons article,
+.sermons .post-options li,
+.jp-social-option a,
+.tagcloud a,
+.product .summary .quantity.buttons_added,
+.product .summary .cart .single_add_to_cart_button,
+.images .thumbnails a,
+.widget_categories ul li a,
+.cs_shop_wrap .woocommerce-result-count, .page-title, .woocommerce-result-count,
+.woocommerce ul.products li.product, .woocommerce-page ul.products li.product,
+.product .images, .product .summary,
+.woocommerce-tabs ul.tabs li a,
+.woocommerce ul.products li.product, .woocommerce-page ul.products li.product,
+div.product p.price, div.product p.price span.amount{
+	float:right !important;
+}
+a.pix-btnmenu,
+.navigation ul > li.menu-parent > a:before,
+.jp-social-option,
+#right-content,
+.blog-sidebar,
+#myToolbox,
+.jp-social-option,
+.jp-playpause,
+form.woocommerce-ordering,
+.woocommerce .star-rating, .woocommerce-page .star-rating{
+	float:left !important;
+}
+.widget_categories ul li a{
+	text-align:right;
+}
+#respond form p input[type="text"]{
+	text-align:right;
+	padding:0 15px 0 40px;
+}
+#respond form .form-icons{
+	left:14px;
+	right:auto;
+}
+.images .thumbnails a{
+	margin:0px 0px 0px 7px;
+}
+.woocommerce ul.products li.product, .woocommerce-page ul.products li.product{
+	margin-right:0;
+	margin-left:0.8%;
+}
+.event-listing article .calender-date,
+.bottom-event .calender-date{
+	padding: 0px 15px 0px 0px;
+}
+.woocommerce-tabs ul.tabs li a{
+	margin:0px 0px 0px 3px;
+}
+.event-listing article .text,
+.bottom-event .text{
+	  border-right:1px solid #E9E9E9;
+	  border-left:none;
+	  margin-left:0px;
+}
+.event-listing article .text .btn,
+.bottom-event .text .btn{
+	left:8px;
+	right:auto;
+	top:85%;
+}
+.team-section article .text{
+	margin:0 170px 0 0;
+}
+.post-tags i{
+	margin:0 0 0 6px;
+}
+.about-author .text{
+	margin: 0 166px 0 0;
+}
+.navigation ul ul{
+	right:100%;
+	left:auto;
+}
+.navigation ul > li.menu-parent > a:before{
+	margin:0 7px 0 0;
+	-moz-transform: scale(-1);
+	-o-transform: scale(-1);
+	-webkit-transform: scale(-1);
+}
+#comments .text{
+	margin:0 71px 0 0;
+}
+#comments .text time:after{
+	left:-18px;
+	right:auto;
+}
+#comments .text time{
+	margin:0 0 0 30px;
+}
+.sermons-options li a i{
+	margin:0 5px 0 0;
+}
+.sermon-desc-area .text{
+	margin:-132px 284px 0 0;
+	padding:0px 20px 0px 0px;
+}
+.jp-artist{
+	margin:0 12px 0 0;
+}
+.sermons-options li{
+	margin:0 0 0 20px;
+}
+.sermons-options li a i,
+#myToolbox a i{
+	margin: 0 0 0 5px;
+}
+.share-post a.pix-btnshare i{
+	 margin: 0 0 0 6px;
+}
+.password_protected input[type="submit"],
+.post-wrapper,
+.jp-social-option,
+.widget_search form label{
+	left:0;
+	right:auto;
+}
+.jp-social-option{
+	left:10px;
+}
+.jp-playpause{
+	margin-left: 0 8px;
+}
+.pix-media-attachment a{
+	margin:0 0 10px 10px;
+}
+.password_protected input[type="text"]{
+	padding:0 15px 0 40px;
+}
+blockquote{
+	border-right:4px solid #D6D6D6;
+	border-left:none;
+	padding:0 25px 0 0;
+}
+.children{
+	padding:0px 71px 0px 0px;
+}
+#comments .children .thumblist figure:before{
+	left:auto;
+	right:-25px;
+	-webkit-transform:scaleX(-1);
+	-moz-transform:scaleX(-1);
+	-o-transform:scaleX(-1);
+	transform:scaleX(-1);
+}
+.single-password,
+.widget_nav_menu ul li a, 
+.widget_pages ul li a,
+.widget_meta ul li a,
+.product .summary{
+	text-align:right;
+}
+.pix-btnsidebar{
+	text-align:center;
+	right:auto;
+	left:-31px;
+}
+.pix-btnsidebar:before,
+.onsale{
+	right:auto;
+	left:25px;
+}
+.pix-active .pix-btnsidebar i:before{
+	left:7px;
+}
+.sermons .post-options li:before{
+	left:auto;
+	right:-11px;
+}
+.sermons .post-options li:first-child{
+	padding:0px 0px 0px 18px;
+}
+.sermons-options li a i{
+	-webkit-transform:scaleX(-1);
+	-moz-transform:scaleX(-1);
+	-o-transform:scaleX(-1);
+	transform:scaleX(-1);
+}
+.wp-video{
+	width:100% !important;
+}
+.page-title{
+	margin:0px 0px 0px 10px;
+}
+.product .summary .quantity.buttons_added{
+	margin:3px 0px 0px 14px;
+}

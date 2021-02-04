@@ -1,0 +1,22 @@
+[11-Jan-2014 19:38:10 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/group/public_html/wp-demo/aidreform/wp-content/themes/aidreform/index.php on line 3
+[12-Jan-2014 04:32:31 Europe/Stockholm] PHP Notice:  Undefined variable: bloginfo in /home/group/public_html/wp-demo/aidreform/wp-content/themes/aidreform/page_contact_submit.php on line 7
+[12-Jan-2014 04:32:31 Europe/Stockholm] PHP Notice:  Undefined variable: contact_name in /home/group/public_html/wp-demo/aidreform/wp-content/themes/aidreform/page_contact_submit.php on line 12
+[12-Jan-2014 04:32:31 Europe/Stockholm] PHP Notice:  Undefined variable: contact_email in /home/group/public_html/wp-demo/aidreform/wp-content/themes/aidreform/page_contact_submit.php on line 16
+[12-Jan-2014 04:32:31 Europe/Stockholm] PHP Notice:  Undefined variable: contact_msg in /home/group/public_html/wp-demo/aidreform/wp-content/themes/aidreform/page_contact_submit.php on line 24
+[12-Jan-2014 04:32:31 Europe/Stockholm] PHP Notice:  Undefined variable: contact_name in /home/group/public_html/wp-demo/aidreform/wp-content/themes/aidreform/page_contact_submit.php on line 32
+[12-Jan-2014 04:32:31 Europe/Stockholm] PHP Notice:  Undefined variable: contact_email in /home/group/public_html/wp-demo/aidreform/wp-content/themes/aidreform/page_contact_submit.php on line 33
+[12-Jan-2014 04:32:31 Europe/Stockholm] PHP Notice:  Undefined variable: cs_contact_email in /home/group/public_html/wp-demo/aidreform/wp-content/themes/aidreform/page_contact_submit.php on line 37
+[12-Jan-2014 04:32:31 Europe/Stockholm] PHP Notice:  Undefined variable: cs_contact_succ_msg in /home/group/public_html/wp-demo/aidreform/wp-content/themes/aidreform/page_contact_submit.php on line 38
+[21-Jan-2014 09:34:16 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/group/public_html/wp-demo/aidreform/wp-content/themes/aidreform/index.php on line 3
+[22-Jan-2014 15:54:02 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/group/public_html/wp-demo/aidreform/wp-content/themes/aidreform/index.php on line 3
+[26-Jan-2014 13:59:16 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/group/public_html/wp-demo/aidreform/wp-content/themes/aidreform/index.php on line 3
+[28-Jan-2014 07:39:13 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/group/public_html/wp-demo/aidreform/wp-content/themes/aidreform/index.php on line 3
+[28-Jan-2014 09:43:25 Europe/Stockholm] PHP Notice:  Undefined variable: bloginfo in /home/group/public_html/wp-demo/aidreform/wp-content/themes/aidreform/page_contact_submit.php on line 7
+[28-Jan-2014 09:43:25 Europe/Stockholm] PHP Notice:  Undefined variable: contact_name in /home/group/public_html/wp-demo/aidreform/wp-content/themes/aidreform/page_contact_submit.php on line 12
+[28-Jan-2014 09:43:25 Europe/Stockholm] PHP Notice:  Undefined variable: contact_email in /home/group/public_html/wp-demo/aidreform/wp-content/themes/aidreform/page_contact_submit.php on line 16
+[28-Jan-2014 09:43:25 Europe/Stockholm] PHP Notice:  Undefined variable: contact_msg in /home/group/public_html/wp-demo/aidreform/wp-content/themes/aidreform/page_contact_submit.php on line 24
+[28-Jan-2014 09:43:25 Europe/Stockholm] PHP Notice:  Undefined variable: contact_name in /home/group/public_html/wp-demo/aidreform/wp-content/themes/aidreform/page_contact_submit.php on line 32
+[28-Jan-2014 09:43:25 Europe/Stockholm] PHP Notice:  Undefined variable: contact_email in /home/group/public_html/wp-demo/aidreform/wp-content/themes/aidreform/page_contact_submit.php on line 33
+[28-Jan-2014 09:43:25 Europe/Stockholm] PHP Notice:  Undefined variable: cs_contact_email in /home/group/public_html/wp-demo/aidreform/wp-content/themes/aidreform/page_contact_submit.php on line 37
+[28-Jan-2014 09:43:25 Europe/Stockholm] PHP Notice:  Undefined variable: cs_contact_succ_msg in /home/group/public_html/wp-demo/aidreform/wp-content/themes/aidreform/page_contact_submit.php on line 38
+[28-Jan-2014 08:54:10 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/group/public_html/wp-demo/aidreform/wp-content/themes/aidreform/index.php on line 3

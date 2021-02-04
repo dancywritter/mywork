@@ -1,0 +1,456 @@
+/* Categories Widgets
+================================================== */
+.widget_categories_list {
+	width:100%;
+	float:left;
+}
+.widget_categories_list ul {
+	width:100%;
+	float:left;
+}
+.widget_categories_list ul li a {
+	float:left;
+	text-align:left;
+	display:inline-block;
+}
+.widget_categories_list ul li a:hover {
+	color:#EF5D00;
+}
+/* Archive Widgets
+================================================== */
+.widget_archive {
+	width:100%;
+	float:left;
+}
+.widget_archive ul {
+	width:100%;
+	float:left;
+}
+.widget_archive ul li a {
+	float:left;
+	text-align:left;
+	display:inline-block;
+}
+/* Calender
+================================================== */
+.widget_calendar {
+	width:100%;
+	float:left;
+}
+#calendar_wrap {
+	width:100%;
+	float:left;
+}
+#wp-calendar {
+	width:100%;
+	float:left;
+}
+#wp-calendar caption {
+	width:100%;
+	color:#FFFFFF;
+	background-color:#EF5D00;
+	padding:6px 0px 5px 0px;
+}
+#wp-calendar thead {
+	background:#CCCCCC;
+}
+#wp-calendar thead th {
+	padding:3px 0px;
+	text-align:center;
+}
+#wp-calendar tbody {
+	width:100%;
+	text-align:center;
+	background:#e6e6e6;
+}
+#wp-calendar tbody td {
+	padding:0px 0px;
+	height:30px;
+	vertical-align:middle;
+	text-align:center;
+	font-size:11px;
+}
+#wp-calendar tbody td a {
+	width:100%;
+	height:100%;
+	display:block;
+	font-weight:bold;
+	color:#EF5D00;
+	padding:5px 0px 0px 0px;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
+#wp-calendar tfoot {
+	width:100%;
+}
+#wp-calendar tfoot a {
+	display:inline-block;
+	color:#fff;
+	float:left;
+	font-size:12px;
+	padding:3px 5px 3px 5px;
+	margin:10px 0px 0px 0px;
+	background-color:#EF5D00;
+}
+#wp-calendar tfoot a:hover {
+	background:#1f1f1f;
+}
+#wp-calendar tfoot #next a {
+	float:right;
+}
+/* Widget Links
+================================================== */
+.widget_nav_menu {
+	width:100%;
+	float:left;
+}
+.widget_nav_menu .menu-main-menu-container {
+	width:100%;
+	float:left;
+}
+.widget_nav_menu ul {
+	width:100%;
+	float:left;
+}
+.widget_nav_menu ul li a {
+	float:left;
+	text-align:left;
+	display:inline-block;
+}
+.widget_nav_menu ul li ul {
+	width:100%;
+	float:left;
+	position:relative;
+	padding:5px 20px 0px 20px;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
+/* Archive Widgets
+================================================== */
+.widget_links {
+	width:100%;
+	float:left;
+}
+.widget_links ul {
+	width:100%;
+	float:left;
+}
+.widget_links ul li a {
+	float:left;
+	text-align:left;
+	display:inline-block;
+}
+/* Archive Widgets
+================================================== */
+.widget_meta {
+	width:100%;
+	float:left;
+}
+.widget_meta ul {
+	width:100%;
+	float:left;
+}
+.widget_meta ul li {
+	width:100%;
+	float:left;
+	position:relative;
+	text-align:right;
+	padding:8px 0px;
+	display:inline-block;
+}
+.widget_meta ul li a {
+	float:left;
+	text-align:left;
+	display:inline-block;
+}
+/* Widget Links
+================================================== */
+.widget_pages {
+	width:100%;
+	float:left;
+}
+.widget_pages ul {
+	width:100%;
+	float:left;
+}
+.widget_pages ul li a {
+	float:left;
+	text-align:left;
+	display:inline-block;
+}
+.widget_pages ul li ul {
+	width:100%;
+	float:left;
+	position:relative;
+	padding:5px 20px 0px 20px;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
+/* Archive Widgets
+================================================== */
+.widget_recent_entries {
+	width:100%;
+	float:left;
+}
+.widget_recent_entries ul {
+	width:100%;
+	float:left;
+}
+.widget_recent_entries ul li a {
+	float:left;
+	text-align:left;
+	display:inline-block;
+}
+/* Widget Links
+================================================== */
+.widget_recent_comments {
+	width:100%;
+	float:left;
+}
+.widget_recent_comments ul {
+	width:100%;
+}
+.widget_recent_comments ul li a {
+	float:left;
+	text-align:left;
+	display:inline-block;
+}
+.widget_recent_comments ul li a:hover, .widget_recent_entries ul li a:hover, .widget_meta ul li a:hover, .widget_links ul li a:hover, .featured_categories > ul > li > a:hover, .widget_nav_menu ul li a:hover, .widget_pages ul li a:hover {
+	color:#EF5D00;
+}
+/* Widget Search
+================================================== */
+.widget_search {
+	width:100%;
+	float:left;
+}
+.widget_search form {
+	margin-bottom:0;
+	float:left;
+	width:98%;
+	position: relative;
+	padding-left:3px;
+}
+.widget_search input[type="text"] {
+	float:left;
+	width:100%;
+	font-size:12px;
+	color:#C2C2C2;
+	margin-bottom:10px;
+	border-radius:0px;
+}
+.widget_search input[type="text"]:focus {
+	box-shadow:none;
+}
+.widget_search input[type="submit"] {
+	border: medium none;
+    color: #FFFFFF;
+    height: 40px;
+    padding: 5px 10px;
+    position: absolute;
+    right: 0;
+    text-transform: uppercase;
+}
+/* Widget Tags
+================================================== */
+.widget_tag_cloud {
+	width:100%;
+	float:left;
+}
+.widget_tag_cloud a {
+	border: 1px solid #999999;
+    border-radius: 3px;
+    color: #999999;
+    display: inline-block;
+    float: left;
+    margin: 0 5px 5px 0;
+    padding: 3px 8px;
+    font-size: 12px !important;
+}
+.widget_tag_cloud a:hover{
+	color: #fff;
+	border: none;
+}
+.widget_tag_cloud .tagcloud {
+	width:100%;
+	float:left;
+	padding:10px 0px 0px 0px;
+}
+.widget_tag_cloud .tagcloud a:hover {
+	color:#FFFFFF;
+}
+/*
+=================================
+Left Widget Section End
+=================================
+*/
+
+
+/*
+=================================
+Right Widget Section
+=================================
+*/
+
+.widget {
+	float:left;
+	width:100%;
+	margin-bottom:40px;
+}
+.heading .section-title a {
+	color:#666;
+}
+/*
+==============================
+Widget Featured Categories
+==============================
+*/
+
+.featured_categories > ul > li, .widget_nav_menu ul li, .widget_pages ul li, .widget_links ul li, .widget_meta ul li, .widget_archive ul li, .widget_categories > ul > li, .widget_recent_comments ul li, .widget_recent_entries ul li, .widget_categories_list ul li {
+	width:100%;
+	position:relative;
+	border-radius:4px;
+	margin-bottom:5px;
+	border:1px solid #d8d8d8;
+	padding:6px 12px;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	background:#f0f0f0;
+	color:#666;
+	font-size:11px;
+	cursor:pointer;
+	text-align:right;
+}
+.featured_categories > ul > li > a, .widget_nav_menu ul li a, .widget_pages ul li a, .widget_links ul li a, .widget_meta ul li a, .widget_archive ul li a, .widget_categories > ul > li > a, .widget_recent_comments ul li a:first-child, .widget_recent_entries ul li a, .widget_categories_list ul li a {
+	color:#666;
+	display:block;
+	float:left;
+}
+.widget_nav_menu ul li:hover a, .widget_pages ul li:hover a, .widget_links ul li:hover a, .widget_meta ul li:hover a, .widget_archive ul li:hover a, .widget_archive ul li:hover, .widget_recent_comments ul li:hover a, .widget_recent_comments ul li:hover, .widget_recent_entries ul li:hover a, .widget_recent_entries ul li:hover, .widget_categories_list ul li:hover a{
+	color:#FFF;
+}
+/*
+================================
+Widget Featured	
+================================
+*/
+.widget_categories > ul > li {
+	width:100%;
+	position:relative;
+	margin-bottom:5px;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	color:#666;
+	font-size:12px;
+	cursor:pointer;
+	text-align:right;
+}
+.widget_categories > ul > li > a {
+	color:#666;
+	display:block;
+	float:left;
+	border-left: none !important;
+    font-weight: 300 !important;
+    padding: 0 !important;
+
+}
+
+/*
+=========================================
+	Widget Search
+=========================================
+*/
+.widget_search div {
+	float: left;
+	width: 100%;
+	height: 40px;
+	background-color: #fff;
+	color: #c8c8c8;
+	padding: 5px;
+	box-shadow: 0 0 4px rgba(0,0,0,0.2);
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	position: relative;
+}
+.widget_search div input[type^="text"] {
+	background: none;
+	font-size: 11px;
+	color: #bfbfbf;
+	-webkit-box-shadow: none;
+	width: 100%;
+	height: 30px;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	border: none;
+	border-radius: 0;
+	padding-right: 35px;
+}
+.widget_search div button {
+	position: absolute;
+	right: 0px;
+	top: 5px;
+	height: 30px;
+	background: none;
+	border: none;
+	color: #b5b5b5;
+	cursor: pointer;
+	border-left: 1px solid #e3e3e3;
+	width: 29px;
+	height: 26px
+}
+.widget-twitter i{
+	float: left;
+	margin: 4px 7px 0px 0px;
+}
+.widget-twitter .twitter-follow{
+	float: left;
+}
+/*=_-// Widget Subscribe Start //-_=*/
+.widget-subscribe p{
+	margin: 0px 0px 20px 0px;
+}
+.widget-subscribe form{
+	position: relative;
+}
+.widget_ns_mailchimp input[type="text"]{
+	height: 40px;
+	border: 1px solid #e8e8e8;
+	background-color: #f8faff;
+	color: #cbcbcb;
+	padding: 0px 0px 0px 14px;
+}
+.widget_ns_mailchimp label{
+	float: left;
+	width: 100%;
+}
+.widget_ns_mailchimp input[type="text"]{
+	margin: 5px 0px 3px 0px;
+}
+.widget_ns_mailchimp input{
+	float: left;
+	width: 100%;
+	margin: 5px 0px 3px 0px;
+	border:none;
+}
+.widget_ns_mailchimp input[type="text"],
+.widget_ns_mailchimp input[type="submit"]{
+	border-radius:4px;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+}
+.widget_ns_mailchimp input[type="submit"]{
+	padding: 0px 30px;
+	color: #fff;
+	width: auto;
+	height: 36px;
+}
+.widget .post-title{
+	font-size:13px !important;
+}
+/*=_-// Widget Subscribe End //-_=*/

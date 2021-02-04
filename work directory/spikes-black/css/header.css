@@ -1,0 +1,283 @@
+@charset "utf-8";
+/* Defult Header Style */
+.flt-left{
+	float: left;
+}
+.flt-right{
+	float: right;
+}
+header .flt-right{
+	padding: 35px 0px;
+}
+.wrapper_boxed .header{
+	background-color: transparent;
+}
+.selectnav { 
+	display: none;
+}
+header .container{
+	max-width: 100%;
+}
+header .container{
+	max-width: 100%;
+	padding-left: 30px;padding-right: 30px;
+}
+.main-menu .container{
+	padding-right: 0px;
+}
+/* =========
+Language Section Style ============= */
+.language-sec p,
+header #lang_sel_list,
+header .social-network,
+.cart-secc{
+	float: left;
+}
+header .social-network{
+	margin: 0px 0px 0px 0px;
+}
+header #lang_sel_list{
+	margin-left: 16px;
+}
+.language-sec{
+	margin-bottom: 15px;
+}
+.language-sec,
+.cs-network-sec{
+	float: right;
+}
+header #lang_sel_list ul,
+#lang_sel_list.lang_sel_list_vertical ul{
+	border: none;
+}
+header #lang_sel_list,
+header #lang_sel_list ul,
+header #lang_sel_list li,
+#lang_sel_list.lang_sel_list_vertical,
+#lang_sel_list.lang_sel_list_vertical li {
+	width: auto;
+}
+header #lang_sel_list ul a,
+header #lang_sel_list_list ul a:visited,
+#lang_sel_list.lang_sel_list_vertical ul a, #lang_sel_list_list ul a:visited{
+	background-color: transparent;
+	float: left;
+	padding: 2px 4px;
+	border: 2px solid;
+	margin-right: 3px;
+	text-transform: uppercase;
+}
+header #lang_sel_list a.lang_sel_sel,
+header #lang_sel_list ul a:hover,
+#lang_sel_list.lang_sel_list_vertical ul li a.lang_sel_sel{
+	border: 2px solid;
+}
+.cart-secc{
+	margin: 0px 0px 0px 20px;
+	border-left: 1px solid;
+	line-height: 25px;
+}
+.cart-secc i {
+	margin:0 6px 0 13px;
+}
+.cs-network-sec .social-network a{
+	float: left;
+	margin-right: 20px;
+	font-size: 16px;
+}
+.cart-secc a.amount{
+	position: relative;
+	width: 25px;
+	height: 25px;
+	text-align: center;
+	display: inline-block;
+	vertical-align: top;
+	line-height: 25px;
+	border-radius: 100%;
+}
+
+/* =========
+Defult Search Style ============= */
+.search-sec{
+	margin: 0px 0px 0px 14px;
+	position: relative;
+	float: right;
+	height: 55px;
+	overflow: hidden;
+}
+.search-sec form input.search-btn{
+	float: left;
+	width: 55px;
+	height: 55px;
+}
+.search-sec form .search{
+	width: 450px;
+	padding: 15px;
+	position: relative;
+	z-index: 20;
+	background: url(../images/pattren-bg.png);
+	height:65px;
+}
+.search-box{
+	position: relative;
+}
+.search-sec form input[type="text"]{
+	padding: 11px 15px;
+	height: 55px;
+	font-weight: 200;
+	float: left;
+	margin-right: -90px;
+	width: 116px;
+	opacity: 0;
+}
+.search-sec form:hover input[type="text"]{
+	margin-right: 0px;
+	opacity: 1;
+}
+.search-sec form label{
+	position: relative;
+}
+.search-sec form label:before{
+	content: "\f002";
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	font-size: 16px;
+	margin: -8px 0px 0px -8px;
+}
+/*========= 
+Defult Navigation Style ==========*/
+.navigation{
+	float: left;
+}
+.navigation ul{
+	padding: 46px 0px 0px 0px;
+	margin: 0px;
+}
+.navigation ul li{
+	position: relative;
+	line-height: 55px;
+	height: 55px;
+	padding: 0px 0px 0px 0px;
+}
+.navigation > ul > li.current-menu-ancestor > a:before{
+	content: '';
+	border-top: 2px solid;
+	position: absolute;
+	top: -46px;
+	left: 0px;
+	width: 100%;
+	height: 2px;
+}
+.navigation ul li a{
+	text-transform: uppercase;
+	font-size: 14px;
+	padding: 0px 20px;
+	float: left;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+}
+.navigation ul ul{
+	position: absolute;
+	left: 0px;
+	top: 100%;
+	width: 185px;
+	visibility: hidden;
+	opacity: 0;
+	padding: 0px;
+	z-index: 9999;
+}
+.navigation > ul > li:hover > ul{
+	opacity: 1;
+	visibility: visible;
+}
+.navigation ul ul li{
+	width: 100%;
+	line-height: 20px;
+	height: auto;
+	position: relative;
+}
+.navigation ul ul > li > a{
+	float: left;
+	padding: 11px 14px;
+	width: 100%;
+	font-size: 12px;
+	text-shadow: none;
+}
+.navigation ul ul li:first-child a{
+	border-top: none;
+}
+.navigation ul ul ul{
+	left: 100%;
+	top: 0px;
+	opacity: 0;
+	margin: 0px 0px 0px -10px;
+}
+.navigation ul ul li:hover ul{
+	opacity: 1;
+	visibility: visible;
+	margin: 0px 0px 0px 0px;
+}
+.selectnav { 
+	display: none;
+}
+/*=========== 
+Header Six Style =========*/
+.header-6 .navigation ul{
+	padding: 0px 0 0px 0;
+}
+.header-6 .navigation > ul > li:hover > a, .header-6 .navigation > ul > li.current-menu-ancestor > a{
+	border-radius: 0px;
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+}
+.header-6 .navigation ul li{
+	text-align: left;
+}
+.header-6 .navigation ul ul{
+	padding: 0px;
+}
+.header-6 .navigation ul ul ul{
+	top: 0px;
+}
+.header-6 .navigation > ul > li.current-menu-ancestor > a:before{
+	display: none;}
+/* -- sticky header css Start -- */
+#stickyarea {
+	float:left;
+	position:fixed;
+	left:0;
+	top:0;
+	width:100%;
+	z-index:999;
+	display:none;
+}
+#stickyarea .navigation {
+	width:100% !important;
+	margin-top:0 !important;
+}
+#logobox-stick {
+	float: left;
+    position: relative;
+    top: 11px;
+}
+#logobox-stick > a {
+    float: left;
+    width: 100%;
+}
+#logobox-stick img {
+	width:100% !important;
+	height:auto !important;
+	margin-top:6px;
+	float:none;
+}
+#menubox-stick {
+	float:left;
+}
+.main-menu.scroll-to-fixed-fixed {
+    left: 0 !important;
+    width: 100% !important;
+}
+.main-menu.scroll-to-fixed-fixed .container{
+	max-width: 1080px;
+}

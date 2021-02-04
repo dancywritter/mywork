@@ -1,0 +1,225 @@
+/*
+ * Swiper - Mobile Touch Slider CSS
+ * http://www.idangero.us/sliders/swiper
+ *
+ * Vladimir Kharlampidi, The iDangero.us
+ * http://www.idangero.us/
+ * 
+ * Copyright 2012-2013, Vladimir Kharlampidi
+ * The iDangero.us
+ * http://www.idangero.us
+ *
+ * Licensed under GPL & MIT
+ *
+*/
+
+/* ===============================================================
+Basic Swiper Styles 
+================================================================*/
+#thumbarea .swiper-wrapper{
+	display: inline-block;
+}
+.swiper-container {
+	margin:0 auto;
+	position:relative;
+	overflow:hidden;
+	-webkit-backface-visibility:hidden;
+	-moz-backface-visibility:hidden;
+	-ms-backface-visibility:hidden;
+	-o-backface-visibility:hidden;
+	backface-visibility:hidden;
+	/* Fix of Webkit flickering */
+	z-index:1;
+	height: 100%;
+}
+.swiper-wrapper {
+	position:relative;
+	width:100%;
+	-webkit-transition-property:-webkit-transform, left, top;
+	-webkit-transition-duration:0s;
+	-webkit-transform:translate3d(0px,0,0);
+	-webkit-transition-timing-function:ease;
+	
+	-moz-transition-property:-moz-transform, left, top;
+	-moz-transition-duration:0s;
+	-moz-transform:translate3d(0px,0,0);
+	-moz-transition-timing-function:ease;
+	
+	-o-transition-property:-o-transform, left, top;
+	-o-transition-duration:0s;
+	-o-transform:translate3d(0px,0,0);
+	-o-transition-timing-function:ease;
+	-o-transform:translate(0px,0px);
+	
+	-ms-transition-property:-ms-transform, left, top;
+	-ms-transition-duration:0s;
+	-ms-transform:translate3d(0px,0,0);
+	-ms-transition-timing-function:ease;
+	
+	transition-property:transform, left, top;
+	transition-duration:0s;
+	transform:translate3d(0px,0,0);
+	transition-timing-function:ease;
+}
+.swiper-free-mode > .swiper-wrapper {
+	-webkit-transition-timing-function: ease-out;
+	-moz-transition-timing-function: ease-out;
+	-ms-transition-timing-function: ease-out;
+	-o-transition-timing-function: ease-out;
+	transition-timing-function: ease-out;
+	margin: 0 auto;
+}
+.swiper-slide {
+	float: left;
+}
+
+/* IE10 Windows Phone 8 Fixes */
+.swiper-wp8-horizontal {
+	-ms-touch-action: pan-y;
+}
+.swiper-wp8-vertical {
+	-ms-touch-action: pan-x;
+}
+
+/* ===============================================================
+Your custom styles, here you need to specify container's and slide's
+sizes, pagination, etc.
+================================================================*/
+.swiper-container {
+	/* Specify Swiper's Size: */
+
+	/*width:200px;
+	height: 100px;*/
+}
+.swiper-slide {
+	/* Specify Slides's Size: */
+	
+	/*width: 100%;
+	height: 100%;*/
+	width: 25%;
+}
+.swiper-slide-active {
+	/* Specific active slide styling: */
+	
+}
+.swiper-slide-visible {
+	/* Specific visible slide styling: */	
+
+}
+/* ===============================================================
+Pagination Styles
+================================================================*/
+.swiper-pagination-switch {
+	/* Stylize pagination button: */	
+
+}
+.swiper-active-switch {
+	/* Specific active button style: */	
+	
+}
+.swiper-visible-switch {
+	/* Specific visible button style: */	
+	
+}
+.swiper-containertwo,
+.swiper-containerthree,
+.swiper-container{
+	width: 120%;
+}
+.device {
+  width: 100%;
+  height: 420px;
+  position: relative;
+  margin: 0px 0px 10px 0px;
+}
+article .device {
+	height: 100%
+}
+
+
+.slide-arrow{
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	z-index: 99;
+	background-color: rgba(0,0,0,0.5);
+	padding: 14px 19px 10px 19px;
+}
+.slide-arrow h3{
+	color: #fff;
+	float: left;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+.click-sec{
+	float: left;
+}
+.slide-arrow a{
+	float: left;
+	color: #fff;
+	margin: 0px 0px 0px 14px;
+	font-size: 20px;
+}
+.device .arrow-left {
+}
+.device .arrow-right {
+}
+
+.title {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+.swiper-containertwo .pagination,
+.swiper-containerthree .pagination,
+.swiper-container .pagination {
+  position: absolute;
+  left: 0;
+  text-align: center;
+  bottom:5px;
+  width: 100%;
+  display: none;
+}
+.swiper-pagination-switch {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  background: #999;
+  box-shadow: 0px 1px 2px #555 inset;
+  margin: 0 3px;
+  cursor: pointer;
+}
+.swiper-active-switch {
+  background: #fff;
+}
+.detail_images .swiper-containertwo, .swiper-containerthree, .swiper-container{
+	width: 100%;
+}
+.detail_images .device{
+	height: 400px;
+}
+.detail_images .device .pagination{
+	display: none;
+}
+.click-sec .arrow-right{
+	-webkit-transform: rotate(0);
+	   -moz-transform: rotate(0);
+	    -ms-transform: rotate(0);
+	     -o-transform: rotate(0);
+	        transform: rotate(0);
+}
+#thumbarea .swiper-slide {
+	width: 60px;
+	height: 60px;
+	overflow: hidden;
+	margin-left: 3px;
+}
+.swiper-slide figure img{
+	width: 100%;
+}
+/*.video-slide .gallery_stack_element  {
+	right: auto;
+	left: 20px;
+	top: auto;
+	bottom: 90px;
+}*/

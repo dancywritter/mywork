@@ -1,0 +1,14 @@
+[23-Jan-2014 06:34:19] PHP Fatal error:  Call to undefined function  get_header() in /home1/chimpst1/public_html/wp-demo/bolster/wp-content/themes/bolster-theme/index.php on line 4
+[23-Jan-2014 12:36:08] PHP Fatal error:  Call to undefined function  get_header() in /home1/chimpst1/public_html/wp-demo/bolster/wp-content/themes/bolster-theme/index.php on line 4
+[23-Jan-2014 18:51:29] PHP Fatal error:  Call to undefined function  get_header() in /home1/chimpst1/public_html/wp-demo/bolster/wp-content/themes/bolster-theme/index.php on line 4
+[24-Jan-2014 00:32:51] PHP Fatal error:  Call to undefined function  get_header() in /home1/chimpst1/public_html/wp-demo/bolster/wp-content/themes/bolster-theme/index.php on line 4
+[24-Jan-2014 14:41:36] PHP Fatal error:  Call to undefined function  get_header() in /home1/chimpst1/public_html/wp-demo/bolster/wp-content/themes/bolster-theme/index.php on line 4
+[25-Jan-2014 19:15:27] PHP Notice:  Undefined variable: bloginfo in /home1/chimpst1/public_html/wp-demo/bolster/wp-content/themes/bolster-theme/page_contact_submit.php on line 7
+[25-Jan-2014 19:15:27] PHP Notice:  Undefined variable: contact_name in /home1/chimpst1/public_html/wp-demo/bolster/wp-content/themes/bolster-theme/page_contact_submit.php on line 12
+[25-Jan-2014 19:15:27] PHP Notice:  Undefined variable: contact_email in /home1/chimpst1/public_html/wp-demo/bolster/wp-content/themes/bolster-theme/page_contact_submit.php on line 16
+[25-Jan-2014 19:15:27] PHP Notice:  Undefined variable: contact_msg in /home1/chimpst1/public_html/wp-demo/bolster/wp-content/themes/bolster-theme/page_contact_submit.php on line 24
+[25-Jan-2014 19:15:27] PHP Notice:  Undefined variable: contact_name in /home1/chimpst1/public_html/wp-demo/bolster/wp-content/themes/bolster-theme/page_contact_submit.php on line 32
+[25-Jan-2014 19:15:27] PHP Notice:  Undefined variable: contact_email in /home1/chimpst1/public_html/wp-demo/bolster/wp-content/themes/bolster-theme/page_contact_submit.php on line 33
+[25-Jan-2014 19:15:27] PHP Notice:  Undefined variable: cs_contact_email in /home1/chimpst1/public_html/wp-demo/bolster/wp-content/themes/bolster-theme/page_contact_submit.php on line 37
+[25-Jan-2014 19:15:27] PHP Notice:  Undefined variable: cs_contact_succ_msg in /home1/chimpst1/public_html/wp-demo/bolster/wp-content/themes/bolster-theme/page_contact_submit.php on line 38
+[25-Jan-2014 12:18:27] PHP Fatal error:  Call to undefined function  get_header() in /home1/chimpst1/public_html/wp-demo/bolster/wp-content/themes/bolster-theme/index.php on line 4

@@ -1,0 +1,1042 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:100);
+@import url(http://fonts.googleapis.com/css?family=Oswald);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300);
+@import url(http://fonts.googleapis.com/css?family=Montserrat:700,400);
+*,
+*:after,
+*::before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+html, body, .container, .scroller {
+	height: 100%;
+}
+.scroller {
+	overflow-y: scroll;
+}
+.scroller,
+.scroller-inner {
+	position: relative;
+}
+.logo {
+	z-index: 99;
+}
+.container {
+	position: relative;
+	overflow: hidden;
+}
+.menu-trigger {
+	position: relative;
+	padding-left: 60px;
+	font-size: 0.9em;
+}
+.menu-trigger:before {
+	position: absolute;
+	top: 2px;
+	left: 0;
+	width: 40px;
+	height: 6px;
+	display: none;
+	background: #fff;
+	box-shadow: 0 6px #34495e, 0 12px #fff, 0 18px #34495e, 0 24px #fff;
+	content: '';
+}
+.mp-pusher {
+	position: relative;
+	left: 0;
+	margin-top: 145px;
+	height: 100%;
+}
+#menus .mp-back{
+	display: none;
+}
+#mp-menu li ul.sub-menu {
+	opacity: 0;
+}
+#mp-menu .mp-level  li ul.sub-menu {
+	opacity: 1;
+}
+.mp-menu {
+	position: absolute; /* we can't use fixed here :( */
+	top: 0;
+	left: 0;
+	z-index: 1;
+	width: 205px;
+	height: 100%;
+	-webkit-transform: translate3d(-100%, 0, 0);
+	-moz-transform: translate3d(-100%, 0, 0);
+	transform: translate3d(-100%, 0, 0);
+}
+/*.wrapper.wrapper-menu-loaded .mp-menu {
+	-webkit-transform: translate3d(0%, 0, 0);
+	-moz-transform: translate3d(0%, 0, 0);
+	transform: translate3d(0%, 0, 0);	
+}*/
+.wrapper.wrapper-menu-loaded #main {
+	padding-left: 255px;
+}
+.mp-level {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	/*background: #336ca6;*/
+	-webkit-transform: translate3d(-100%, 0, 0);
+	-moz-transform: translate3d(-100%, 0, 0);
+	transform: translate3d(-100%, 0, 0);
+}
+ul .mp-level{
+	z-index: 9999999;
+	background: #282828;
+}
+/* overlays for pusher and for level that gets covered */
+.mp-pusher::after,
+.mp-level::after,
+.mp-level::before {
+	position: absolute;
+	display: none;
+	top: 0;
+	right: 0;
+	width: 0;
+	height: 0;
+	content: '';
+	opacity: 0;
+}
+.mp-pusher::after,
+.mp-level::after {
+	background: rgba(0,0,0,0.3);
+	display: none;
+	-webkit-transition: opacity 0.3s, width 0.1s 0.3s, height 0.1s 0.3s;
+	-moz-transition: opacity 0.3s, width 0.1s 0.3s, height 0.1s 0.3s;
+	transition: opacity 0.3s, width 0.1s 0.3s, height 0.1s 0.3s;
+	display: none;
+}
+.mp-level::after {
+	z-index: -1;
+}
+.mp-pusher.mp-pushed::after,
+.mp-level.mp-level-overlay::after {
+	width: 100%;
+	height: 100%;
+	opacity: 1;
+	display: none;
+	-webkit-transition: opacity 0.3s;
+	-moz-transition: opacity 0.3s;
+	transition: opacity 0.3s;
+}
+.mp-level.mp-level-overlay {
+	cursor: pointer;
+}
+.mp-level.mp-level-overlay.mp-level::before {
+	width: 100%;
+	height: 100%;
+	display: none;
+	background: transparent;
+	opacity: 1;
+}
+.mp-pusher,
+.mp-level {
+	-webkit-transition: all 0.2s linear 0.1s;
+	-moz-transition: all 0.2s linear 0.1s;
+	transition: all 0.2s linear 0.1s;
+}
+
+/* overlap */
+.mp-overlap .mp-level.mp-level-open {
+	box-shadow: 1px 0 2px rgba(0,0,0,0.2);
+	-webkit-transform: translate3d(-40px, 0, 0);
+	-moz-transform: translate3d(-40px, 0, 0);
+	transform: translate3d(-40px, 0, 0);
+}
+
+/* First level */
+.mp-menu > .mp-level,
+.mp-menu > .mp-level.mp-level-open,
+.mp-menu.mp-overlap > .mp-level,
+.mp-menu.mp-overlap > .mp-level.mp-level-open {
+	box-shadow: none;
+	-webkit-transform: translate3d(0, 0, 0);
+	-moz-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+}
+
+/* cover */
+.mp-cover .mp-level.mp-level-open {
+	-webkit-transform: translate3d(0, 0, 0);
+	-moz-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+}
+.mp-cover .mp-level.mp-level-open > ul > li > .mp-level:not(.mp-level-open) {
+	-webkit-transform: translate3d(-100%, 0, 0);
+	-moz-transform: translate3d(-100%, 0, 0);
+	transform: translate3d(-100%, 0, 0);
+}
+/* content style */
+.mp-menu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	height: 100%;
+}
+.mp-menu h2 {
+	margin: 0;
+	padding: 1em;
+	color: rgba(0,0,0,0.4);
+	text-shadow: 0 0 1px rgba(0,0,0,0.1);
+	font-weight: 300;
+	font-size: 2em;
+}
+.mp-menu.mp-overlap h2::before {
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin-right: 8px;
+	font-size: 75%;
+	line-height: 1.8;
+	opacity: 0;
+	-webkit-transition: opacity 0.3s, -webkit-transform 0.1s 0.3s;
+	-moz-transition: opacity 0.3s, -moz-transform 0.1s 0.3s;
+	transition: opacity 0.3s, transform 0.1s 0.3s;
+	-webkit-transform: translateX(-100%);
+	-moz-transform: translateX(-100%);
+	transform: translateX(-100%);
+}
+.mp-menu.mp-cover h2 {
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: 1px;
+	font-size: 1em;
+}
+.mp-overlap .mp-level.mp-level-overlay > h2::before {
+	opacity: 1;
+	-webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
+	-moz-transition: -moz-transform 0.3s, opacity 0.3s;
+	transition: transform 0.3s, opacity 0.3s;
+	-webkit-transform: translateX(0);
+	-moz-transform: translateX(0);
+	transform: translateX(0);
+}
+.mp-menu ul li a {
+	display: block;
+	outline: none;
+	float:left;
+	width: 100%;
+	font-size:13px;
+	color:#fff;
+	z-index:999;
+	position:relative;
+	text-align: left;
+	padding: 12px 20px 12px 13px;
+	white-space: nowrap;
+	font-weight: bold;
+}
+.mp-menu ul li::before {
+	position: absolute;
+	left: 10px;
+	z-index: -1;
+	color: rgba(0,0,0,0.2);
+	line-height: 3.5;
+}
+.mp-menu ul li a:hover,
+.mp-level > ul > li:first-child > a:hover {
+
+}
+.mp-menu .mp-level.mp-level-overlay > ul > li > a,
+.mp-level.mp-level-overlay > ul > li:first-child > a {
+
+}
+nav.navigation.mp-menu ul li a:hover{
+	background-color: rgba(0,0,0,0.3);
+	opacity: 1;
+}
+nav.navigation.mp-menu ul li.current-menu-item a{
+	opacity: 1;
+}
+nav.navigation.mp-menu #menu .mp-back{
+	display: none;
+}
+nav.navigation.mp-menu ul.sub-menu .mp-back{
+	display: block !important;
+}
+nav.navigation.mp-menu ul.sub-menu{
+	padding-top: 50px;
+	position: absolute;
+	top: 0px;
+	background: rgba(40,40,40,1);
+	width: 100%;
+}
+.mp-back {
+	background: rgba(0,0,0,0.3);
+	outline: none;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 700;
+	display: block;
+	font-size: 0.8em;
+	padding: 13px 40px !important;
+	position: relative;
+	-webkit-transition: background 0.3s;
+	-moz-transition: background 0.3s;
+	transition: background 0.3s;
+	float: left;width: 100%;
+}
+nav.navigation.mp-menu ul li .mp-level .mp-back{
+	position: absolute;
+	top: 0px;
+	opacity: 1;
+}
+nav.navigation.mp-menu ul li .mp-level .mp-back:before{
+	display: none !important;
+}
+.mp-back::after {
+	font-family: FontAwesome;
+	position: absolute;
+	content: "\f104";
+	left: 21px;
+	top: 11px;
+	font-size: 18px;
+	color: #fff;
+}
+.mp-menu .mp-level.mp-level-overlay > .mp-back,
+.mp-menu .mp-level.mp-level-overlay > .mp-back::after {
+	background: transparent;
+	box-shadow: none;
+	color: transparent;
+}
+
+/* Fallback example for browsers that don't support 3D transforms (and no JS fallback) */
+/* We'll show the first level only */
+.no-csstransforms3d .mp-pusher,
+.no-js .mp-pusher {
+	padding-left: 300px;
+}
+.no-csstransforms3d .mp-menu > .mp-level,
+.no-js .mp-menu > .mp-level {
+	display: block;
+}
+.wrapper-menu-loaded .nav-sec {
+	margin-left: 0;
+}
+.nav-sec {
+	overflow: hidden;
+}
+/*
+=================================
+Home Page Version
+=================================
+*/
+#videowrapper {
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: -1;
+	overflow: hidden;
+}
+#videowrapper iframe {
+	float: left;
+	width: 100%;
+	height: 100%;
+	position: relative;
+	z-index: 1;
+}
+.pattrenbg{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 9;
+	background: url(../images/bg-pattrensl.png) repeat left top;
+}
+.wrapper-banner-home {
+	float: left;
+	width: 100%;
+	text-align: center;
+	position: absolute;
+	left: 0;
+	z-index: 99;
+	top: 50%;
+	margin-top: -200px;
+}
+.wrapper-banner-home .flexslider {
+	float: left;
+	width: 100%;
+}
+.wrapper-banner-home .flexslider .flex-control-nav ,.wrapper-banner-home .flexslider .flex-direction-nav {
+	display: none;
+}
+.wrapper-banner-home-main {
+	position: relative;
+	width: 100%;
+	float: none;
+	display: table-cell;
+	vertical-align: middle;
+}
+.wrapper-banner-home-main h3 {
+	display: inline-block;
+	vertical-align: top;
+	line-height: 36px;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 300;
+	background: rgba(0,0,0,0.5);
+	padding: 0 20px;
+	margin-bottom: 22px;
+}
+/*
+========================
+Caption Style 1
+========================
+*/
+.cs-home-option1 .wrapper-banner-home{
+	width: 670px;
+	height: auto;
+	left: 50px;
+	top: auto;
+	bottom:80px;
+	text-align: left;
+	margin-top: 0;
+}
+.cs-home-option1 .wrapper-banner-home .btnreadmore2 {
+	display: block;
+	float: left;
+	border-radius: 60px;
+}
+.cs-home-option1 .wrapper-banner-home .btnreadmore2 a {
+	color: #fff;
+	font-size: 14px;
+	line-height: 40px;
+	padding: 0 30px;
+	display: inline-block;
+	vertical-align: top;
+	float: left;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-shadow: 2px 2px 12px rgba(0,0,0,0.5);
+}
+.cs-home-option1 .wrapper-banner-home .btnreadmore2 a:before {
+	content: "Getting Impressed?";
+}
+.cs-home-option1 .wrapper-banner-home .btnreadmore2 a .fa {
+	display: none;
+}
+.cs-home-option1 .wrapper-banner-home h1 {
+	font-weight: 300;
+	font-size: 60px;
+	margin-bottom: 32px;
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+}
+.cs-home-option1 .wrapper-banner-home h1 a{
+	color: #fff;
+	text-shadow: 2px 2px 5px  rgba(0,0,0,0.5);
+}
+.wrapper-banner-home h1 {
+	line-height: 1.2;
+}
+/*
+========================
+Close caption Style 1
+========================
+*/
+/*
+========================
+Caption Style 2
+========================
+*/
+.cs-home-option2 {
+	text-align: center;
+}
+.cs-home-option2 .wrapper-banner-home{
+	width: 624px;
+	height: auto;
+	float: none;
+	position: relative;
+	top: 0;
+	left: 0;
+	margin:0;
+	text-align: center;
+	margin-top: 0;
+	display: inline-block;
+	vertical-align: top;
+	
+	}
+.cs-home-option2 .wrapper-banner-home .btnreadmore2 {
+	display: inline-block;
+	vertical-align: top;
+	border-radius: 60px;
+}
+.cs-home-option2 .wrapper-banner-home .flexslider {
+	float: left;
+	width: 100%;
+	border-top: 3px solid #fff;
+	border-bottom: 3px solid #fff;
+	padding: 30px 0;
+}
+.cs-home-option2 .wrapper-banner-home .btnreadmore2 a {
+	color: #fff;
+	font-size: 14px;
+	line-height: 40px;
+	padding: 0 30px;
+	display: inline-block;
+	vertical-align: top;
+	float: left;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-shadow: 2px 2px 12px rgba(0,0,0,0.5);
+	
+}
+.cs-home-option2 .wrapper-banner-home .btnreadmore2 a:before {
+	content: "Getting Impressed?";
+}
+.cs-home-option2 .wrapper-banner-home .btnreadmore2 a .fa {
+	display: none;
+}
+.cs-home-option2 .wrapper-banner-home h1 {
+	font-size: 32px;
+	margin-bottom: 32px;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 400;
+	line-height: 1.2;
+	font-family: 'Oswald', sans-serif;
+}
+.cs-home-option2 .wrapper-banner-home h1 a{
+	color: #fff;
+	text-shadow: 2px 2px 5px  rgba(0,0,0,0.5);
+}
+/*
+========================
+Close caption Style 2
+========================
+*/
+/*
+========================
+Caption Style 3
+========================
+*/
+.cs-home-option3 .wrapper-banner-home{
+width: 624px;
+height: auto;
+left: 50px;
+margin-left: 0;
+top: auto;
+bottom: 40px;
+text-align: left;
+margin-top: 0;
+}
+.cs-home-option3 .wrapper-banner-home h3 {
+	display: none;
+}
+.cs-home-option3 .wrapper-banner-home .btnreadmore2 {
+	display: inline-block;
+	vertical-align: top;
+	border-radius: 60px;
+	display: none;
+}
+.cs-home-option3 .wrapper-banner-home .flexslider {
+	float: left;
+	width: 100%;
+
+}
+
+.cs-home-option3 .wrapper-banner-home h1 {
+	font-size: 30px;
+	margin-bottom: 0px;
+	color: #fff;
+	font-weight: 400;
+	font-family: Lato;
+}
+.cs-home-option3 .wrapper-banner-home h1 a{
+	color: #fff;
+	display: inline;
+	padding: 5px 0;
+	line-height: 47px;
+	background: rgba(0,0,0,0.8);
+	text-shadow: 2px 2px 4px #000;
+	box-shadow: 10px 0 0 rgba(0,0,0,0.8),-10px 0 0 rgba(0,0,0,0.8);
+}
+/*
+========================
+Close caption Style 3
+========================
+*/
+/*
+========================
+Caption Style 4
+========================
+*/
+.cs-home-option4 {
+	text-align: center;
+}
+.cs-home-option4 .wrapper-banner-home{
+width: 624px;
+height: auto;
+left: 0;
+margin:0;
+top: 0;
+float: none;
+text-align: center;
+margin-top: 0;
+position: relative;
+display: inline-block;
+vertical-align: top;
+
+}
+.cs-home-option4 .wrapper-banner-home .btnreadmore2 {
+	display: inline-block;
+	vertical-align: top;
+	border-radius: 60px;
+}
+.cs-home-option4 .wrapper-banner-home h3 {
+	background: none;
+	font-size: 36px;
+	font-weight: 300;
+	margin-bottom: 10px;
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	text-transform: none;
+	text-shadow: 2px 2px 5px  rgba(0,0,0,0.5);
+}
+.cs-home-option4 .wrapper-banner-home .flexslider {
+	float: left;
+	width: 100%;
+
+}
+.cs-home-option4 .wrapper-banner-home .btnreadmore2 a {
+	color: #fff;
+	font-size: 14px;
+	line-height: 40px;
+	padding: 0 30px;
+	display: inline-block;
+	vertical-align: top;
+	float: left;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-shadow: 2px 2px 12px rgba(0,0,0,0.5);
+	
+}
+.cs-home-option4 .wrapper-banner-home .btnreadmore2 a:before {
+	content: "Getting Impressed?";
+}
+.cs-home-option4 .wrapper-banner-home .btnreadmore2 a .fa {
+	display: none;
+}
+.cs-home-option4 .wrapper-banner-home h1 {
+	font-size: 20px;
+	font-weight: 300;
+	font-family: 'Open Sans', sans-serif;
+	margin-bottom: 20px;
+	color: #fff;
+}
+.cs-home-option4 .wrapper-banner-home h1 a{
+	color: #fff;
+	text-shadow: 2px 2px 5px  rgba(0,0,0,0.5);
+}
+/*
+========================
+Close caption Style 4
+========================
+*/
+/*
+========================
+Caption Style 5
+========================
+*/
+.cs-home-option5 {
+	text-align: center;
+}
+.cs-home-option5 .wrapper-banner-home {
+	width: 80%;
+	position: relative;
+	top: 0;
+	left: 0;
+	display: inline-block;
+	vertical-align: top;
+	float: none;
+	margin: 0;
+}
+.cs-home-option5 .flexslider h1 {
+	color: #fff;
+	font-size: 80px;
+	text-shadow: 5px 5px 10px  rgba(0,0,0,0.7);
+	margin-bottom: 0px;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+	font-family: 'Montserrat', sans-serif;
+}
+.cs-home-option5 .flexslider h3 {
+	margin-bottom: 30px;
+}
+.cs-home-option5 .flexslider h1 a {
+	color: #fff;
+}
+.cs-home-option5 .flexslider .btnreadmore2 {
+	display: inline-block;
+	vertical-align: top;
+	position: relative;
+	width: 64px;
+	height: 64px;
+	border-radius: 64px;
+	color: #fff;
+	font-size: 40px
+
+}
+.cs-home-option5 .flexslider .btnreadmore2:before {
+	content: '';
+	position: absolute;
+	float: left;
+	width: 345px;
+	right: 100%;
+	height: 2px;
+	top: 50%;
+	margin-right: 20px;
+	background: #fff;
+	
+}
+.cs-home-option5 .flexslider .btnreadmore2:after {
+	content: '';
+	position: absolute;
+	float: left;
+	width: 345px;
+	left: 100%;
+	top: 50%;
+	height: 2px;
+	background: #fff;
+	margin-left: 20px;
+	
+}
+.cs-home-option5 .flexslider .btnreadmore2 a {
+	display: block;
+	float: left;
+	width: 100%;
+	color: #fff;
+	line-height: 60px;
+}
+.cs-home-option5 .flexslider .btnreadmore2 a .fa {
+	font-size: 40px;
+}
+/*
+========================
+Caption Style 6
+========================
+*/
+.wrapper-banner-home-main.cs-home-option6 h3 {
+	background: none;
+	padding: 0;
+}
+.cs-home-option6 {
+	width: 485px !important;
+	background: rgba(0,0,0,0.9);
+	float: none;
+	height: 100%;
+	display: table-cell;
+	vertical-align: middle;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+.cs-home-option6 .wrapper-banner-home{
+	width: 100%;
+	height: auto;
+	left: 0%;
+	margin-left: 0;
+	top:0;
+	padding: 35px;
+	float: none;
+	text-align: left;
+	margin-top: 0;
+	display: inline-block;
+	position: relative;
+}
+
+.cs-home-option6 .wrapper-banner-home .btnreadmore2 {
+	display: inline-block;
+	vertical-align: top;
+	border-radius: 60px;
+}
+.cs-home-option6 .wrapper-banner-home h3 {
+
+}
+.cs-home-option6 .wrapper-banner-home .flexslider {
+	float: left;
+	width: 100%;
+
+}
+.cs-home-option6 .wrapper-banner-home .btnreadmore2 a {
+	color: #fff;
+	font-size: 14px;
+	line-height: 40px;
+	padding: 0 30px;
+	display: inline-block;
+	vertical-align: top;
+	float: left;
+	font-weight: 700;
+	text-transform: none;
+	text-transform: uppercase;
+	text-shadow: 2px 2px 12px rgba(0,0,0,0.5);
+	
+}
+.cs-home-option6 .wrapper-banner-home .btnreadmore2 a:before {
+	content: "Getting Impressed?";
+}
+.cs-home-option6 .wrapper-banner-home .btnreadmore2 a .fa {
+	display: none;
+}
+.cs-home-option6 .wrapper-banner-home h1 {
+	font-size: 50px;
+	margin-bottom: 30px;
+	color: #fff;
+	line-height: 1.2;
+	font-weight: 400;
+	font-family: 'Montserrat', sans-serif;
+}
+.cs-home-option6 .wrapper-banner-home h1 a{
+	color: #fff;
+	text-shadow: 2px 2px 5px  rgba(0,0,0,0.5);
+}
+/*
+========================
+Close caption Style 6
+========================
+*/
+/*
+========================
+Caption Style 7
+========================
+*/
+.cs-home-option7 {
+	text-align: center;
+}
+.cs-home-option7 .wrapper-banner-home{
+width: 624px;
+height: auto;
+left: 0%;
+margin: 0;
+top: 0;
+float: none;
+text-align: center;
+display: inline-block;
+position: relative;
+vertical-align: top;
+}
+.cs-home-option7 .wrapper-banner-home .btnreadmore2 {
+	display: inline-block;
+	vertical-align: top;
+	border-radius: 60px;
+}
+.cs-home-option7 .wrapper-banner-home h3 {
+	background: none;
+	font-size: 36px;
+	font-weight: 300;
+	margin-bottom: 10px;
+	color: #fff;
+	text-transform: none;
+	text-shadow: 2px 2px 5px  rgba(0,0,0,0.5);
+}
+.cs-home-option7 .wrapper-banner-home .flexslider {
+	float: left;
+	width: 100%;
+
+}
+.cs-home-option7 .wrapper-banner-home .btnreadmore2 a {
+	color: #fff;
+	font-size: 14px;
+	line-height: 40px;
+	padding: 0 30px;
+	display: inline-block;
+	vertical-align: top;
+	float: left;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-shadow: 2px 2px 12px rgba(0,0,0,0.5);
+	
+}
+.cs-home-option7 .wrapper-banner-home .btnreadmore2 a:before {
+	content: "Getting Impressed?";
+}
+.cs-home-option7 .wrapper-banner-home .btnreadmore2 a .fa {
+	display: none;
+}
+.cs-home-option7 .wrapper-banner-home h1 {
+	font-size: 30px;
+	font-weight: 400;
+	margin-bottom: 35px;
+	text-transform: uppercase;
+	color: #fff;
+	font-family: Oswald;
+}
+.cs-home-option7 .wrapper-banner-home h3 {
+	margin-bottom: 35px;
+}
+.cs-home-option7 .wrapper-banner-home h1 a{
+	color: #fff;
+	display: inline;
+	padding: 1px 0;
+	background: rgba(36,36,36,0.8);
+	line-height: 47px;
+	text-shadow: 2px 2px 5px  rgba(0,0,0,0.8);
+	box-shadow: 10px 0 0 rgba(36,36,36,0.8),-10px 0 0 rgba(36,36,36,0.8);
+}
+.wrapper-banner-home .btnreadmore2 {
+	font-family: Lato;
+	letter-spacing: 1px;
+}
+/*
+========================
+Close caption Style 7
+========================
+*/
+
+/*.wrapper-banner-home-v5.wrapper-banner-home-main {
+	position: absolute;
+}*/
+#trigger2.sticky-btn {
+	cursor: pointer;
+}
+.header-sticky-off .sticky-btn,#trigger2.sticky-btn,.header-sticky-on #trigger2.sticky-btn {
+	display: none;
+}
+.header-sticky-off  #trigger2.sticky-btn,.header-sticky-on .sticky-btn {
+	display: block;
+}
+
+
+
+
+.rotating {
+  display: inline-block;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-transform: rotateX(0) rotateY(0) rotateZ(0);
+  -moz-transform: rotateX(0) rotateY(0) rotateZ(0);
+  -ms-transform: rotateX(0) rotateY(0) rotateZ(0);
+  -o-transform: rotateX(0) rotateY(0) rotateZ(0);
+  transform: rotateX(0) rotateY(0) rotateZ(0);
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-transform-origin-x: 50%;
+}
+
+.rotating.flip {
+  position: relative;
+}
+
+.rotating .front, .rotating .back {
+  left: 0;
+  top: 0;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.rotating .front {
+  position: absolute;
+  display: inline-block;
+  -webkit-transform: translate3d(0,0,1px);
+  -moz-transform: translate3d(0,0,1px);
+  -ms-transform: translate3d(0,0,1px);
+  -o-transform: translate3d(0,0,1px);
+  transform: translate3d(0,0,1px);
+}
+
+.rotating.flip .front {
+  z-index: 1;
+}
+
+.rotating .back {
+  display: block;
+  opacity: 0;
+}
+
+.rotating.spin {
+  -webkit-transform: rotate(360deg) scale(0);
+  -moz-transform: rotate(360deg) scale(0);
+  -ms-transform: rotate(360deg) scale(0);
+  -o-transform: rotate(360deg) scale(0);
+  transform: rotate(360deg) scale(0);
+}
+
+
+
+.rotating.flip .back {
+  z-index: 2;
+  display: block;
+  opacity: 1;
+  
+  -webkit-transform: rotateY(180deg) translate3d(0,0,0);
+  -moz-transform: rotateY(180deg) translate3d(0,0,0);
+  -ms-transform: rotateY(180deg) translate3d(0,0,0);
+  -o-transform: rotateY(180deg) translate3d(0,0,0);
+  transform: rotateY(180deg) translate3d(0,0,0);
+}
+
+.rotating.flip.up .back {
+  -webkit-transform: rotateX(180deg) translate3d(0,0,0);
+  -moz-transform: rotateX(180deg) translate3d(0,0,0);
+  -ms-transform: rotateX(180deg) translate3d(0,0,0);
+  -o-transform: rotateX(180deg) translate3d(0,0,0);
+  transform: rotateX(180deg) translate3d(0,0,0);
+}
+
+.rotating.flip.cube .front {
+  -webkit-transform: translate3d(0,0,100px) scale(0.9,0.9);
+  -moz-transform: translate3d(0,0,100px) scale(0.85,0.85);
+  -ms-transform: translate3d(0,0,100px) scale(0.85,0.85);
+  -o-transform: translate3d(0,0,100px) scale(0.85,0.85);
+  transform: translate3d(0,0,100px) scale(0.85,0.85);
+}
+
+.rotating.flip.cube .back {
+  -webkit-transform: rotateY(180deg) translate3d(0,0,100px) scale(0.9,0.9);
+  -moz-transform: rotateY(180deg) translate3d(0,0,100px) scale(0.85,0.85);
+  -ms-transform: rotateY(180deg) translate3d(0,0,100px) scale(0.85,0.85);
+  -o-transform: rotateY(180deg) translate3d(0,0,100px) scale(0.85,0.85);
+  transform: rotateY(180deg) translate3d(0,0,100px) scale(0.85,0.85);
+}
+
+.rotating.flip.cube.up .back {
+  -webkit-transform: rotateX(180deg) translate3d(0,0,100px) scale(0.9,0.9);
+  -moz-transform: rotateX(180deg) translate3d(0,0,100px) scale(0.85,0.85);
+  -ms-transform: rotateX(180deg) translate3d(0,0,100px) scale(0.85,0.85);
+  -o-transform: rotateX(180deg) translate3d(0,0,100px) scale(0.85,0.85);
+  transform: rotateX(180deg) translate3d(0,0,100px) scale(0.85,0.85);
+}
+
+.subheader-on.header-sticky-off .sticky-btn {
+	display: block;
+}
+.subheader-on.header-sticky-off #trigger2.sticky-btn {
+	display: none;
+}
+ .mp-wrapper-main.header-sticky-off.subheader-off #main {
+	padding-left: 205px;
+}
+
+.home-gallery-page-v5 {
+	float: left;
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+}
+.home-gallery-page-v5 .gallery.cs-thumb-gallery {
+	position: absolute;
+}
+#headermain {
+	overflow: hidden;
+}
+#videowrapper .mejs-overlay-button {
+	opacity: 0 !important;
+	visibility: hidden !important;
+}

@@ -1,0 +1,8 @@
+[12-Jan-2014 11:26:28] PHP Notice:  Undefined variable: bloginfo in /home1/chimpst1/public_html/wp-demo/rocky/wp-content/themes/rocky-theme/page_contact_submit.php on line 7
+[12-Jan-2014 11:26:28] PHP Notice:  Undefined variable: contact_name in /home1/chimpst1/public_html/wp-demo/rocky/wp-content/themes/rocky-theme/page_contact_submit.php on line 12
+[12-Jan-2014 11:26:28] PHP Notice:  Undefined variable: contact_email in /home1/chimpst1/public_html/wp-demo/rocky/wp-content/themes/rocky-theme/page_contact_submit.php on line 16
+[12-Jan-2014 11:26:28] PHP Notice:  Undefined variable: contact_msg in /home1/chimpst1/public_html/wp-demo/rocky/wp-content/themes/rocky-theme/page_contact_submit.php on line 24
+[12-Jan-2014 11:26:28] PHP Notice:  Undefined variable: contact_name in /home1/chimpst1/public_html/wp-demo/rocky/wp-content/themes/rocky-theme/page_contact_submit.php on line 32
+[12-Jan-2014 11:26:28] PHP Notice:  Undefined variable: contact_email in /home1/chimpst1/public_html/wp-demo/rocky/wp-content/themes/rocky-theme/page_contact_submit.php on line 33
+[12-Jan-2014 11:26:28] PHP Notice:  Undefined variable: cs_contact_email in /home1/chimpst1/public_html/wp-demo/rocky/wp-content/themes/rocky-theme/page_contact_submit.php on line 37
+[12-Jan-2014 11:26:28] PHP Notice:  Undefined variable: cs_contact_succ_msg in /home1/chimpst1/public_html/wp-demo/rocky/wp-content/themes/rocky-theme/page_contact_submit.php on line 38

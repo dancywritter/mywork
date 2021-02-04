@@ -1,0 +1,207 @@
+
+
+/* ============		Media 768Px Start	============ */
+@media (min-width: 768px) and (max-width: 991px){
+	.element_size_50,.element_size_25,.element_size_75,.element_size_100{
+		width: 100%;
+		padding: 0px 0px 30px 0px;
+	}
+	.pix-sticky-header #main {
+		margin-left: 0px;
+		padding-left: 180px;
+	}
+	.woocommerce table tr{
+		display: table-row;
+	}
+	.blog.blog-medium article .text{
+		margin-left: 0px;
+	}
+	.blog.blog-medium article figure{
+		float: left;
+		width: 100%;
+		margin: 0px 0px 15px 0px;
+	}
+	.event-listing article .text address{
+		margin: 0px 0px 7px 0px;
+	}
+	.discography article {
+		padding: 10px;
+		width: 49%;
+	}
+	.team-section article{
+		width: 48.666%;
+	}
+	.no-image figure{
+		height: 292px;
+	}
+	#banner-container article {
+		padding: 5px;
+	}
+	#banner-container article h2 {
+		font-size: 25px;
+	}
+	#banner-container .swiper-slide-active article h2 {
+	font-size: 14px;
+	}
+	#banner-container .swiper-slide-active article p {
+	font-size:11px;
+	display: none;
+	}
+	#banner-container article .btn {
+		padding: 0 20px;
+		line-height: 20px;
+		font-size: 11px;
+	}
+
+}
+
+/* ============		Media 420Px Start	============ */
+@media (max-width: 767px){
+	.container{
+		width: 420px;
+	}
+	.element_size_50,.element_size_25,.element_size_75,.element_size_100{
+		width: 100%;
+		padding: 0px 0px 30px 0px;
+	}
+	.woocommerce table tr{
+		display: table-row;
+	}
+	.blog.blog-medium article .text{
+		margin-left: 0px;
+	}
+	.blog.blog-medium article figure{
+		float: left;
+		width: 100%;
+		margin: 0px 0px 15px 0px;
+	}
+	#header{
+		float: left;
+		width: 100%;
+		position: relative;
+		z-index: 9999;
+		height: 380px !important;
+		text-align: center;
+	}
+	.logo a{
+		display: inline-block;
+		padding: 8% 0px 0px 0px;
+	}
+	.js .selectnav{
+		position: inherit;
+		display: inline-block;
+		float: none;
+		top: auto;
+		width: 50%;
+	}
+	.pix-sticky-header #main{
+		padding-left: 0px;
+	}
+	.blog.blog-medium article figure{
+		height: auto;
+	}
+	.event-listing article .text address{
+		margin: 0px 0px 7px 0px;
+	}
+	.discography article {
+		padding: 10px;
+		width: 49%;
+	}
+	.team-section article{
+		width: 48%;
+	}
+	.no-image figure{
+		height: 198px;
+	}
+	.comment-form-author, .comment-form-contact, .comment-form-email, .comment-form-website{
+		width: 100% !important;
+		margin-left: 0px;
+	}
+	.event-detail figure.detail-figure{
+		width: 100%;
+		margin-right: 0px;
+	}
+	.post-tags{
+		margin-bottom: 8px;
+	}
+	#playlistarea.jp-playlist{
+		width: 100%;
+	}
+	#banner-container article {
+		padding: 10px;
+	}
+	#banner-container article h2 {
+		font-size: 25px;
+	}
+	#banner-container .swiper-slide-active article h2 {
+	font-size: 14px;
+	}
+	#banner-container .swiper-slide-active article p {
+	font-size:10px;
+	display: none;
+	}
+	#banner .pagination {
+		bottom: 10px;
+	}
+	.logo-large {
+		display: none;
+	}
+
+}
+
+/* ============		Media 300Px Start	============ */
+@media (min-width: 320px) and (max-width: 480px){
+	.container{
+		width: 300px;
+	}
+	.logo a{
+		padding: 12% 0px 0px 0px;
+	}
+	.discography article {
+		padding: 20px;
+		width: 100%;
+	}
+	.gallerysec ul li figure figcaption a{
+		font-size: 14px;
+	}
+	.team-section article{
+		width: 100%;
+	}
+	#banner-container article h5 {
+		display: none !important;
+	}
+	#banner-container article .btn {
+		display: none;
+	}
+}
+
+/* ============	   Media 940Px Start	============ */
+@media screen and (min-width: 992px) and (max-width: 1199px){
+	.pix-sticky-header #main {
+		margin-left: 0px;
+		padding-left: 180px;
+	}
+	#wp-calendar thead th {
+		padding: 1px 5px;
+	}
+	.no-image figure{
+		height: 195px;
+	}
+	#banner-container article h2 {
+		font-size: 28px;
+	}
+		#banner-container article {
+			padding: 10px;
+		}
+	#banner-container .swiper-slide-active article h2 {
+	font-size: 16px;
+	}
+	#banner-container .swiper-slide-active article p {
+	font-size:11px;
+	}
+}
+	#banner-container article .btn {
+		padding: 0 20px;
+		line-height: 20px;
+		font-size: 12px;
+	}

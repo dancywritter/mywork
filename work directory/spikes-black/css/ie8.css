@@ -1,0 +1,68 @@
+@charset "utf-8";
+body{
+	background-color: #000;
+}
+.navigation ul ul,
+footer .navigation ul ul, .postlist article figure a:after{
+	display: none;
+	opacity: 0;
+	filter:alpha(opacity=0);
+	visibility: inherit;
+}
+.navigation ul li:hover ul, .postlist article:hover figure a:after{
+	display: inline;
+	opacity: 1;
+	filter:alpha(opacity=100);
+	visibility: inherit;
+}
+.navigation ul li{
+	padding: 0px 0px 47px 0px;
+}
+.postlist article figure .blogimg-hover a{
+	background: none !important;
+}
+.navigation > ul > li:after{
+	top: 22%;
+}
+.wrapper_boxed,
+.footer-nav, .postlist article figure a:after{
+	background: url(../images/transparen-mg-ie8.png);
+}
+.copyright{
+	background-color: #141414;
+}
+.widget_categories ul li:after{
+	display: none;
+}
+.main-detail, .horizontal .tab-content, .vertical .tab-content,
+.testimonial-v1, .testimonial-v2, .testimonial-v3, .testimonial-v4, .testimonial-v5, .testimonial-v6{
+	background-color: #0e0e0e;
+}
+.fc-border-separate tbody tr td,
+.fc-content thead tr th{
+	width: 150px;
+}
+.toggle-sectn.panel, .panel-group .panel-default{
+	background: #353535;
+}
+.toggle-sectn.panel:before, .panel-group .panel-default:before{
+	display: none;
+}
+.rich_editor_text .code-element pre{
+	background-color: #0c0c0c;
+}
+.info-text{
+	background-color: #0f0f0f;
+}
+.table tbody tr td{
+	background-color: #1e1e1e;
+}
+.testimonial-v2{
+	width: 310px;
+}
+.testimonial-v4, .testimonial-v6{
+	width: 47%;
+}
+.pricing-box{
+	background-color: #000;
+}

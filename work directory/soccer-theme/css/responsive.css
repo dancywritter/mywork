@@ -1,0 +1,579 @@
+/*============		Media 768Px Start	============ */
+@media (min-width: 768px) and (max-width: 979px) {
+	.container{
+			width:748px;
+	}
+	nav.navigation{
+		margin-top:20px;
+	}
+	.element_size_33,
+	.element_size_75,
+	.element_size_25{
+		width:100%;
+		padding:0;
+	}
+	.countdown-section > figure img{
+		height:350px;
+	}
+	.match-detail .rich_editor_text ul{
+		margin-left:0;
+		padding-left:0;
+	}
+	.teamdetail article .player-info{
+		width:53%;
+	}
+	nav.navigation > ul > li > a{
+		padding:0 6px;
+		font-size:11px;
+		line-height:32px;
+	}
+	.pix-option-panel{
+		padding:0 10px 0 0;
+	}
+	.searcharea a{
+		width:45px;
+	}
+	.col-md-12 .pix-blog.blog-grid.blog-carousel article{
+		width:220px;
+	}
+	.blog-bottom .btn{
+		float:left;
+	}
+	.event.event-listing .post-options{
+		margin-left:0;
+	}
+	#rightheader{
+		width:72%;
+	}
+	nav.navigation{
+		width:88%;
+	}
+	.pix-sc-team li figure{
+		width:46%;
+	}
+	.widget.widget_countdown h2{
+		float:none;
+		text-align:center;
+	}
+	.pix-sc-team li span.vs{
+		padding-top:0;
+		vertical-align:middle;
+	}
+	.widget.widget_countdown header.pix-heading-title{
+		margin-bottom:0;
+	}
+	.our-team-sec.our-team-carousel article{
+		width:327px;
+	}
+	.points-table .table tr{
+		display:table-row !important;
+	}
+	#header{
+		overflow:hidden;
+		padding-bottom:80px;
+		border:none;
+		box-shadow:none;
+	}
+	#footer{
+		overflow:hidden;
+	}
+}
+
+/*============		Media 420Px Start	============ */
+@media (max-width: 767px) {
+	.container{
+		width:420px;
+		padding:0;
+	}
+	.logo img{
+		width:46px !important;
+		height:55px !important;
+	}
+	nav.navigation,
+	.pix-option-panel,
+	.element_size_33,
+	.element_size_75,
+	.element_size_25,
+	#rightheader,
+	.blog-gridview article,
+	.address-info figure,
+	.address-info .text,
+	#comments .thumblist ul li .text header,
+	.featured-event .post-options li,
+	.featured-event .pix-sc-team ul li,
+	.element_size_50,
+	.teamdetail article .detail_text img,
+	.teamdetail article .player-info{
+		width:100%;
+	}
+	nav.navigation{
+		margin-top:20px;
+	}
+	.searcharea a{
+		position:absolute;
+		top:-64px;
+		right:0;
+		line-height:73px;
+	}
+	.searchform input{
+		width:79%;
+		font-size:12px;
+	}
+	.element_size_33,
+	.element_size_75,
+	.element_size_25{
+		padding:0;
+	}
+	.twitter_sign{
+		text-align:center;
+		display:inline-block;
+		width:100%;
+	}
+	.twitter_sign figure{
+		width:88px;
+		font-size:50px;
+		line-height:80px;
+		float:none;
+		display:inline-block;
+	}
+	.twitter_sign .flexslider{
+		margin-left:0;
+		clear:both;
+		padding:0 20px;
+		text-align:center;
+	}
+	#footer{
+		height:67px;
+	}
+	.blog.blog-gridview.blog-carousel article{
+		width:370px;
+	}
+	.event.event-listing.event-listing-v2 article .match-category{
+		margin-top:0;
+	}
+	.news-section article{
+		width:184px;
+	}
+	.our-team-sec.our-team-carousel article{
+		width:375px;
+	}
+	.about-us article figure,
+	.blog-medium article figure{
+		width:100%;
+		margin-bottom:10px;
+	}
+	.about-us article .text{
+		margin-left:0;
+		padding-left:0;
+		float:left;
+		width:100%;
+	}
+	.blog-medium article .text,
+	.address-info .text{
+		margin-left:0;
+		float:left;
+	}
+	.blog.blog-carousel-view .text{
+		padding:0 20px;
+	}
+	.blog.blog-carousel-view .text h2.pix-post-title{
+		font-size:12px;
+	}
+	.blog-gridview article .text,
+	.address-info .text,
+	.featured-event .post-options li,
+	.element_size_50{
+		padding:0;
+	}
+	.blog.blog-gridview{
+		width:100%;
+		margin-left:0;
+	}
+	.blog-gridview article,
+	.featured-event .post-options{
+		margin-left:0;
+	}
+	#comments .thumblist ul li .text{
+		margin-left:80px;
+	}
+	#comments .thumblist ul li .text .bottom-comment{
+		padding-left:-9px;
+		margin-left:0px;
+		float:left;
+	}
+	#respond form span{
+		margin-left:14px;
+	}
+	.fluid-tab-horizontal .nav-tabs li{
+		display:inline-block;
+	}
+	.event.event-listing article .calendar-date{
+		margin-bottom:15px;
+	}
+	.event.event-listing article .text{
+		float:left;
+		width:100%;
+		padding-right:0;
+		margin-left:0;
+	}
+	.event.event-listing article .text .btn,
+	.event.event-listing article .text .match-result{
+		top:-90px;
+	}
+	.match-result{
+		margin-bottom:20px;
+	}
+	.match-detail .rich_editor_text ul{
+		margin-left:0;
+		padding-left:0;
+	}
+	.our-team-sec{
+		width:100%;
+		margin-left:0;
+	}
+	.our-team-sec article{
+		margin-left:0;
+	}
+	.col-md-12 .pix-blog.blog-grid.blog-carousel article{
+		width:200px;
+	}
+	.password_protected form input[type="text"]{
+		width:100%;
+		margin-bottom:10px;
+	}
+	.pix-blog.blog-carousel-view .text{
+		display:none;
+	}
+	.blog-bottom .btn{
+		float:left;
+	}
+	.event.event-listing .post-options{
+		margin-left:0;
+	}
+	.event.event-listing .post-options li{
+		width:100%;
+	}
+	.fluid-tab-horizontal .nav-tabs li{
+		width:50%;
+	}
+	.our-team-sec article{
+		width:49%;
+		margin-left:2px;
+	}
+	#footer p{
+		margin:0 0 0 10px;
+	}
+	.followus{
+		float:left;
+	}
+	.share-post .share-now{
+		margin-bottom: 10px;
+	}
+	.twitter_sign .messagebox{
+		margin:0 0 10%;
+	}
+	#banner .flexslider figcaption .pix-desc h2 a{
+		font-size:20px;
+		line-height:28px;
+	}
+	#banner .flexslider figcaption .pix-desc h3 span{
+		font-size:15px;
+		line-height:34px;
+	}
+	#banner .flexslider figcaption{
+		width:286px;
+		margin-left:-141px;
+	}
+	.event.event-listing.event-listing-v2 article .top-event{
+		margin-bottom:10px;
+	}
+	#mainheader .container{
+		padding:0;
+	}
+	#banner ~ #main{
+		margin-top:278px;
+	}
+	#banner .flexslider figcaption{
+		top:0;
+	}
+	.widget.widget_countdown .pix-sc-team li span.vs{
+		padding-top:50px;
+	}
+	.widget.widget_countdown .pix-sc-team li figure{
+		width:103px;
+	}
+	.widget.widget_countdown h2{
+		float:none;
+		text-align:center;
+		margin-bottom:0;
+	}
+	#carouselarea header{
+		width:100%;
+	}
+	#carouselarea header h2{
+		font-size:20px;
+		float:left;
+		width:100%;
+		height:auto;
+		margin-bottom:15px;
+	}
+	.news-carousel .center{
+		top:59px;
+	}
+	.news-section{
+		margin-left:0;
+		float:left;
+		width:100%;
+	}
+	.news-carousel .center{
+		z-index:9999;
+		background:#999;
+		color:#fff;
+	}
+	.points-table .table tr{
+		display:table-row !important;
+	}
+	#header{
+		overflow:hidden;
+		padding-bottom:80px;
+		border:none;
+		box-shadow:none;
+	}
+	#footer{
+		overflow:hidden;
+	}
+}
+
+/*============		Media 300Px Start	============ */
+@media (max-width: 480px) {
+	.container{
+		width:300px;
+		padding:0;
+	}
+	nav.navigation,
+	.pix-option-panel,
+	.element_size_33,
+	.element_size_75,
+	.element_size_25,
+	.blog-gridview article,
+	.address-info figure,
+	.address-info .text,
+	#comments .thumblist ul li .text header,
+	.fluid-tab-horizontal .nav-tabs li,
+	.featured-event .pix-sc-team ul li,
+	.featured-event .post-options li,
+	.element_size_50,
+	.teamdetail article .detail_text img,
+	.teamdetail article .player-info,
+	.our-team-sec article{
+		width:100%;
+	}
+	nav.navigation{
+		margin-top:20px;
+	}
+	.searchform input{
+		width:79%;
+		font-size:12px;
+	}
+	.element_size_33,
+	.element_size_75,
+	.element_size_25,
+	.pix-option-panel{
+		padding:0;
+	}
+	#footer{
+		height:120px;
+	}
+	#footer p{
+		margin:0;
+		padding:0px 44px 0px 0px;
+	}	
+	.about-us article figure,
+	.blog-medium article figure{
+		width:100%;
+		margin-bottom:10px;
+	}
+	.about-us article .text{
+		margin-left:0;
+		padding-left:0;
+		float:left;
+		width:100%;
+	}
+	.blog-medium article .text,
+	.address-info .text{
+		margin-left:0;
+		float:left;
+	}
+	.blog.blog-carousel-view .text,
+	.blog-gridview article .text,
+	.address-info .text,
+	.featured-event .post-options li,
+	.element_size_50{
+		padding:0;
+	}
+	.blog.blog-carousel-view .text h2.pix-post-title{
+		font-size:12px;
+	}
+	.blog.blog-gridview{
+		width:100%;
+		margin-left:0;
+	}
+	.blog-gridview article{
+		margin-left:0;
+	}
+	.share-post .social-network,
+	.share-post .social-network li:first-child,
+	#respond form span,
+	.featured-event .post-options{
+		margin-left:0;
+	}
+	.share-post .prev-nex-btn{
+		float:left;
+	}
+	.children{
+		padding-left:9px;
+	}
+	#comments .thumblist ul li .text{
+		margin-left:80px;
+	}
+	#comments .thumblist ul li .text .bottom-comment{
+		padding-left:-9px;
+		margin-left:0px;
+		float:left;
+	}
+	.fluid-tab-horizontal .nav-tabs li{
+		display:inline-block;
+	}
+	.bottom-event-panel{
+		padding:12px 20px 12px 19px;
+	}
+	.event.event-listing article .calendar-date{
+		margin-bottom:15px;
+	}
+	.event.event-listing article .text{
+		float:left;
+		width:100%;
+		padding-right:0;
+		margin-left:0;
+	}	
+	.match-result{
+		margin-bottom:20px;
+	}
+	.match-detail .rich_editor_text ul{
+		margin-left:0;
+		padding-left:0;
+	}
+	.our-team-sec{
+		width:100%;
+		margin-left:0;
+	}
+	.our-team-sec article{
+		margin-left:0;
+	}
+	.children li .thumblist{
+		padding:0;
+	}
+	.password_protected form input[type="text"]{
+		width:100%;
+		margin-bottom:10px;
+	}
+	.col-md-12 .pix-blog.blog-grid.blog-carousel article{
+		width:300px;
+	}
+	.pix-blog.blog-carousel-view .text{
+		display:none;
+	}
+	.blog-bottom .btn{
+		float:left;
+	}
+	.event.event-listing .post-options{
+		margin-left:0;
+	}
+	#respond form .form-icons{
+		right:5%;
+	}
+	#respond form p input[type="text"], #respond form textarea{
+		width:100%;
+	}
+	.news-section article figure{
+		height:100%;
+		}
+		#footer p{
+		margin:0 0 0 10px;
+	}
+	.followus{
+		float:left;
+	}
+	.twitter_sign .messagebox{
+		margin:0 0 10%;
+	}
+	.twitter_sign .flexslider{
+		width:100%;
+		float:left;
+	}
+	.teamdetail article .player-info ul li span{
+		width:100%;
+	}
+	.breadcrumbs{
+		float:left;
+	}
+	.blog-grid article{
+		width:100%;
+	}
+	.points-table .table tr{
+		display:table-row !important;
+	}
+	#header{
+		overflow:hidden;
+		padding-bottom:80px;
+		border:none;
+		box-shadow:none;
+	}
+	#footer{
+		overflow:hidden;
+	}
+}
+
+/*============	   Media 940Px Start	============ */
+@media screen and (min-width: 900px) and (max-width: 1054px){
+	nav.navigation > ul > li > a{
+		padding:0 11px;
+	}
+	.match-detail .rich_editor_text ul{
+		margin-left:0;
+		padding-left:0;
+	}
+	.teamdetail article .player-info{
+		width:51%;
+	}
+	.col-md-12 .pix-blog.blog-grid.blog-carousel article{
+		width:215px;
+	}
+	.blog-bottom .btn{
+		float:left;
+	}
+	#banner .flexslider figcaption{
+		margin-left:-459px;
+	}
+	#banner .flexslider figcaption .pix-desc h2 a{
+		font-size:30px;
+	}
+	#banner .flexslider figcaption{
+		top:0;
+	}
+	#banner ~ #main{
+		margin-top:290px;
+	}
+	.points-table .table tr{
+		display:table-row !important;
+	}
+	#header{
+		overflow:hidden;
+		padding-bottom:80px;
+		border:none;
+		box-shadow:none;
+	}
+	#footer{
+		overflow:hidden;
+	}
+}

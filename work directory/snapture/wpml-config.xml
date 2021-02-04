@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<wpml-config>
+	<custom-types>
+		<custom-type translate="1">portfolio</custom-type>
+		<custom-type translate="1">cs_gallery</custom-type>
+		<custom-type translate="1">cs_slider</custom-type>
+	</custom-types>
+	
+	<taxonomies>
+		<taxonomy translate="1">portfolio-category</taxonomy>
+		<taxonomy translate="1">portfolio-tag</taxonomy>
+	</taxonomies>
+	
+</wpml-config>

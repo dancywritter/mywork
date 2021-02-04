@@ -1,0 +1,513 @@
+@charset "utf-8";
+/* Rtl Css */
+body{
+	direction: rtl;
+}
+.col-md-1,
+.col-md-2,
+.col-md-3,
+.col-md-4,
+.col-md-5,
+.col-md-6,
+.col-md-7,
+.col-md-8,
+.col-md-9,
+.col-md-10,
+.col-md-11,
+.logo,
+.subtitle h1:before, 
+.navigation, 
+.navigation ul li, .search-sec form, 
+.social-area .social-network, 
+.event header h2, 
+.event article figure, 
+.event article .text ul, .event article .text, 
+.copyright p, 
+.main-detail, 
+.sociol-icons ul li, 
+.element_size_50, 
+.text-info ul, 
+.text-info p, 
+.text-info ul li i, 
+.text-info ul li span, 
+.rich_editor_text i, 
+ul.tick, .detail-cover-style .text a,
+.home-page .new-releases .cs-heading-title, .new-releases .cs-heading-title,
+.home-page .new-releases .cs-heading-title h2, .new-releases .cs-heading-title h2,
+.tagcloud, .share_post .tagcloud:before, .widget-newslatter header, .widget_categories ul li a:before, .home-page .cs-heading-title,
+.widget_categories ul li a, .widget_archive ul li a, .cs-heading-title .section-title, .widget_links ul li a, .widget_meta ul li a, 
+.widget_recent_entries ul li a, .widget_search form input[type="submit"], #wp-calendar tfoot a, .widget_recent_comments ul li a,
+.widget_tag_cloud a, .blog-date, .post-options li i, .blog-text .text i, .about-author figure, .post-options li, .tabs.horizontal .nav-tabs li,
+.follow-tweet,#comments .thumblist figure, #comments .thumblist figure a, .thumblist .text header h6, .thumblist .text header time, 
+.main-detail p span, .booking-checkbox input[type="checkbox"], .main-detail .text input, .main-detail p input[type="submit"], 
+.latest-video article .text time, .main-detail select, .booking-checkbox label, .button, .dropcap:first-letter, .dropcap p:first-letter, .dropcaptwo:first-letter,
+.testimonial-v1 figure, .testimonial-v2 figure, .testimonial-v3 figure, .testimonial-v4 figure, .testimonial-v5 figure, .testimonial-v6 figure,
+.price-style2 .pricing-box .period, .team-shortcode article.team-v4 .social-network a, .search-sec form input[type="text"], .cs-network-sec .social-network a,
+.widget-twitter .twitter_sign i.fa-twitter, .twitter_sign p.twitter-follow, .widget-latestnews article .text p, .pagination ul li, .breadcrumbs ul li,
+.share_post .social-network, .page-links span, .detail-cont-right .countdownit, .detail-sec, .read-loc ul li, .read-loc ul, .detail-sec ul li, .detail-sec ul li i,
+#comments header, .sociol-icons ul li .icon-detail i, .sociol-icons ul li .icon-detail .text-icon{
+	float: right !important;
+}
+.flt-right, 
+.password_protected form label input[type="submit"], 
+.bay-btn, 
+.sortby, 
+footer .widget, 
+.copyright .social-network, 
+.cs-heading-title h2,  
+.sociol-icons ul li .icon-detail, .comment-reply-title small, .sharenow, 
+.latest-video article .text a, .close, .search-sec, .language-sec, .cs-network-sec,
+.widget-event article .text i, .breadcrumbs ul, .right-sec
+{
+	float: left !important;
+}
+.search-sec form label:before{
+	-webkit-transform: rotate(-258deg);
+	   -moz-transform: rotate(-258deg);
+	    -ms-transform: rotate(-258deg);
+	     -o-transform: rotate(-258deg);
+	        transform: rotate(-258deg);
+}
+.search-sec form input[type="text"]{
+	margin-left: -90px;margin-right: 0px;
+}
+.search-sec form:hover input[type="text"]{
+	margin-left: 0px;
+}
+.subtitle h1:before{
+	margin: 3px 20px 0;
+}
+.search-sec form{
+	left:19px;
+	right:auto !important;
+}
+.search-sec form:after{
+	left:25px;
+	right:auto !important;
+}
+.search-sec form input[type="submit"]{
+	left:2px;
+	right:auto !important;
+}
+.pagenone .password_protected form label:before{
+	right:12px;
+}
+.pagenone .password_protected form label.search-icon{
+	left:5px;
+	right:auto;
+}
+.password_protected form .before-icon:before{
+	left:75px;
+	right:auto;
+} 
+.password_protected form label input[type="submit"]{
+	right: auto;left: 63px;
+}
+.map-marker, .play-icon{
+	left:0px;
+	right:auto;
+}
+.new-releases article .text h2:before, 
+.event article .text h2:before{
+	right:0;
+}
+.play-icon i{
+	 -webkit-transform: rotate(180deg);
+	    -moz-transform: rotate(180deg);
+	     -ms-transform: rotate(180deg);
+	      -o-transform: rotate(180deg);
+	         transform: rotate(180deg);
+}
+.event article .text{
+	padding: 32px 30px 0 0;
+}
+.blog-text .text i{
+	padding: 16px 14px 0 0;
+	margin: 0 0 20px 17px;
+}
+#respond form p.comment-form-author label:before, 
+#respond form p.comment-form-email label:before, 
+#respond form p.comment-form-website label:before, 
+#respond form p.comment-form-subject label:before, 
+#respond form p.comment-form-phone label:before{
+	right:14px;
+}
+.text-info p i{
+	margin-left:16px;
+	margin-right: 0;
+}
+.text-info ul{
+	position:relative;
+}
+.text-info .postel-text{
+	 margin:0 0 20px -26px;
+}
+.text-info ul li i{
+	margin-left:15px;
+	margin-right: 0;
+}
+.text-info ul li span{
+	margin-left: 35px;
+	margin-right: 0;
+}
+.text-info ul li:before{
+	right:55px;
+}
+.blog .flex-direction-nav .flex-prev{
+	right:5px;
+}
+.table thead > tr > th,
+.home-page .cs-heading-title{
+	text-align:right;
+}
+.gallerysec ul li figure figcaption i{
+	padding:15px 0 0;
+	text-align:center;
+}
+a.pp_close{
+	text-indent:10000px !important;
+}
+.gallerysec a i, .loadmore i{
+	margin-left:5px;
+}
+.list_styles ul li i{
+	margin: 0 0 0 10px;
+}
+.navigation ul ul ul{
+	left: auto;
+	right: 100%;
+}
+.widget-newslatter form input[type="submit"],
+.center{
+	left: 2px;right: auto;
+}
+blockquote{
+	border-left: none;
+	border-right: 7px solid;
+	padding: 0 28px 0 0px;
+}
+.share_post .tagcloud:before{
+	margin: 0 0px 0 9px;
+}
+.widget-newslatter header{
+	margin: 13px 0px 0 15px;
+}
+.widget_categories ul li a:before{
+	margin: 7px 0 0 7px;
+}
+.widget_categories ul li,
+.widget_recent_comments ul li{
+	text-align:left !important;
+}
+.widget_categories ul li a:before{
+	-webkit-transform: rotate(180deg);
+	   -moz-transform: rotate(180deg);
+	    -ms-transform: rotate(180deg);
+	     -o-transform: rotate(180deg);
+	        transform: rotate(180deg);
+}
+.widget_nav_menu ul li a, 
+.widget_pages ul li a, 
+.widget_recent_entries ul li a{
+	 text-align:right !important;
+}
+.blog-text .text{
+	padding: 0 89px 0 0;
+}
+.post-options li i{
+	margin:0 0 0 9px;
+}
+.about-author .text{
+	padding:0 120px 0 0;
+}
+.thumblist .text header time{
+	margin:1px 10px 0 0;
+}
+#comments .thumblist .text header{
+	padding:16px 67px 15px;
+}
+.cs-heading-title h2{
+	width:100%;
+}
+.widget-latestnews article .text h2:before{
+	right:0;
+}
+.comment-reply-link{
+	left:10px;
+	right:auto;
+}
+.blog-text .text h2:before,
+#comments ul li ul.children:before,
+.divider1:before{
+	left: auto;right: 0px;
+}
+.blog-text .text:before{
+	right: 4.6%;left: auto;
+}
+.share_post .social-network{
+	left: 9px;right: auto;
+}
+#comments ul li.depth-2 .children,
+#comments ul.children{
+	padding-left: 0px;padding-right: 20px;
+}
+#comments .thumblist .text{
+	padding: 0 60px 30px 0px;
+}
+#comments .thumblist .text:before{
+	left: auto;
+	right: 50px;
+}
+.comment-edit-link{
+	left: 51px;right: auto;
+}
+#comments .thumblist .text header {
+    margin: 0px -10px 14px 0px;
+    padding: 16px 10px 15px 0px;
+}
+#comments ul li ul.children li.depth-2:before, #comments ul li ul.children li.depth-3:before{
+	left: auto;right: -19px;
+}
+#comments ul li ul.children li.depth-3:before{
+	left: auto;right: -41px;
+}
+#respond form p span{
+	margin: 0 5px 0 0px;
+}
+.main-detail .text label{
+	padding: 0 22px 0 0;
+}
+.latest-video article figure figcaption{
+	right:5px;
+	left:auto;
+}
+.booking-checkbox input[type="checkbox"]{
+	margin: 4px 0 0 11px;
+}
+.main-detail{
+	margin: 0 11px 40px 0px;
+}
+.panel-heading .panel-title > a.collapsed:after, .panel-heading .panel-title > a:after{
+	right:10px;
+	left:auto;
+}
+.panel-heading .panel-title > a:before{
+	left:10px;
+	right:auto;
+}
+.toggle-sectn .panel-heading .panel-title > a:before{
+	left:10px;
+	right:auto;
+}
+.button a.big-btn i{
+	 margin: 3px 0 0 10px;
+}
+.shortgrid{
+	padding:0 0 15px 15px;
+}
+.button a{
+	margin: 0 0px 10px 10px;
+}
+.button a.medium-btn i{
+	margin: 2px 0px 0 7px;
+	padding: 0 0px 0 8px;
+}
+.button a.small-btn i{
+	margin: 1px 0px 0 7px;
+	padding: 3px 0px 0 7px;
+}
+.button a.small-btn{
+	margin: 11px 0px 0 10px;
+}
+.button a.medium-btn{
+	margin: 6px 0px 0 10px;
+}
+.dropcap:first-letter, .dropcap p:first-letter, .dropcaptwo:first-letter{
+	margin: 7px 0px 0 20px;
+}
+.info-text:before{
+	left: auto;right: 15px;
+}
+.info-text:after{
+	left: auto;right: 27px;
+}
+.info-text{
+	padding: 30px 73px 30px 30px;
+}
+.tabs.horizontal .nav-tabs li a i{
+	margin: 4px 0px 0 9px;
+}
+.testimonial-v1 .text, .testimonial-v2 .text, .testimonial-v3 .text, .testimonial-v4 .text{
+	padding-left: 0px;padding-right: 11px;
+}
+.testimonial-v1 .text .testimonial-box:after, .testimonial-v2 .text .testimonial-box:after{
+	left: auto;right: -27px;
+}
+.testimonial-v1 .testimonial-box blockquote, .testimonial-v2 .testimonial-box blockquote, .testimonial-v3 .testimonial-box blockquote, .testimonial-v4 .testimonial-box blockquote, .testimonial-v5 .testimonial-box blockquote, .testimonial-v6 .testimonial-box blockquote{
+	border-right: none;
+	padding-right: 0px;
+}
+blockquote:before{
+	right: -7px;left: auto;
+}
+.testimonial-v5 figure, .testimonial-v6 figure{
+	float: none !important;
+}
+.messagebox .close{
+	left: 5px;right: auto;
+}
+.messagebox em{
+	margin: 3px 0px 0 30px;
+}
+.price-style2 .pricing-box h6.heading-color,
+.price-style2 .plan-header .price h1,
+.price-style2 .plan-header .price h1 span,
+.price-style2 .pricing-box .plan-inside ul li,
+.team-v2 .text h4, .team-v2 .text p,
+.team-shortcode article.team-v4 h4, .team-shortcode article.team-v4 h5,
+.team-shortcode article.team-v4 .text p{
+	text-align: right;
+}
+.price-style2 .plan-header .price h1 span:after,
+.team-v2 .text header p:before,
+.team-shortcode article.team-v4 .text h5:before{
+	left: auto;right: 0px;
+}
+.price-style2 .pricing-box .period{
+	padding-right: 30px;padding-left: 0px;
+}
+.navigation ul ul li:after{
+	left: auto;right: -6px;
+}
+.widget-latestnews article .text p{
+ margin:0 0 0 4px !important;
+}
+.event article:before{
+ right:-37px;
+}
+.event article:after{
+ right:-29px;
+}
+.event-inn:before{
+ right:-16px;
+}
+.event:before, .event:after{
+ right:-25px;
+}
+.detail-cont-left{
+}
+.follow-tweet i{
+ margin:3px 0 0 7px;
+}
+.social-area .social-network{
+	margin-right: 0px;margin-left: 5px;
+}
+.home-page .cs-heading-title h2:after{
+	right: 100%;
+	left: 9999px;
+}
+.widget-twitter .twitter_sign p.twitter-follow {
+    padding: 0 7px 0 0;
+}
+.gotop{
+	right: auto !important;
+	left: 14px;
+}
+.copyright .social-network {
+    padding: 10px 0 0 28px;
+}
+.widget-event article .text i{
+	-webkit-transform: scale(-1);
+	   -moz-transform: scale(-1);
+	    -ms-transform: scale(-1);
+	     -o-transform: scale(-1);
+	        transform: scale(-1);
+	        margin: -19px 0 0 -7px;
+}
+.albums-list article .bay-btn {
+    margin: -5px 16px 0 0px;
+}
+.pagination ul li a{
+	margin-left: 2px;margin-right: 0px;
+}
+.pagination ul li.next {
+    margin: 0 22px 0 0;
+}
+.pagination ul li.next:before {
+    left: auto;
+    right: -13px;
+}
+.pagination ul li.previs {
+    margin: 0 0 0 22px;
+}
+.pagination ul li.previs:before{
+	left: -13px;
+	right: auto;
+}
+.widget_categories ul li:after {
+    border-radius: 4px 0 0 4px;
+    left: 0;
+    right: auto;
+}
+.breadcrumbs ul li:before{
+	left: -12px;
+	right: auto;
+}
+.breadcrumbs ul li:last-child {
+    margin-right: 20px;
+}
+.event header h2{
+	width: auto;
+}
+.event article .last-span:after {
+    background-color: #0F080C;
+    height: 200%;
+    right: -25px;
+    left: auto;
+}
+.share_post .social-network {
+    margin: 5px 0 0 20px;
+}
+.post-btn{
+	margin: 0px 9px 0px 0px;
+}
+.page-links span{
+	margin: 0 0 0 6px;
+}
+.page-links span.page-links-title{
+	margin-left: 25px;margin-right: 0px;
+}
+.read-loc ul li i {
+    margin: 0 0 0 7px;
+}
+.detail-cont-right .countdownit .countdown_section:before{
+	left: auto;
+	right: -20%;
+}
+.detail-cont-right .countdownit {
+    padding: 8px 0px 30px 40px;
+}
+.icons-sec {
+    padding-left: 0px;padding-right: 30px;
+}
+.detail-cont-right .countdownit .countdown_section:first-child{
+	padding: 0px 0px 0px 35px;
+}
+.read-loc ul li {
+    margin: 0 0 10px 30px;
+}
+.detail-sec ul li{
+	margin: 0px 2px 0px 0px;
+}
+.detail-sec ul li:last-child {
+    padding: 7px 0 7px 1px;
+}
+.detail-sec ul li i {
+    margin: 0 0px 0 7px;
+}
+#comments .thumblist figure{
+	left: auto;right: 0px;
+}
+.sociol-icons ul li .icon-detail i {
+    margin-left: 10px;
+}
